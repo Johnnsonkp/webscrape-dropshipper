@@ -1,0 +1,21 @@
+<div class="w-[320px] h-[200vh] bg-slate-200 p-2 shadow-md">
+    <div class="flex-row w-[100%] mt-4">
+        <%# <div class="border rounded-lg flex flex-nowrap"> %>
+        <div class="w-[100%] mb-3">
+            <%= form_tag(update_url_path, method: :post, remote: true, class: 'flex, w-[100%]', id: 'update-url-form') do %>
+                <%= text_field_tag :url, @url, id: 'url-input', placeholder: 'Enter url', class: ' w-[73%] rounded-lg text-[10px]' %>
+                <%= submit_tag 'Scrape URL', class: 'w-[25%] m-[auto] text-[10px] py-2 px-1 rounded-md bg-[#3B82F6] text-center cursor-pointer text-white' %>
+            <% end %>
+        </div>
+        <hr>
+        <% data.each do |data| %>
+            <div class="text-left my-2 flex items-center">
+                <i class="fa-solid fa-border fa-lg fa-tag rounded-lg bg-[#3B82F6] text-#fff" style="--fa-border-radius: 1em; --fa-border-color: #3B82F6; --fa-border-padding: 0.3rem;
+                --fa-primary-color: #fff;"></i>
+                 <a class="text-[11px] p-2 flex justify-between w-[100%]" href="<%= data[:link]%>" target="_blank">
+                    <%= data[:title].slice(0, 35) %> - <%= data[:price] %>
+                </a> 
+            </div>
+        <% end %>
+    </div>
+</div>

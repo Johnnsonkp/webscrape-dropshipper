@@ -1,0 +1,826 @@
+<div class="user-ad-collection-new-design__wrapper--row">
+<a href="/s-ad/campbellfield/caravans/full-off-road-18-6-ready-for-christmas-/1319433987" id="user-ad-1319433987" class="user-ad-row-new-design user-ad-row-new-design--featured-or-premium link link--base-color-inherit link--hover-color-none link--no-underline" aria-label="FULL OFF ROAD 18.6- ready for Christmas!.
+        Price: $78,900 .
+        Location: Hume Area, Campbellfield. Ad listed 14 hours ago." aria-describedby="user-ad-desc-TOP-1319433987"><div class="user-ad-image__wrapper">
+<div class="user-ad-image__main-image-wrapper user-ad-image__main-image-wrapper--large user-ad-image__main-image-wrapper--extra-images"><img class="user-ad-image__thumbnail image image--is-visible" src="https://gumtreeau-res.cloudinary.com/image/private/t_$_s-l400/move/5768c593-96bf-48bb-8dd1-3195098c8429" alt="FULL OFF ROAD 18.6- ready for Christmas!"></div>
+<div class="user-ad-image__extra-images">
+<div class="user-ad-image__extra-image-wrapper"><img class="user-ad-image__thumbnail image image--is-visible" src="https://gumtreeau-res.cloudinary.com/image/private/t_$_s-l180/move/a26c7e13-a2da-4ccf-ab4b-9b57ac215b48" alt="FULL OFF ROAD 18.6- ready for Christmas!"></div>
+<div class="user-ad-image__extra-image-wrapper"><img class="user-ad-image__thumbnail image image--is-visible" src="https://gumtreeau-res.cloudinary.com/image/private/t_$_s-l180/move/5ba5904f-dd6d-4271-be0a-2ba97897a365" alt="FULL OFF ROAD 18.6- ready for Christmas!"></div>
+</div>
+</div>
+<div class="user-ad-row-new-design__main-content">
+<p class="user-ad-row-new-design__title"><span class="user-ad-row-new-design__flag-top">Top</span><span class="user-ad-row-new-design__title-span">FULL OFF ROAD 18.6- ready for Christmas!</span></p>
+<p class="user-ad-row-new-design__salary-detail"></p>
+<div id="user-ad-desc-TOP-1319433987" class="user-ad-row-new-design__description user-ad-row-new-design__description--premium">
+<ul class="user-ad-attributes user-ad-row-new-design__attributes">
+<li class="user-ad-attributes__attribute user-ad-row-new-design__attribute">
+<span class="user-ad-attributes__attribute-icon" aria-hidden="true"><span class="icon-attributes_lengthInFeet"></span></span>18 ft</li>
+<li class="user-ad-attributes__attribute user-ad-row-new-design__attribute">
+<span class="user-ad-attributes__attribute-icon" aria-hidden="true"><span class="icon-attributes_sleepingCapacity"></span></span>Sleeps 2</li>
+</ul>
+<p class="user-ad-row-new-design__description-text">18.6 FT OASIS RETREAT
+FULL OFF ROAD Hitch – DO35 &amp; Pin Projecta PM 300BT battery management- Lithium Compatible Fridge Freezer Thetford 199L - 3 way
+3.5Kw Air Conditioning – Gree
+2 x 100ah AGM batteries
+2 x 100Ltr water tanks
+2 x 170w solar panels Large Tool box with slide outs FUSION SOUND SYSTEM
+Basin (Ensuite) - Ceramic Bed - Queen Island Lift-up Storage
+Bed head - Full
+Bench Top - Laminate Rolled
+Bench Top - Over Stove
+Cupboard Door Colour - Customer's choise
+Door - Triple Lock w/s</p>
+</div>
+</div>
+<div class="user-ad-row-new-design__right-content">
+<div><div class="user-ad-price-new-design user-ad-row-new-design__price">
+<span class="user-ad-price-new-design__price">$78,900</span> <span class="user-ad-price-new-design__drive-away-text">Excl. Gov. Charges</span>
+</div></div>
+<div class="user-ad-row-new-design__location">Campbellfield, VIC<div></div>
+</div>
+<p class="user-ad-row-new-design__age"></p>
+<div class="user-ad-row-new-design__auto-attributes">
+<span class="user-ad-row-new-design__auto-attribute">Dealer new </span><span class="user-ad-row-new-design__auto-attribute">Caravan </span>
+</div>14 hours ago<button id="" type="button" class="Button__button--2NsdC Button__buttonBasic--3CSBx undefined Button__buttonBase--3YR6h Button-main__button--3RLVh undefined user-ad-row-new-design__watchlist-heart-wrapper watchlist-heart" role=""><span class="" aria-hidden="true"><span class="icon-heart heart"></span></span></button>
+</div></a><a href="/s-ad/hillside/caravans/new-in-stock-2023-stallion-bronco-l-21ft-full-off-road-en-suite-caravan/1314841279" id="user-ad-1314841279" class="user-ad-row-new-design user-ad-row-new-design--featured-or-premium link link--base-color-inherit link--hover-color-none link--no-underline" aria-label="New in stock 2023 Stallion Bronco L 21ft Full off road en-suite caravan.
+        Price: $94,299 .
+        Location: Melton Area, Hillside. Ad listed 13 hours ago." aria-describedby="user-ad-desc-TOP-1314841279"><div class="user-ad-image__wrapper">
+<div class="user-ad-image__main-image-wrapper user-ad-image__main-image-wrapper--large user-ad-image__main-image-wrapper--extra-images"><img class="user-ad-image__thumbnail image image--is-visible" src="https://gumtreeau-res.cloudinary.com/image/private/t_$_s-l400/move/dc592848-1b58-40c9-932c-0eade4bac4eb" alt="New in stock 2023 Stallion Bronco L 21ft Full off road en-suite caravan"></div>
+<div class="user-ad-image__extra-images">
+<div class="user-ad-image__extra-image-wrapper"><img class="user-ad-image__thumbnail image image--is-visible" src="https://gumtreeau-res.cloudinary.com/image/private/t_$_s-l180/move/3936d997-9ae6-42ee-842f-336dbb16e90f" alt="New in stock 2023 Stallion Bronco L 21ft Full off road en-suite caravan"></div>
+<div class="user-ad-image__extra-image-wrapper"><img class="user-ad-image__thumbnail image image--is-visible" src="https://gumtreeau-res.cloudinary.com/image/private/t_$_s-l180/move/878821c7-8c83-448c-80a7-5ae524adc113" alt="New in stock 2023 Stallion Bronco L 21ft Full off road en-suite caravan"></div>
+</div>
+</div>
+<div class="user-ad-row-new-design__main-content">
+<p class="user-ad-row-new-design__title"><span class="user-ad-row-new-design__flag-top">Top</span><span class="user-ad-row-new-design__title-span">New in stock 2023 Stallion Bronco L 21ft Full off road en-suite caravan</span></p>
+<p class="user-ad-row-new-design__salary-detail"></p>
+<div id="user-ad-desc-TOP-1314841279" class="user-ad-row-new-design__description user-ad-row-new-design__description--premium">
+<ul class="user-ad-attributes user-ad-row-new-design__attributes">
+<li class="user-ad-attributes__attribute user-ad-row-new-design__attribute">
+<span class="user-ad-attributes__attribute-icon" aria-hidden="true"><span class="icon-attributes_lengthInFeet"></span></span>21 ft</li>
+<li class="user-ad-attributes__attribute user-ad-row-new-design__attribute">
+<span class="user-ad-attributes__attribute-icon" aria-hidden="true"><span class="icon-attributes_sleepingCapacity"></span></span>Sleeps 2</li>
+</ul>
+<p class="user-ad-row-new-design__description-text">New in stock 2023 Stallion Bronco L 21ft Full off road en-suite caravan Ready to go for immediate delivery Take this beauty ANYWHERE camping in comfort and style.
+Made in Australia by a reputable company with 25 years of manufacturing experience.
+Attention to detail and strength is priority with Stallion caravans.
+Loaded with features to make the caravan holiday experience fun and easy.
+Very practical floor plan with great storage.
+Tows very well. 5 years chassis warranty
+2 years structura</p>
+</div>
+</div>
+<div class="user-ad-row-new-design__right-content">
+<div><div class="user-ad-price-new-design user-ad-row-new-design__price">
+<span class="user-ad-price-new-design__price">$94,299</span> <span class="user-ad-price-new-design__drive-away-text">Excl. Gov. Charges</span>
+</div></div>
+<div class="user-ad-row-new-design__location">Hillside, VIC<div></div>
+</div>
+<p class="user-ad-row-new-design__age"></p>
+<div class="user-ad-row-new-design__auto-attributes">
+<span class="user-ad-row-new-design__auto-attribute">Dealer new </span><span class="user-ad-row-new-design__auto-attribute">Caravan </span>
+</div>13 hours ago<button id="" type="button" class="Button__button--2NsdC Button__buttonBasic--3CSBx undefined Button__buttonBase--3YR6h Button-main__button--3RLVh undefined user-ad-row-new-design__watchlist-heart-wrapper watchlist-heart" role=""><span class="" aria-hidden="true"><span class="icon-heart heart"></span></span></button>
+</div></a><a href="/s-ad/fawkner/cars-vans-utes/2021-toyota-landcruiser-vdj76r-gxl-graphite-5-speed-manual-wagon/1318854839" id="user-ad-1318854839" class="user-ad-row-new-design user-ad-row-new-design--featured-or-premium user-ad-row-new-design--cars-category link link--base-color-inherit link--hover-color-none link--no-underline" aria-label="2021 Toyota Landcruiser VDJ76R GXL Graphite 5 Speed Manual Wagon.
+        Price: $108,000 .
+        Location: Moreland Area, Fawkner. Ad listed 12/02/2024." aria-describedby="user-ad-desc-TOP-1318854839"><div class="user-ad-image__wrapper">
+<div class="user-ad-image__main-image-wrapper user-ad-image__main-image-wrapper--large user-ad-image__main-image-wrapper--extra-images"><img class="user-ad-image__thumbnail image image--is-visible" src="https://gumtreeau-res.cloudinary.com/image/private/t_$_s-l400/move/d238956c-d167-4c5b-89e7-1a2b3d3ab5b5" alt="2021 Toyota Landcruiser VDJ76R GXL Graphite 5 Speed Manual Wagon"></div>
+<div class="user-ad-image__extra-images">
+<div class="user-ad-image__extra-image-wrapper"><img class="user-ad-image__thumbnail image image--is-hidden" src="" alt="2021 Toyota Landcruiser VDJ76R GXL Graphite 5 Speed Manual Wagon"></div>
+<div class="user-ad-image__extra-image-wrapper"><img class="user-ad-image__thumbnail image image--is-hidden" src="" alt="2021 Toyota Landcruiser VDJ76R GXL Graphite 5 Speed Manual Wagon"></div>
+</div>
+</div>
+<div class="user-ad-row-new-design__main-content">
+<p class="user-ad-row-new-design__title"><span class="user-ad-row-new-design__flag-top">Top</span><span class="user-ad-row-new-design__title-span">2021 Toyota Landcruiser VDJ76R GXL Graphite 5 Speed Manual Wagon</span></p>
+<p class="user-ad-row-new-design__salary-detail"></p>
+<div id="user-ad-desc-TOP-1318854839" class="user-ad-row-new-design__description user-ad-row-new-design__description--premium">
+<ul class="user-ad-attributes user-ad-row-new-design__attributes">
+<li class="user-ad-attributes__attribute user-ad-row-new-design__attribute">
+<span class="user-ad-attributes__attribute-icon" aria-hidden="true"><span class="icon-attributes_kms"></span></span>39449 km</li>
+<li class="user-ad-attributes__attribute user-ad-row-new-design__attribute">
+<span class="user-ad-attributes__attribute-icon" aria-hidden="true"><span class="icon-attributes_bodyType"></span></span>SUV</li>
+<li class="user-ad-attributes__attribute user-ad-row-new-design__attribute">
+<span class="user-ad-attributes__attribute-icon" aria-hidden="true"><span class="icon-attributes_transmission"></span></span>Manual</li>
+<li class="user-ad-attributes__attribute user-ad-row-new-design__attribute">
+<span class="user-ad-attributes__attribute-icon" aria-hidden="true"><span class="icon-attributes_engineConfiguration"></span></span>8 cyl 4.5L</li>
+</ul>
+<p class="user-ad-row-new-design__description-text">Please read the whole ad carefully to ensure this vehicle is what you are after! 
+**One Owner** 
+Price excludes on road costs! 
+* RWC * Government stamp duty * Transfer fee * Registration 
+5 year extended warranty options available! 
+Very affordable finance options available! 
+Our dealership prides itself on having the best quality used cars available at the best prices. 
+Located only 10 mins from Tulla airport. 
+Please call our friendly staff if you have any questions or wou</p>
+</div>
+</div>
+<div class="user-ad-row-new-design__right-content">
+<div><div class="user-ad-price-new-design user-ad-row-new-design__price">
+<span class="user-ad-price-new-design__price">$108,000</span> <span class="user-ad-price-new-design__drive-away-text">Excl. Gov. Charges</span>
+</div></div>
+<div class="user-ad-row-new-design__location">Fawkner, VIC<div></div>
+</div>
+<p class="user-ad-row-new-design__age"></p>
+<div class="user-ad-row-new-design__auto-attributes"><span class="user-ad-row-new-design__auto-attribute">Dealer used </span></div>12/02/2024<button id="" type="button" class="Button__button--2NsdC Button__buttonBasic--3CSBx undefined Button__buttonBase--3YR6h Button-main__button--3RLVh undefined user-ad-row-new-design__watchlist-heart-wrapper watchlist-heart" role=""><span class="" aria-hidden="true"><span class="icon-heart heart"></span></span></button>
+</div></a><a href="/s-ad/campbellfield/campervans-motorhomes/vw-crafter-campervan/1320837816" id="user-ad-1320837816" class="user-ad-row-new-design user-ad-row-new-design--highlight user-ad-row-new-design--featured-or-premium link link--base-color-inherit link--hover-color-none link--no-underline" aria-label="VW Crafter campervan.
+        Price: $68,000 .
+        Location: Hume Area, Campbellfield. Ad listed 08/02/2024." aria-describedby="user-ad-desc-TOP-1320837816"><div class="user-ad-image__wrapper"><div class="user-ad-image__main-image-wrapper user-ad-image__main-image-wrapper--large"><img class="user-ad-image__thumbnail image image--is-hidden" src="" alt="VW Crafter campervan"></div></div>
+<div class="user-ad-row-new-design__main-content">
+<p class="user-ad-row-new-design__title"><span class="user-ad-row-new-design__flag-top">Top</span><span class="user-ad-row-new-design__title-span">VW Crafter campervan</span></p>
+<p class="user-ad-row-new-design__salary-detail"></p>
+<div id="user-ad-desc-TOP-1320837816" class="user-ad-row-new-design__description user-ad-row-new-design__description--featured">
+<ul class="user-ad-attributes user-ad-row-new-design__attributes">
+<li class="user-ad-attributes__attribute user-ad-row-new-design__attribute">
+<span class="user-ad-attributes__attribute-icon" aria-hidden="true"><span class="icon-attributes_kms"></span></span>280556 km</li>
+<li class="user-ad-attributes__attribute user-ad-row-new-design__attribute">
+<span class="user-ad-attributes__attribute-icon" aria-hidden="true"><span class="icon-attributes_transmission"></span></span>Auto</li>
+<li class="user-ad-attributes__attribute user-ad-row-new-design__attribute">
+<span class="user-ad-attributes__attribute-icon" aria-hidden="true"><span class="icon-attributes_sleepingCapacity"></span></span>Sleeps 2</li>
+</ul>
+<p class="user-ad-row-new-design__description-text">This very impressive, VW Crafter, 2 berth campervan has all the essential items needed. Expertly fitted out by Tourism Holdings Australia, you will not find a better value campervan for sale. Features include:
+- Roof mount air conditioner
+- Huge rear club lounge which converts into a bed
+- Shower and toilet
+- Gas/electric tot water system
+- Bushman compressor fridge - recently installed
+- Microwave
+- Gas cooktop
+- Loads of storage
+- Awning
+- Picnic table</p>
+</div>
+</div>
+<div class="user-ad-row-new-design__right-content">
+<div><div class="user-ad-price-new-design user-ad-row-new-design__price">
+<span class="user-ad-price-new-design__price">$68,000</span> </div></div>
+<div class="user-ad-row-new-design__location">Campbellfield, VIC<div></div>
+</div>
+<p class="user-ad-row-new-design__age"></p>
+<div class="user-ad-row-new-design__auto-attributes"><span class="user-ad-row-new-design__auto-attribute">Campervan </span></div>08/02/2024<button id="" type="button" class="Button__button--2NsdC Button__buttonBasic--3CSBx undefined Button__buttonBase--3YR6h Button-main__button--3RLVh undefined user-ad-row-new-design__watchlist-heart-wrapper watchlist-heart" role=""><span class="" aria-hidden="true"><span class="icon-heart heart"></span></span></button>
+</div></a><a href="/s-ad/albion/miscellaneous-goods/golf-caravan-poptop-forsale-18ft-genuine-buyers-only-must-sell-1988-/1319937583" id="user-ad-1319937583" class="user-ad-row-new-design user-ad-row-new-design--highlight user-ad-row-new-design--featured-or-premium link link--base-color-inherit link--hover-color-none link--no-underline" aria-label="Golf caravan poptop forsale 18ft genuine buyers only must sell 1988 .
+        Price: $8,000 .
+        Location: Brimbank Area, Albion. Ad listed 25/12/2023." aria-describedby="user-ad-desc-TOP-1319937583"><div class="user-ad-image__wrapper"><div class="user-ad-image__main-image-wrapper user-ad-image__main-image-wrapper--large"><img class="user-ad-image__thumbnail image image--is-hidden" src="" alt="Golf caravan poptop forsale 18ft genuine buyers only must sell 1988 "></div></div>
+<div class="user-ad-row-new-design__main-content">
+<p class="user-ad-row-new-design__title"><span class="user-ad-row-new-design__flag-top">Top</span><span class="user-ad-row-new-design__title-span">Golf caravan poptop forsale 18ft genuine buyers only must sell 1988 </span></p>
+<p class="user-ad-row-new-design__salary-detail"></p>
+<div id="user-ad-desc-TOP-1319937583" class="user-ad-row-new-design__description user-ad-row-new-design__description--featured"><p class="user-ad-row-new-design__description-text">Hi I’m selling my newly renovated caravan everything except the kitchen sink has been done including freshly painted on the outside has been done it’s registered till sept 2024 aswell ready to go new braking system new walls new floors new beds new mattresses new led lights new roof fully painted and printed cubboards new locks and new Flyscreens 3 way fully working 3 way fridge oven works on gas new lithium battery and new annexe complete this caravan because I have done so much to it even sme</p></div>
+</div>
+<div class="user-ad-row-new-design__right-content">
+<div><div class="user-ad-price-new-design user-ad-row-new-design__price">
+<span class="user-ad-price-new-design__price">$8,000</span> </div></div>
+<div class="user-ad-row-new-design__location">Albion, VIC<div></div>
+</div>
+<p class="user-ad-row-new-design__age">25/12/2023</p>
+<button id="" type="button" class="Button__button--2NsdC Button__buttonBasic--3CSBx undefined Button__buttonBase--3YR6h Button-main__button--3RLVh undefined user-ad-row-new-design__watchlist-heart-wrapper watchlist-heart" role=""><span class="" aria-hidden="true"><span class="icon-heart heart"></span></span></button>
+</div></a><a href="/s-ad/hillside/caravans/new-in-stock-2023-stallion-bronco-l-21ft-full-off-road-en-suite-caravan/1318088587" id="user-ad-1318088587" class="user-ad-row-new-design user-ad-row-new-design--featured-or-premium link link--base-color-inherit link--hover-color-none link--no-underline" aria-label="New in stock 2023 Stallion Bronco L 21ft Full off road en-suite caravan.
+        Price: $97,980 .
+        Location: Melton Area, Hillside. Ad listed 12/02/2024." aria-describedby="user-ad-desc-TOP-1318088587"><div class="user-ad-image__wrapper">
+<div class="user-ad-image__main-image-wrapper user-ad-image__main-image-wrapper--large user-ad-image__main-image-wrapper--extra-images"><img class="user-ad-image__thumbnail image image--is-hidden" src="" alt="New in stock 2023 Stallion Bronco L 21ft Full off road en-suite caravan"></div>
+<div class="user-ad-image__extra-images">
+<div class="user-ad-image__extra-image-wrapper"><img class="user-ad-image__thumbnail image image--is-hidden" src="" alt="New in stock 2023 Stallion Bronco L 21ft Full off road en-suite caravan"></div>
+<div class="user-ad-image__extra-image-wrapper"><img class="user-ad-image__thumbnail image image--is-hidden" src="" alt="New in stock 2023 Stallion Bronco L 21ft Full off road en-suite caravan"></div>
+</div>
+</div>
+<div class="user-ad-row-new-design__main-content">
+<p class="user-ad-row-new-design__title"><span class="user-ad-row-new-design__flag-top">Top</span><span class="user-ad-row-new-design__title-span">New in stock 2023 Stallion Bronco L 21ft Full off road en-suite caravan</span></p>
+<p class="user-ad-row-new-design__salary-detail"></p>
+<div id="user-ad-desc-TOP-1318088587" class="user-ad-row-new-design__description user-ad-row-new-design__description--premium">
+<ul class="user-ad-attributes user-ad-row-new-design__attributes">
+<li class="user-ad-attributes__attribute user-ad-row-new-design__attribute">
+<span class="user-ad-attributes__attribute-icon" aria-hidden="true"><span class="icon-attributes_lengthInFeet"></span></span>21 ft</li>
+<li class="user-ad-attributes__attribute user-ad-row-new-design__attribute">
+<span class="user-ad-attributes__attribute-icon" aria-hidden="true"><span class="icon-attributes_sleepingCapacity"></span></span>Sleeps 2</li>
+</ul>
+<p class="user-ad-row-new-design__description-text">New in stock 2023 Stallion Bronco L 21ft Full off road en-suite caravan Ready to go for immediate delivery Take this beauty ANYWHERE camping in comfort and style. Made in Australia by a reputable company with 25 years of manufacturing experience. Attention to high quality, detail and strength is priority with Stallion caravans.
+Loaded with features to make the caravan holiday experience fun and easy. Very practical floor plan with great inside and outside storage. Tows very well. 5 yea</p>
+</div>
+</div>
+<div class="user-ad-row-new-design__right-content">
+<div><div class="user-ad-price-new-design user-ad-row-new-design__price">
+<span class="user-ad-price-new-design__price">$97,980</span> <span class="user-ad-price-new-design__drive-away-text">Excl. Gov. Charges</span>
+</div></div>
+<div class="user-ad-row-new-design__location">Hillside, VIC<div></div>
+</div>
+<p class="user-ad-row-new-design__age"></p>
+<div class="user-ad-row-new-design__auto-attributes">
+<span class="user-ad-row-new-design__auto-attribute">Dealer new </span><span class="user-ad-row-new-design__auto-attribute">Caravan </span>
+</div>12/02/2024<button id="" type="button" class="Button__button--2NsdC Button__buttonBasic--3CSBx undefined Button__buttonBase--3YR6h Button-main__button--3RLVh undefined user-ad-row-new-design__watchlist-heart-wrapper watchlist-heart" role=""><span class="" aria-hidden="true"><span class="icon-heart heart"></span></span></button>
+</div></a><div class="fuse-ads fuse-ads__fuse-srp-featured-dweb fuse-ads__min-height-mweb" id="FUSE_SRP_FEATURED_DWEB" data-fuse="FUSE_SRP_FEATURED_DWEB" data-testid="FUSE_SRP_FEATURED_DWEB" data-fuse-code="fuse-slot-srp-1" data-fuse-zone-instance="zone-instance-srp-1" data-fuse-slot="fuse-slot-srp-1" data-fuse-processed-at="2130"><div id="fuse-slot-srp-1" class="fuse-slot" style="max-width: inherit; max-height: inherit;" data-google-query-id="CMD70e6kqYQDFVGMrAIdK-IMww"><div id="google_ads_iframe_/30720440/gumtree.web/srp_0__container__" style="border: 0pt none; margin: auto; text-align: center;"><iframe id="google_ads_iframe_/30720440/gumtree.web/srp_0" name="google_ads_iframe_/30720440/gumtree.web/srp_0" title="3rd party ad content" width="300" height="250" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" aria-label="Advertisement" tabindex="0" style="border: 0px; vertical-align: bottom;" data-load-complete="true" data-google-container-id="4"></iframe></div></div></div>
+</div><div class="user-ad-collection-new-design__wrapper--row">
+<a href="/s-ad/melbourne-cbd/fridges-freezers/free-delivery-lg-422l-fridge-freezer/1322009468" id="user-ad-1322009468" class="user-ad-row-new-design link link--base-color-inherit link--hover-color-none link--no-underline" aria-label="FRee delivery Lg 422l fridge/freezer.
+        Price: $240 .
+        Location: Melbourne City, Melbourne CBD. Ad listed 10 minutes ago." aria-describedby="user-ad-desc-MAIN-1322009468"><div class="user-ad-image__wrapper"><div class="user-ad-image__main-image-wrapper"><img class="user-ad-image__thumbnail image image--is-hidden" src="" alt="FRee delivery Lg 422l fridge/freezer"></div></div>
+<div class="user-ad-row-new-design__main-content">
+<p class="user-ad-row-new-design__title"><span class="user-ad-row-new-design__title-span">FRee delivery Lg 422l fridge/freezer</span></p>
+<p class="user-ad-row-new-design__salary-detail"></p>
+<div id="user-ad-desc-MAIN-1322009468" class="user-ad-row-new-design__description user-ad-row-new-design__description--regular"><p class="user-ad-row-new-design__description-text">680
+Width (mm)
+725
+Depth (mm)
+1725
+Height (mm)
+Frost Free
+Fridge Type
+Top Mount Fridge
+Features
+Frost free system
+There are have dents marks and scratches on it as it is a used ite.
+Working condition Also have Fridge. Washing machine Dryer, Microwave available at my ad. . ****</p></div>
+</div>
+<div class="user-ad-row-new-design__right-content">
+<div><div class="user-ad-price-new-design user-ad-row-new-design__price">
+<span class="user-ad-price-new-design__price">$240</span><div class="user-ad-price__shipping-pickup">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 32 32" width="1em" height="1em" class="user-ad-price__shipping-pickup-icon"><path fill="currentColor" fill-rule="evenodd" d="M14.952.265a2.202 2.202 0 012.096 0l12.834 6.95c.333.181.615.446.813.773.199.327.305.702.305 1.086v13.852c0 .384-.106.76-.305 1.086-.198.327-.48.592-.813.772l-12.834 6.951a2.202 2.202 0 01-2.096 0l-12.834-6.95a2.148 2.148 0 01-.813-.773A2.092 2.092 0 011 22.926V9.074c0-.384.106-.76.305-1.086.198-.327.48-.592.813-.772l.477.88-.477-.88L14.952.265zM16 2a.202.202 0 00-.096.024L3.071 8.974a.148.148 0 00-.057.052.092.092 0 00-.014.048v13.852c0 .014.004.03.014.048.011.017.03.037.057.052l12.833 6.95a.202.202 0 00.192 0l12.833-6.95a.147.147 0 00.057-.052.091.091 0 00.014-.048V9.074a.092.092 0 00-.014-.048.148.148 0 00-.057-.052l-12.833-6.95A.202.202 0 0016 2z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M8.117 4.157a1 1 0 011.352-.414l14.15 7.514a1 1 0 01.53.883v7.302a1 1 0 11-2 0v-6.7L8.531 5.508a1 1 0 01-.414-1.352z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M1.28 8.031a1 1 0 011.354-.408l13.5 7.24 13.225-7.235a1 1 0 11.96 1.755l-13.7 7.494a1 1 0 01-.954.004L1.69 9.385a1 1 0 01-.409-1.354z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M16.147 15a1 1 0 01.99 1.01l-.136 15a1 1 0 11-2-.02l.137-15a1 1 0 011.009-.99z" clip-rule="evenodd"></path></svg><span>SHIPPING OFFERED</span>
+</div> </div></div>
+<div class="user-ad-row-new-design__location">Melbourne CBD, VIC<div>&lt; 2 km</div>
+</div>
+<p class="user-ad-row-new-design__age">10 minutes ago</p>
+<button id="" type="button" class="Button__button--2NsdC Button__buttonBasic--3CSBx undefined Button__buttonBase--3YR6h Button-main__button--3RLVh undefined user-ad-row-new-design__watchlist-heart-wrapper watchlist-heart" role=""><span class="" aria-hidden="true"><span class="icon-heart heart"></span></span></button>
+</div></a><a href="/s-ad/melbourne-cbd/fridges-freezers/free-delivery-stainless-steel-fisher-paykel-411l-top-mount-fridge/1322009454" id="user-ad-1322009454" class="user-ad-row-new-design link link--base-color-inherit link--hover-color-none link--no-underline" aria-label="FREE DELIVERY stainless steel Fisher &amp; Paykel 411L Top Mount Fridge.
+        Price: $240 .
+        Location: Melbourne City, Melbourne CBD. Ad listed 11 minutes ago." aria-describedby="user-ad-desc-MAIN-1322009454"><div class="user-ad-image__wrapper"><div class="user-ad-image__main-image-wrapper"><img class="user-ad-image__thumbnail image image--is-hidden" src="" alt="FREE DELIVERY stainless steel Fisher &amp; Paykel 411L Top Mount Fridge"></div></div>
+<div class="user-ad-row-new-design__main-content">
+<p class="user-ad-row-new-design__title"><span class="user-ad-row-new-design__title-span">FREE DELIVERY stainless steel Fisher &amp; Paykel 411L Top Mount Fridge</span></p>
+<p class="user-ad-row-new-design__salary-detail"></p>
+<div id="user-ad-desc-MAIN-1322009454" class="user-ad-row-new-design__description user-ad-row-new-design__description--regular"><p class="user-ad-row-new-design__description-text">Top Mount Fridge
+Features
+Active smart system Height (mm)
+1695 mm
+Width (mm)
+635 mm
+Depth (mm)
+715 mm
+Frost free system
+working condition
+items may include cosmetic such as dents and scratches,
+Also selling washing machine. and fridge microwave</p></div>
+</div>
+<div class="user-ad-row-new-design__right-content">
+<div><div class="user-ad-price-new-design user-ad-row-new-design__price">
+<span class="user-ad-price-new-design__price">$240</span><div class="user-ad-price__shipping-pickup">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 32 32" width="1em" height="1em" class="user-ad-price__shipping-pickup-icon"><path fill="currentColor" fill-rule="evenodd" d="M14.952.265a2.202 2.202 0 012.096 0l12.834 6.95c.333.181.615.446.813.773.199.327.305.702.305 1.086v13.852c0 .384-.106.76-.305 1.086-.198.327-.48.592-.813.772l-12.834 6.951a2.202 2.202 0 01-2.096 0l-12.834-6.95a2.148 2.148 0 01-.813-.773A2.092 2.092 0 011 22.926V9.074c0-.384.106-.76.305-1.086.198-.327.48-.592.813-.772l.477.88-.477-.88L14.952.265zM16 2a.202.202 0 00-.096.024L3.071 8.974a.148.148 0 00-.057.052.092.092 0 00-.014.048v13.852c0 .014.004.03.014.048.011.017.03.037.057.052l12.833 6.95a.202.202 0 00.192 0l12.833-6.95a.147.147 0 00.057-.052.091.091 0 00.014-.048V9.074a.092.092 0 00-.014-.048.148.148 0 00-.057-.052l-12.833-6.95A.202.202 0 0016 2z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M8.117 4.157a1 1 0 011.352-.414l14.15 7.514a1 1 0 01.53.883v7.302a1 1 0 11-2 0v-6.7L8.531 5.508a1 1 0 01-.414-1.352z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M1.28 8.031a1 1 0 011.354-.408l13.5 7.24 13.225-7.235a1 1 0 11.96 1.755l-13.7 7.494a1 1 0 01-.954.004L1.69 9.385a1 1 0 01-.409-1.354z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M16.147 15a1 1 0 01.99 1.01l-.136 15a1 1 0 11-2-.02l.137-15a1 1 0 011.009-.99z" clip-rule="evenodd"></path></svg><span>SHIPPING OFFERED</span>
+</div> </div></div>
+<div class="user-ad-row-new-design__location">Melbourne CBD, VIC<div>&lt; 2 km</div>
+</div>
+<p class="user-ad-row-new-design__age">11 minutes ago</p>
+<button id="" type="button" class="Button__button--2NsdC Button__buttonBasic--3CSBx undefined Button__buttonBase--3YR6h Button-main__button--3RLVh undefined user-ad-row-new-design__watchlist-heart-wrapper watchlist-heart" role=""><span class="" aria-hidden="true"><span class="icon-heart heart"></span></span></button>
+</div></a><a href="/s-ad/melbourne-cbd/washing-machines-dryers/free-delivery-4-star-rating-6-5kg-front-load-bosch-washing-machine/1322009433" id="user-ad-1322009433" class="user-ad-row-new-design link link--base-color-inherit link--hover-color-none link--no-underline" aria-label="FREE DELIVERY 4 Star Rating 6.5kg Front Load Bosch Washing Machine.
+        Price: $240 .
+        Location: Melbourne City, Melbourne CBD. Ad listed 12 minutes ago." aria-describedby="user-ad-desc-MAIN-1322009433"><div class="user-ad-image__wrapper"><div class="user-ad-image__main-image-wrapper"><img class="user-ad-image__thumbnail image image--is-hidden" src="" alt="FREE DELIVERY 4 Star Rating 6.5kg Front Load Bosch Washing Machine"></div></div>
+<div class="user-ad-row-new-design__main-content">
+<p class="user-ad-row-new-design__title"><span class="user-ad-row-new-design__title-span">FREE DELIVERY 4 Star Rating 6.5kg Front Load Bosch Washing Machine</span></p>
+<p class="user-ad-row-new-design__salary-detail"></p>
+<div id="user-ad-desc-MAIN-1322009433" class="user-ad-row-new-design__description user-ad-row-new-design__description--regular"><p class="user-ad-row-new-design__description-text">4 Star Rating 6.5kg Front Load Bosch Washing Machine
+Star Rating
+4
+Manual Controls
+Digital Display
+12 Cycles
+600mm(w) x 600mm(d) x 870mm(h)
+There are have dents marks and scratches on it as it is a used ite.
+Working condition Also have Fridge. Washing machine Dryer, Microwave available at my ad.</p></div>
+</div>
+<div class="user-ad-row-new-design__right-content">
+<div><div class="user-ad-price-new-design user-ad-row-new-design__price">
+<span class="user-ad-price-new-design__price">$240</span><div class="user-ad-price__shipping-pickup">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 32 32" width="1em" height="1em" class="user-ad-price__shipping-pickup-icon"><path fill="currentColor" fill-rule="evenodd" d="M14.952.265a2.202 2.202 0 012.096 0l12.834 6.95c.333.181.615.446.813.773.199.327.305.702.305 1.086v13.852c0 .384-.106.76-.305 1.086-.198.327-.48.592-.813.772l-12.834 6.951a2.202 2.202 0 01-2.096 0l-12.834-6.95a2.148 2.148 0 01-.813-.773A2.092 2.092 0 011 22.926V9.074c0-.384.106-.76.305-1.086.198-.327.48-.592.813-.772l.477.88-.477-.88L14.952.265zM16 2a.202.202 0 00-.096.024L3.071 8.974a.148.148 0 00-.057.052.092.092 0 00-.014.048v13.852c0 .014.004.03.014.048.011.017.03.037.057.052l12.833 6.95a.202.202 0 00.192 0l12.833-6.95a.147.147 0 00.057-.052.091.091 0 00.014-.048V9.074a.092.092 0 00-.014-.048.148.148 0 00-.057-.052l-12.833-6.95A.202.202 0 0016 2z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M8.117 4.157a1 1 0 011.352-.414l14.15 7.514a1 1 0 01.53.883v7.302a1 1 0 11-2 0v-6.7L8.531 5.508a1 1 0 01-.414-1.352z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M1.28 8.031a1 1 0 011.354-.408l13.5 7.24 13.225-7.235a1 1 0 11.96 1.755l-13.7 7.494a1 1 0 01-.954.004L1.69 9.385a1 1 0 01-.409-1.354z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M16.147 15a1 1 0 01.99 1.01l-.136 15a1 1 0 11-2-.02l.137-15a1 1 0 011.009-.99z" clip-rule="evenodd"></path></svg><span>SHIPPING OFFERED</span>
+</div> </div></div>
+<div class="user-ad-row-new-design__location">Melbourne CBD, VIC<div>&lt; 2 km</div>
+</div>
+<p class="user-ad-row-new-design__age">12 minutes ago</p>
+<button id="" type="button" class="Button__button--2NsdC Button__buttonBasic--3CSBx undefined Button__buttonBase--3YR6h Button-main__button--3RLVh undefined user-ad-row-new-design__watchlist-heart-wrapper watchlist-heart" role=""><span class="" aria-hidden="true"><span class="icon-heart heart"></span></span></button>
+</div></a><a href="/s-ad/melbourne-cbd/washing-machines-dryers/free-delivery-daewoo-405l-fridge-freezer/1322009416" id="user-ad-1322009416" class="user-ad-row-new-design link link--base-color-inherit link--hover-color-none link--no-underline" aria-label="free delivery Daewoo 405L Fridge Freezer.
+        Price: $270 .
+        Location: Melbourne City, Melbourne CBD. Ad listed 13 minutes ago." aria-describedby="user-ad-desc-MAIN-1322009416"><div class="user-ad-image__wrapper"><div class="user-ad-image__main-image-wrapper"><img class="user-ad-image__thumbnail image image--is-hidden" src="" alt="free delivery Daewoo 405L Fridge Freezer"></div></div>
+<div class="user-ad-row-new-design__main-content">
+<p class="user-ad-row-new-design__title"><span class="user-ad-row-new-design__title-span">free delivery Daewoo 405L Fridge Freezer</span></p>
+<p class="user-ad-row-new-design__salary-detail"></p>
+<div id="user-ad-desc-MAIN-1322009416" class="user-ad-row-new-design__description user-ad-row-new-design__description--regular"><p class="user-ad-row-new-design__description-text">Daewoo
+Capacity: 405 Litres
+Dimensions: 1715mm Height x 710mm Width x 710mm Depth
+Frost Free
+Fridge Type
+Top Mount Fridge
+Features
+Frost free system
+There are have dents marks and scratches on it as it is a used ite.
+Working condition Also have Fridge. Washing machine Dryer, Microwave available at my ad. . **</p></div>
+</div>
+<div class="user-ad-row-new-design__right-content">
+<div><div class="user-ad-price-new-design user-ad-row-new-design__price">
+<span class="user-ad-price-new-design__price">$270</span><div class="user-ad-price__shipping-pickup">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 32 32" width="1em" height="1em" class="user-ad-price__shipping-pickup-icon"><path fill="currentColor" fill-rule="evenodd" d="M14.952.265a2.202 2.202 0 012.096 0l12.834 6.95c.333.181.615.446.813.773.199.327.305.702.305 1.086v13.852c0 .384-.106.76-.305 1.086-.198.327-.48.592-.813.772l-12.834 6.951a2.202 2.202 0 01-2.096 0l-12.834-6.95a2.148 2.148 0 01-.813-.773A2.092 2.092 0 011 22.926V9.074c0-.384.106-.76.305-1.086.198-.327.48-.592.813-.772l.477.88-.477-.88L14.952.265zM16 2a.202.202 0 00-.096.024L3.071 8.974a.148.148 0 00-.057.052.092.092 0 00-.014.048v13.852c0 .014.004.03.014.048.011.017.03.037.057.052l12.833 6.95a.202.202 0 00.192 0l12.833-6.95a.147.147 0 00.057-.052.091.091 0 00.014-.048V9.074a.092.092 0 00-.014-.048.148.148 0 00-.057-.052l-12.833-6.95A.202.202 0 0016 2z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M8.117 4.157a1 1 0 011.352-.414l14.15 7.514a1 1 0 01.53.883v7.302a1 1 0 11-2 0v-6.7L8.531 5.508a1 1 0 01-.414-1.352z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M1.28 8.031a1 1 0 011.354-.408l13.5 7.24 13.225-7.235a1 1 0 11.96 1.755l-13.7 7.494a1 1 0 01-.954.004L1.69 9.385a1 1 0 01-.409-1.354z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M16.147 15a1 1 0 01.99 1.01l-.136 15a1 1 0 11-2-.02l.137-15a1 1 0 011.009-.99z" clip-rule="evenodd"></path></svg><span>SHIPPING OFFERED</span>
+</div> </div></div>
+<div class="user-ad-row-new-design__location">Melbourne CBD, VIC<div>&lt; 2 km</div>
+</div>
+<p class="user-ad-row-new-design__age">13 minutes ago</p>
+<button id="" type="button" class="Button__button--2NsdC Button__buttonBasic--3CSBx undefined Button__buttonBase--3YR6h Button-main__button--3RLVh undefined user-ad-row-new-design__watchlist-heart-wrapper watchlist-heart" role=""><span class="" aria-hidden="true"><span class="icon-heart heart"></span></span></button>
+</div></a><div class="fuse-ads fuse-ads__fuse-srp-belly1-dweb fuse-ads__min-height-mweb" id="FUSE_SRP_BELLY1_DWEB" data-fuse="FUSE_SRP_BELLY1_DWEB" data-testid="FUSE_SRP_BELLY1_DWEB" data-fuse-code="fuse-slot-srp-2" data-fuse-zone-instance="zone-instance-srp-2" data-fuse-slot="fuse-slot-srp-2" data-fuse-processed-at="2132"><div id="fuse-slot-srp-2" class="fuse-slot" style="max-width: inherit; max-height: inherit;" data-google-query-id="CLP8ze6kqYQDFVGMrAIdK-IMww"><div id="google_ads_iframe_/30720440/gumtree.web/srp_1__container__" style="border: 0pt none; margin: auto; text-align: center;"><iframe id="google_ads_iframe_/30720440/gumtree.web/srp_1" name="google_ads_iframe_/30720440/gumtree.web/srp_1" title="3rd party ad content" width="970" height="250" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" aria-label="Advertisement" tabindex="0" style="border: 0px; vertical-align: bottom;" data-load-complete="true" data-google-container-id="5" data-integralas-id-b85e6b70-c5b0-d284-1dbe-8762edab58c6=""></iframe></div></div></div>
+<a href="/s-ad/melbourne-cbd/washing-machines-dryers/free-delivery-samsung-8kg-top-loader/1322009398" id="user-ad-1322009398" class="user-ad-row-new-design link link--base-color-inherit link--hover-color-none link--no-underline" aria-label="FREE DELIVERY Samsung 8kg Top Loader.
+        Price: $230 .
+        Location: Melbourne City, Melbourne CBD. Ad listed 14 minutes ago." aria-describedby="user-ad-desc-MAIN-1322009398"><div class="user-ad-image__wrapper"><div class="user-ad-image__main-image-wrapper"><img class="user-ad-image__thumbnail image image--is-hidden" src="" alt="FREE DELIVERY Samsung 8kg Top Loader"></div></div>
+<div class="user-ad-row-new-design__main-content">
+<p class="user-ad-row-new-design__title"><span class="user-ad-row-new-design__title-span">FREE DELIVERY Samsung 8kg Top Loader</span></p>
+<p class="user-ad-row-new-design__salary-detail"></p>
+<div id="user-ad-desc-MAIN-1322009398" class="user-ad-row-new-design__description user-ad-row-new-design__description--regular"><p class="user-ad-row-new-design__description-text">Dimensions:
+Height: 1100mm
+Width: 610mm
+Depth: 705mm
+Features:
+Cotton
+Soak
+Water saving
+Child lock
+Digital inverter motor
+Tinted glass door lid
+working condition
+items may include cosmetic such as dents and scratches,
+Also selling washing machine. and fridge microwave</p></div>
+</div>
+<div class="user-ad-row-new-design__right-content">
+<div><div class="user-ad-price-new-design user-ad-row-new-design__price">
+<span class="user-ad-price-new-design__price">$230</span><div class="user-ad-price__shipping-pickup">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 32 32" width="1em" height="1em" class="user-ad-price__shipping-pickup-icon"><path fill="currentColor" fill-rule="evenodd" d="M14.952.265a2.202 2.202 0 012.096 0l12.834 6.95c.333.181.615.446.813.773.199.327.305.702.305 1.086v13.852c0 .384-.106.76-.305 1.086-.198.327-.48.592-.813.772l-12.834 6.951a2.202 2.202 0 01-2.096 0l-12.834-6.95a2.148 2.148 0 01-.813-.773A2.092 2.092 0 011 22.926V9.074c0-.384.106-.76.305-1.086.198-.327.48-.592.813-.772l.477.88-.477-.88L14.952.265zM16 2a.202.202 0 00-.096.024L3.071 8.974a.148.148 0 00-.057.052.092.092 0 00-.014.048v13.852c0 .014.004.03.014.048.011.017.03.037.057.052l12.833 6.95a.202.202 0 00.192 0l12.833-6.95a.147.147 0 00.057-.052.091.091 0 00.014-.048V9.074a.092.092 0 00-.014-.048.148.148 0 00-.057-.052l-12.833-6.95A.202.202 0 0016 2z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M8.117 4.157a1 1 0 011.352-.414l14.15 7.514a1 1 0 01.53.883v7.302a1 1 0 11-2 0v-6.7L8.531 5.508a1 1 0 01-.414-1.352z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M1.28 8.031a1 1 0 011.354-.408l13.5 7.24 13.225-7.235a1 1 0 11.96 1.755l-13.7 7.494a1 1 0 01-.954.004L1.69 9.385a1 1 0 01-.409-1.354z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M16.147 15a1 1 0 01.99 1.01l-.136 15a1 1 0 11-2-.02l.137-15a1 1 0 011.009-.99z" clip-rule="evenodd"></path></svg><span>SHIPPING OFFERED</span>
+</div> </div></div>
+<div class="user-ad-row-new-design__location">Melbourne CBD, VIC<div>&lt; 2 km</div>
+</div>
+<p class="user-ad-row-new-design__age">14 minutes ago</p>
+<button id="" type="button" class="Button__button--2NsdC Button__buttonBasic--3CSBx undefined Button__buttonBase--3YR6h Button-main__button--3RLVh undefined user-ad-row-new-design__watchlist-heart-wrapper watchlist-heart" role=""><span class="" aria-hidden="true"><span class="icon-heart heart"></span></span></button>
+</div></a><a href="/s-ad/melbourne-cbd/washing-machines-dryers/free-delivery-seiki-5-kg-washing-machine/1322009283" id="user-ad-1322009283" class="user-ad-row-new-design link link--base-color-inherit link--hover-color-none link--no-underline" aria-label="FREE DELIVERY SEIKI 5.kg Washing Machine.
+        Price: $230 .
+        Location: Melbourne City, Melbourne CBD. Ad listed 14 minutes ago." aria-describedby="user-ad-desc-MAIN-1322009283"><div class="user-ad-image__wrapper"><div class="user-ad-image__main-image-wrapper"><img class="user-ad-image__thumbnail image image--is-hidden" src="" alt="FREE DELIVERY SEIKI 5.kg Washing Machine"></div></div>
+<div class="user-ad-row-new-design__main-content">
+<p class="user-ad-row-new-design__title"><span class="user-ad-row-new-design__title-span">FREE DELIVERY SEIKI 5.kg Washing Machine</span></p>
+<p class="user-ad-row-new-design__salary-detail"></p>
+<div id="user-ad-desc-MAIN-1322009283" class="user-ad-row-new-design__description user-ad-row-new-design__description--regular"><p class="user-ad-row-new-design__description-text">Endless laundry tasks are made easy and simple with the Seiki 5kg Front Load Washing Machine. Full of innovation, this washer is a choice for the busy household.
+Key Features
+Max 1200 RPM Spin Speed
+Child Safety Lock
+23 Wash Programs
+9 Hour Timer
+Levelling Feet
+23 Wash Programs
+Multiple wash programs to choose from depending on the type of clothes
+you have inside your Seiki washing machine.
+9 Hour Timer
+Your Seiki washing machine can start at a delay of up to 9 hours,
+If you are busy and don't </p></div>
+</div>
+<div class="user-ad-row-new-design__right-content">
+<div><div class="user-ad-price-new-design user-ad-row-new-design__price">
+<span class="user-ad-price-new-design__price">$230</span><div class="user-ad-price__shipping-pickup">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 32 32" width="1em" height="1em" class="user-ad-price__shipping-pickup-icon"><path fill="currentColor" fill-rule="evenodd" d="M14.952.265a2.202 2.202 0 012.096 0l12.834 6.95c.333.181.615.446.813.773.199.327.305.702.305 1.086v13.852c0 .384-.106.76-.305 1.086-.198.327-.48.592-.813.772l-12.834 6.951a2.202 2.202 0 01-2.096 0l-12.834-6.95a2.148 2.148 0 01-.813-.773A2.092 2.092 0 011 22.926V9.074c0-.384.106-.76.305-1.086.198-.327.48-.592.813-.772l.477.88-.477-.88L14.952.265zM16 2a.202.202 0 00-.096.024L3.071 8.974a.148.148 0 00-.057.052.092.092 0 00-.014.048v13.852c0 .014.004.03.014.048.011.017.03.037.057.052l12.833 6.95a.202.202 0 00.192 0l12.833-6.95a.147.147 0 00.057-.052.091.091 0 00.014-.048V9.074a.092.092 0 00-.014-.048.148.148 0 00-.057-.052l-12.833-6.95A.202.202 0 0016 2z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M8.117 4.157a1 1 0 011.352-.414l14.15 7.514a1 1 0 01.53.883v7.302a1 1 0 11-2 0v-6.7L8.531 5.508a1 1 0 01-.414-1.352z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M1.28 8.031a1 1 0 011.354-.408l13.5 7.24 13.225-7.235a1 1 0 11.96 1.755l-13.7 7.494a1 1 0 01-.954.004L1.69 9.385a1 1 0 01-.409-1.354z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M16.147 15a1 1 0 01.99 1.01l-.136 15a1 1 0 11-2-.02l.137-15a1 1 0 011.009-.99z" clip-rule="evenodd"></path></svg><span>SHIPPING OFFERED</span>
+</div> </div></div>
+<div class="user-ad-row-new-design__location">Melbourne CBD, VIC<div>&lt; 2 km</div>
+</div>
+<p class="user-ad-row-new-design__age">14 minutes ago</p>
+<button id="" type="button" class="Button__button--2NsdC Button__buttonBasic--3CSBx undefined Button__buttonBase--3YR6h Button-main__button--3RLVh undefined user-ad-row-new-design__watchlist-heart-wrapper watchlist-heart" role=""><span class="" aria-hidden="true"><span class="icon-heart heart"></span></span></button>
+</div></a><a href="/s-ad/melbourne-cbd/fridges-freezers/free-delivery-upside-down-panasonic-420l-fridge-freezer/1322009374" id="user-ad-1322009374" class="user-ad-row-new-design link link--base-color-inherit link--hover-color-none link--no-underline" aria-label="FREE delivery Upside down PANASONIC 420L Fridge/Freezer.
+        Price: $200 .
+        Location: Melbourne City, Melbourne CBD. Ad listed 16 minutes ago." aria-describedby="user-ad-desc-MAIN-1322009374"><div class="user-ad-image__wrapper"><div class="user-ad-image__main-image-wrapper"><img class="user-ad-image__thumbnail image image--is-hidden" src="" alt="FREE delivery Upside down PANASONIC 420L Fridge/Freezer"></div></div>
+<div class="user-ad-row-new-design__main-content">
+<p class="user-ad-row-new-design__title"><span class="user-ad-row-new-design__title-span">FREE delivery Upside down PANASONIC 420L Fridge/Freezer</span></p>
+<p class="user-ad-row-new-design__salary-detail"></p>
+<div id="user-ad-desc-MAIN-1322009374" class="user-ad-row-new-design__description user-ad-row-new-design__description--regular"><p class="user-ad-row-new-design__description-text">Dimensions: W 675 X D 760 X H 1624
+working condition
+Second hand fridges have dents and scratches from wear and tear.
+Also selling washing machine. and fridge microwave</p></div>
+</div>
+<div class="user-ad-row-new-design__right-content">
+<div><div class="user-ad-price-new-design user-ad-row-new-design__price">
+<span class="user-ad-price-new-design__price">$200</span><div class="user-ad-price__shipping-pickup">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 32 32" width="1em" height="1em" class="user-ad-price__shipping-pickup-icon"><path fill="currentColor" fill-rule="evenodd" d="M14.952.265a2.202 2.202 0 012.096 0l12.834 6.95c.333.181.615.446.813.773.199.327.305.702.305 1.086v13.852c0 .384-.106.76-.305 1.086-.198.327-.48.592-.813.772l-12.834 6.951a2.202 2.202 0 01-2.096 0l-12.834-6.95a2.148 2.148 0 01-.813-.773A2.092 2.092 0 011 22.926V9.074c0-.384.106-.76.305-1.086.198-.327.48-.592.813-.772l.477.88-.477-.88L14.952.265zM16 2a.202.202 0 00-.096.024L3.071 8.974a.148.148 0 00-.057.052.092.092 0 00-.014.048v13.852c0 .014.004.03.014.048.011.017.03.037.057.052l12.833 6.95a.202.202 0 00.192 0l12.833-6.95a.147.147 0 00.057-.052.091.091 0 00.014-.048V9.074a.092.092 0 00-.014-.048.148.148 0 00-.057-.052l-12.833-6.95A.202.202 0 0016 2z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M8.117 4.157a1 1 0 011.352-.414l14.15 7.514a1 1 0 01.53.883v7.302a1 1 0 11-2 0v-6.7L8.531 5.508a1 1 0 01-.414-1.352z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M1.28 8.031a1 1 0 011.354-.408l13.5 7.24 13.225-7.235a1 1 0 11.96 1.755l-13.7 7.494a1 1 0 01-.954.004L1.69 9.385a1 1 0 01-.409-1.354z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M16.147 15a1 1 0 01.99 1.01l-.136 15a1 1 0 11-2-.02l.137-15a1 1 0 011.009-.99z" clip-rule="evenodd"></path></svg><span>SHIPPING OFFERED</span>
+</div> </div></div>
+<div class="user-ad-row-new-design__location">Melbourne CBD, VIC<div>&lt; 2 km</div>
+</div>
+<p class="user-ad-row-new-design__age">16 minutes ago</p>
+<button id="" type="button" class="Button__button--2NsdC Button__buttonBasic--3CSBx undefined Button__buttonBase--3YR6h Button-main__button--3RLVh undefined user-ad-row-new-design__watchlist-heart-wrapper watchlist-heart" role=""><span class="" aria-hidden="true"><span class="icon-heart heart"></span></span></button>
+</div></a><a href="/s-ad/melbourne-cbd/washing-machines-dryers/free-delivery-electrolux-7kg-washing-machine/1322009299" id="user-ad-1322009299" class="user-ad-row-new-design link link--base-color-inherit link--hover-color-none link--no-underline" aria-label="FREE DELIVERY Electrolux 7kg Washing Machine.
+        Price: $270 .
+        Location: Melbourne City, Melbourne CBD. Ad listed 21 minutes ago." aria-describedby="user-ad-desc-MAIN-1322009299"><div class="user-ad-image__wrapper"><div class="user-ad-image__main-image-wrapper"><img class="user-ad-image__thumbnail image image--is-hidden" src="" alt="FREE DELIVERY Electrolux 7kg Washing Machine"></div></div>
+<div class="user-ad-row-new-design__main-content">
+<p class="user-ad-row-new-design__title"><span class="user-ad-row-new-design__title-span">FREE DELIVERY Electrolux 7kg Washing Machine</span></p>
+<p class="user-ad-row-new-design__salary-detail"></p>
+<div id="user-ad-desc-MAIN-1322009299" class="user-ad-row-new-design__description user-ad-row-new-design__description--regular"><p class="user-ad-row-new-design__description-text">Width (mm) 600
+Height (mm) 848
+Depth (mm) 600
+Frost free
+working condition
+Also selling washing machine. and fridge microwave</p></div>
+</div>
+<div class="user-ad-row-new-design__right-content">
+<div><div class="user-ad-price-new-design user-ad-row-new-design__price">
+<span class="user-ad-price-new-design__price">$270</span><div class="user-ad-price__shipping-pickup">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 32 32" width="1em" height="1em" class="user-ad-price__shipping-pickup-icon"><path fill="currentColor" fill-rule="evenodd" d="M14.952.265a2.202 2.202 0 012.096 0l12.834 6.95c.333.181.615.446.813.773.199.327.305.702.305 1.086v13.852c0 .384-.106.76-.305 1.086-.198.327-.48.592-.813.772l-12.834 6.951a2.202 2.202 0 01-2.096 0l-12.834-6.95a2.148 2.148 0 01-.813-.773A2.092 2.092 0 011 22.926V9.074c0-.384.106-.76.305-1.086.198-.327.48-.592.813-.772l.477.88-.477-.88L14.952.265zM16 2a.202.202 0 00-.096.024L3.071 8.974a.148.148 0 00-.057.052.092.092 0 00-.014.048v13.852c0 .014.004.03.014.048.011.017.03.037.057.052l12.833 6.95a.202.202 0 00.192 0l12.833-6.95a.147.147 0 00.057-.052.091.091 0 00.014-.048V9.074a.092.092 0 00-.014-.048.148.148 0 00-.057-.052l-12.833-6.95A.202.202 0 0016 2z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M8.117 4.157a1 1 0 011.352-.414l14.15 7.514a1 1 0 01.53.883v7.302a1 1 0 11-2 0v-6.7L8.531 5.508a1 1 0 01-.414-1.352z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M1.28 8.031a1 1 0 011.354-.408l13.5 7.24 13.225-7.235a1 1 0 11.96 1.755l-13.7 7.494a1 1 0 01-.954.004L1.69 9.385a1 1 0 01-.409-1.354z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M16.147 15a1 1 0 01.99 1.01l-.136 15a1 1 0 11-2-.02l.137-15a1 1 0 011.009-.99z" clip-rule="evenodd"></path></svg><span>SHIPPING OFFERED</span>
+</div> </div></div>
+<div class="user-ad-row-new-design__location">Melbourne CBD, VIC<div>&lt; 2 km</div>
+</div>
+<p class="user-ad-row-new-design__age">21 minutes ago</p>
+<button id="" type="button" class="Button__button--2NsdC Button__buttonBasic--3CSBx undefined Button__buttonBase--3YR6h Button-main__button--3RLVh undefined user-ad-row-new-design__watchlist-heart-wrapper watchlist-heart" role=""><span class="" aria-hidden="true"><span class="icon-heart heart"></span></span></button>
+</div></a><a href="/s-ad/melbourne-cbd/fridges-freezers/free-delivery-whirlpool-410l-fridge-freezer/1322009266" id="user-ad-1322009266" class="user-ad-row-new-design link link--base-color-inherit link--hover-color-none link--no-underline" aria-label="Free delivery Whirlpool 410L Fridge freezer.
+        Price: $200 .
+        Location: Melbourne City, Melbourne CBD. Ad listed 23 minutes ago." aria-describedby="user-ad-desc-MAIN-1322009266"><div class="user-ad-image__wrapper"><div class="user-ad-image__main-image-wrapper"><img class="user-ad-image__thumbnail image image--is-hidden" src="" alt="Free delivery Whirlpool 410L Fridge freezer"></div></div>
+<div class="user-ad-row-new-design__main-content">
+<p class="user-ad-row-new-design__title"><span class="user-ad-row-new-design__title-span">Free delivery Whirlpool 410L Fridge freezer</span></p>
+<p class="user-ad-row-new-design__salary-detail"></p>
+<div id="user-ad-desc-MAIN-1322009266" class="user-ad-row-new-design__description user-ad-row-new-design__description--regular"><p class="user-ad-row-new-design__description-text">Height (mm)
+1660 mm
+Width (mm)
+700 mm
+Depth (mm)
+700 mm
+Total Volume
+410 L
+Frost Free
+Fridge Type
+Top Mount Fridge
+Features
+Frost free system
+There are have dents marks and scratches on it as it is a used ite.
+Working condition
+Also have Fridge. Washing machine Dryer, Microwave available at my ad</p></div>
+</div>
+<div class="user-ad-row-new-design__right-content">
+<div><div class="user-ad-price-new-design user-ad-row-new-design__price">
+<span class="user-ad-price-new-design__price">$200</span><div class="user-ad-price__shipping-pickup">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 32 32" width="1em" height="1em" class="user-ad-price__shipping-pickup-icon"><path fill="currentColor" fill-rule="evenodd" d="M14.952.265a2.202 2.202 0 012.096 0l12.834 6.95c.333.181.615.446.813.773.199.327.305.702.305 1.086v13.852c0 .384-.106.76-.305 1.086-.198.327-.48.592-.813.772l-12.834 6.951a2.202 2.202 0 01-2.096 0l-12.834-6.95a2.148 2.148 0 01-.813-.773A2.092 2.092 0 011 22.926V9.074c0-.384.106-.76.305-1.086.198-.327.48-.592.813-.772l.477.88-.477-.88L14.952.265zM16 2a.202.202 0 00-.096.024L3.071 8.974a.148.148 0 00-.057.052.092.092 0 00-.014.048v13.852c0 .014.004.03.014.048.011.017.03.037.057.052l12.833 6.95a.202.202 0 00.192 0l12.833-6.95a.147.147 0 00.057-.052.091.091 0 00.014-.048V9.074a.092.092 0 00-.014-.048.148.148 0 00-.057-.052l-12.833-6.95A.202.202 0 0016 2z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M8.117 4.157a1 1 0 011.352-.414l14.15 7.514a1 1 0 01.53.883v7.302a1 1 0 11-2 0v-6.7L8.531 5.508a1 1 0 01-.414-1.352z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M1.28 8.031a1 1 0 011.354-.408l13.5 7.24 13.225-7.235a1 1 0 11.96 1.755l-13.7 7.494a1 1 0 01-.954.004L1.69 9.385a1 1 0 01-.409-1.354z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M16.147 15a1 1 0 01.99 1.01l-.136 15a1 1 0 11-2-.02l.137-15a1 1 0 011.009-.99z" clip-rule="evenodd"></path></svg><span>SHIPPING OFFERED</span>
+</div> </div></div>
+<div class="user-ad-row-new-design__location">Melbourne CBD, VIC<div>&lt; 2 km</div>
+</div>
+<p class="user-ad-row-new-design__age">23 minutes ago</p>
+<button id="" type="button" class="Button__button--2NsdC Button__buttonBasic--3CSBx undefined Button__buttonBase--3YR6h Button-main__button--3RLVh undefined user-ad-row-new-design__watchlist-heart-wrapper watchlist-heart" role=""><span class="" aria-hidden="true"><span class="icon-heart heart"></span></span></button>
+</div></a><a href="/s-ad/melbourne-cbd/fridges-freezers/free-delivery-westinghouse-200l-fridge-freezer/1322009245" id="user-ad-1322009245" class="user-ad-row-new-design link link--base-color-inherit link--hover-color-none link--no-underline" aria-label="Free delivery Westinghouse 200L Fridge freezer.
+        Price: $160 .
+        Location: Melbourne City, Melbourne CBD. Ad listed 24 minutes ago." aria-describedby="user-ad-desc-MAIN-1322009245"><div class="user-ad-image__wrapper"><div class="user-ad-image__main-image-wrapper"><img class="user-ad-image__thumbnail image image--is-hidden" src="" alt="Free delivery Westinghouse 200L Fridge freezer"></div></div>
+<div class="user-ad-row-new-design__main-content">
+<p class="user-ad-row-new-design__title"><span class="user-ad-row-new-design__title-span">Free delivery Westinghouse 200L Fridge freezer</span></p>
+<p class="user-ad-row-new-design__salary-detail"></p>
+<div id="user-ad-desc-MAIN-1322009245" class="user-ad-row-new-design__description user-ad-row-new-design__description--regular"><p class="user-ad-row-new-design__description-text">524
+Width (mm)
+595
+Depth (mm)
+1476
+Height (mm)
+Working condition Working condition
+Also have Fridge. Washing machine Dryer, Microwave available at my ad
+</p></div>
+</div>
+<div class="user-ad-row-new-design__right-content">
+<div><div class="user-ad-price-new-design user-ad-row-new-design__price">
+<span class="user-ad-price-new-design__price">$160</span><div class="user-ad-price__shipping-pickup">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 32 32" width="1em" height="1em" class="user-ad-price__shipping-pickup-icon"><path fill="currentColor" fill-rule="evenodd" d="M14.952.265a2.202 2.202 0 012.096 0l12.834 6.95c.333.181.615.446.813.773.199.327.305.702.305 1.086v13.852c0 .384-.106.76-.305 1.086-.198.327-.48.592-.813.772l-12.834 6.951a2.202 2.202 0 01-2.096 0l-12.834-6.95a2.148 2.148 0 01-.813-.773A2.092 2.092 0 011 22.926V9.074c0-.384.106-.76.305-1.086.198-.327.48-.592.813-.772l.477.88-.477-.88L14.952.265zM16 2a.202.202 0 00-.096.024L3.071 8.974a.148.148 0 00-.057.052.092.092 0 00-.014.048v13.852c0 .014.004.03.014.048.011.017.03.037.057.052l12.833 6.95a.202.202 0 00.192 0l12.833-6.95a.147.147 0 00.057-.052.091.091 0 00.014-.048V9.074a.092.092 0 00-.014-.048.148.148 0 00-.057-.052l-12.833-6.95A.202.202 0 0016 2z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M8.117 4.157a1 1 0 011.352-.414l14.15 7.514a1 1 0 01.53.883v7.302a1 1 0 11-2 0v-6.7L8.531 5.508a1 1 0 01-.414-1.352z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M1.28 8.031a1 1 0 011.354-.408l13.5 7.24 13.225-7.235a1 1 0 11.96 1.755l-13.7 7.494a1 1 0 01-.954.004L1.69 9.385a1 1 0 01-.409-1.354z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M16.147 15a1 1 0 01.99 1.01l-.136 15a1 1 0 11-2-.02l.137-15a1 1 0 011.009-.99z" clip-rule="evenodd"></path></svg><span>SHIPPING OFFERED</span>
+</div> </div></div>
+<div class="user-ad-row-new-design__location">Melbourne CBD, VIC<div>&lt; 2 km</div>
+</div>
+<p class="user-ad-row-new-design__age">24 minutes ago</p>
+<button id="" type="button" class="Button__button--2NsdC Button__buttonBasic--3CSBx undefined Button__buttonBase--3YR6h Button-main__button--3RLVh undefined user-ad-row-new-design__watchlist-heart-wrapper watchlist-heart" role=""><span class="" aria-hidden="true"><span class="icon-heart heart"></span></span></button>
+</div></a><div class="fuse-ads fuse-ads__fuse-srp-belly2-dweb fuse-ads__min-height-mweb" id="FUSE_SRP_BELLY2_DWEB" data-fuse="FUSE_SRP_BELLY2_DWEB" data-testid="FUSE_SRP_BELLY2_DWEB" data-fuse-code="fuse-slot-srp-3" data-fuse-zone-instance="zone-instance-srp-3" data-fuse-slot="fuse-slot-srp-3" data-fuse-processed-at="2133"><div id="fuse-slot-srp-3" class="fuse-slot" style="max-width: inherit; max-height: inherit;" data-google-query-id="CLT8ze6kqYQDFVGMrAIdK-IMww"><div id="google_ads_iframe_/30720440/gumtree.web/srp_2__container__" style="border: 0pt none; margin: auto; text-align: center;"><iframe id="google_ads_iframe_/30720440/gumtree.web/srp_2" name="google_ads_iframe_/30720440/gumtree.web/srp_2" title="3rd party ad content" width="970" height="250" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" aria-label="Advertisement" tabindex="0" style="border: 0px; vertical-align: bottom;" data-load-complete="true" data-google-container-id="6" data-integralas-id-6c63bfc6-dd6a-bfac-9d2b-d944c726952e=""></iframe></div></div></div>
+<a href="/s-ad/melbourne-cbd/washing-machines-dryers/free-delivery-miele-6kg-condenser-clothes-dryers/1322009230" id="user-ad-1322009230" class="user-ad-row-new-design link link--base-color-inherit link--hover-color-none link--no-underline" aria-label="FRee delivery Miele 6kg Condenser Clothes Dryers.
+        Price: $230 .
+        Location: Melbourne City, Melbourne CBD. Ad listed 25 minutes ago." aria-describedby="user-ad-desc-MAIN-1322009230"><div class="user-ad-image__wrapper"><div class="user-ad-image__main-image-wrapper"><img class="user-ad-image__thumbnail image image--is-hidden" src="" alt="FRee delivery Miele 6kg Condenser Clothes Dryers"></div></div>
+<div class="user-ad-row-new-design__main-content">
+<p class="user-ad-row-new-design__title"><span class="user-ad-row-new-design__title-span">FRee delivery Miele 6kg Condenser Clothes Dryers</span></p>
+<p class="user-ad-row-new-design__salary-detail"></p>
+<div id="user-ad-desc-MAIN-1322009230" class="user-ad-row-new-design__description user-ad-row-new-design__description--regular"><p class="user-ad-row-new-design__description-text">Height
+1450mm
+Width
+635mm
+Depth
+695mm
+CAPACITY
+ActiveSmart™ Foodcare
+Adaptive defrost
+Frost free
+working condition
+Also selling washing machine. and fridge microwave</p></div>
+</div>
+<div class="user-ad-row-new-design__right-content">
+<div><div class="user-ad-price-new-design user-ad-row-new-design__price">
+<span class="user-ad-price-new-design__price">$230</span><div class="user-ad-price__shipping-pickup">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 32 32" width="1em" height="1em" class="user-ad-price__shipping-pickup-icon"><path fill="currentColor" fill-rule="evenodd" d="M14.952.265a2.202 2.202 0 012.096 0l12.834 6.95c.333.181.615.446.813.773.199.327.305.702.305 1.086v13.852c0 .384-.106.76-.305 1.086-.198.327-.48.592-.813.772l-12.834 6.951a2.202 2.202 0 01-2.096 0l-12.834-6.95a2.148 2.148 0 01-.813-.773A2.092 2.092 0 011 22.926V9.074c0-.384.106-.76.305-1.086.198-.327.48-.592.813-.772l.477.88-.477-.88L14.952.265zM16 2a.202.202 0 00-.096.024L3.071 8.974a.148.148 0 00-.057.052.092.092 0 00-.014.048v13.852c0 .014.004.03.014.048.011.017.03.037.057.052l12.833 6.95a.202.202 0 00.192 0l12.833-6.95a.147.147 0 00.057-.052.091.091 0 00.014-.048V9.074a.092.092 0 00-.014-.048.148.148 0 00-.057-.052l-12.833-6.95A.202.202 0 0016 2z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M8.117 4.157a1 1 0 011.352-.414l14.15 7.514a1 1 0 01.53.883v7.302a1 1 0 11-2 0v-6.7L8.531 5.508a1 1 0 01-.414-1.352z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M1.28 8.031a1 1 0 011.354-.408l13.5 7.24 13.225-7.235a1 1 0 11.96 1.755l-13.7 7.494a1 1 0 01-.954.004L1.69 9.385a1 1 0 01-.409-1.354z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M16.147 15a1 1 0 01.99 1.01l-.136 15a1 1 0 11-2-.02l.137-15a1 1 0 011.009-.99z" clip-rule="evenodd"></path></svg><span>SHIPPING OFFERED</span>
+</div> </div></div>
+<div class="user-ad-row-new-design__location">Melbourne CBD, VIC<div>&lt; 2 km</div>
+</div>
+<p class="user-ad-row-new-design__age">25 minutes ago</p>
+<button id="" type="button" class="Button__button--2NsdC Button__buttonBasic--3CSBx undefined Button__buttonBase--3YR6h Button-main__button--3RLVh undefined user-ad-row-new-design__watchlist-heart-wrapper watchlist-heart" role=""><span class="" aria-hidden="true"><span class="icon-heart heart"></span></span></button>
+</div></a><a href="/s-ad/melbourne-cbd/fridges-freezers/free-delivery-kelvinator-390l-fridge-freezer/1322009105" id="user-ad-1322009105" class="user-ad-row-new-design link link--base-color-inherit link--hover-color-none link--no-underline" aria-label="Free delivery Kelvinator 390L Fridge freezer.
+        Price: $230 .
+        Location: Melbourne City, Melbourne CBD. Ad listed 35 minutes ago." aria-describedby="user-ad-desc-MAIN-1322009105"><div class="user-ad-image__wrapper"><div class="user-ad-image__main-image-wrapper"><img class="user-ad-image__thumbnail image image--is-hidden" src="" alt="Free delivery Kelvinator 390L Fridge freezer"></div></div>
+<div class="user-ad-row-new-design__main-content">
+<p class="user-ad-row-new-design__title"><span class="user-ad-row-new-design__title-span">Free delivery Kelvinator 390L Fridge freezer</span></p>
+<p class="user-ad-row-new-design__salary-detail"></p>
+<div id="user-ad-desc-MAIN-1322009105" class="user-ad-row-new-design__description user-ad-row-new-design__description--regular"><p class="user-ad-row-new-design__description-text">Height (mm)
+1720 mm
+Width (mm)
+703 mm
+Depth (mm)
+641 mm
+Total Volume
+390 L
+Frost Free
+Fridge Type
+Top Mount Fridge
+Features
+Frost free system
+working condition
+Also selling washing machine. and fridge microwave</p></div>
+</div>
+<div class="user-ad-row-new-design__right-content">
+<div><div class="user-ad-price-new-design user-ad-row-new-design__price">
+<span class="user-ad-price-new-design__price">$230</span><div class="user-ad-price__shipping-pickup">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 32 32" width="1em" height="1em" class="user-ad-price__shipping-pickup-icon"><path fill="currentColor" fill-rule="evenodd" d="M14.952.265a2.202 2.202 0 012.096 0l12.834 6.95c.333.181.615.446.813.773.199.327.305.702.305 1.086v13.852c0 .384-.106.76-.305 1.086-.198.327-.48.592-.813.772l-12.834 6.951a2.202 2.202 0 01-2.096 0l-12.834-6.95a2.148 2.148 0 01-.813-.773A2.092 2.092 0 011 22.926V9.074c0-.384.106-.76.305-1.086.198-.327.48-.592.813-.772l.477.88-.477-.88L14.952.265zM16 2a.202.202 0 00-.096.024L3.071 8.974a.148.148 0 00-.057.052.092.092 0 00-.014.048v13.852c0 .014.004.03.014.048.011.017.03.037.057.052l12.833 6.95a.202.202 0 00.192 0l12.833-6.95a.147.147 0 00.057-.052.091.091 0 00.014-.048V9.074a.092.092 0 00-.014-.048.148.148 0 00-.057-.052l-12.833-6.95A.202.202 0 0016 2z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M8.117 4.157a1 1 0 011.352-.414l14.15 7.514a1 1 0 01.53.883v7.302a1 1 0 11-2 0v-6.7L8.531 5.508a1 1 0 01-.414-1.352z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M1.28 8.031a1 1 0 011.354-.408l13.5 7.24 13.225-7.235a1 1 0 11.96 1.755l-13.7 7.494a1 1 0 01-.954.004L1.69 9.385a1 1 0 01-.409-1.354z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M16.147 15a1 1 0 01.99 1.01l-.136 15a1 1 0 11-2-.02l.137-15a1 1 0 011.009-.99z" clip-rule="evenodd"></path></svg><span>SHIPPING OFFERED</span>
+</div> </div></div>
+<div class="user-ad-row-new-design__location">Melbourne CBD, VIC<div>&lt; 2 km</div>
+</div>
+<p class="user-ad-row-new-design__age">35 minutes ago</p>
+<button id="" type="button" class="Button__button--2NsdC Button__buttonBasic--3CSBx undefined Button__buttonBase--3YR6h Button-main__button--3RLVh undefined user-ad-row-new-design__watchlist-heart-wrapper watchlist-heart" role=""><span class="" aria-hidden="true"><span class="icon-heart heart"></span></span></button>
+</div></a><a href="/s-ad/melbourne-cbd/fridges-freezers/free-delivery-stainless-steel-water-dispenser-hisense-624l-fridge/1322009080" id="user-ad-1322009080" class="user-ad-row-new-design link link--base-color-inherit link--hover-color-none link--no-underline" aria-label="Free delivery Stainless Steel Water dispenser Hisense 624L Fridge.
+        Price: $600 .
+        Location: Melbourne City, Melbourne CBD. Ad listed 37 minutes ago." aria-describedby="user-ad-desc-MAIN-1322009080"><div class="user-ad-image__wrapper"><div class="user-ad-image__main-image-wrapper"><img class="user-ad-image__thumbnail image image--is-hidden" src="" alt="Free delivery Stainless Steel Water dispenser Hisense 624L Fridge"></div></div>
+<div class="user-ad-row-new-design__main-content">
+<p class="user-ad-row-new-design__title"><span class="user-ad-row-new-design__title-span">Free delivery Stainless Steel Water dispenser Hisense 624L Fridge</span></p>
+<p class="user-ad-row-new-design__salary-detail"></p>
+<div id="user-ad-desc-MAIN-1322009080" class="user-ad-row-new-design__description user-ad-row-new-design__description--regular"><p class="user-ad-row-new-design__description-text">CURRENT MODEL RRP $1500
+Finish Colour
+Stainless Steel
+Finish Colour Description
+Grey Cabinet / Stainless Steel Doors
+Dispenser
+Water only
+Plumbing required
+No
+Total Volume
+624 L
+Side by Side
+535
+Other Features
+Door open alarm
+Temperature Control
+Electronic
+Frost Free
+Light type
+LED
+Fridge Type
+Side by Side Fridge
+Features
+● LED display with touch control
+● Super freeze function
+● Non-Plumbed water dispenser
+● Back rollers with front adjustable feet
+● Manual Fill water tank 4 Ltrs
+● Fridge Shelv</p></div>
+</div>
+<div class="user-ad-row-new-design__right-content">
+<div><div class="user-ad-price-new-design user-ad-row-new-design__price">
+<span class="user-ad-price-new-design__price">$600</span><div class="user-ad-price__shipping-pickup">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 32 32" width="1em" height="1em" class="user-ad-price__shipping-pickup-icon"><path fill="currentColor" fill-rule="evenodd" d="M14.952.265a2.202 2.202 0 012.096 0l12.834 6.95c.333.181.615.446.813.773.199.327.305.702.305 1.086v13.852c0 .384-.106.76-.305 1.086-.198.327-.48.592-.813.772l-12.834 6.951a2.202 2.202 0 01-2.096 0l-12.834-6.95a2.148 2.148 0 01-.813-.773A2.092 2.092 0 011 22.926V9.074c0-.384.106-.76.305-1.086.198-.327.48-.592.813-.772l.477.88-.477-.88L14.952.265zM16 2a.202.202 0 00-.096.024L3.071 8.974a.148.148 0 00-.057.052.092.092 0 00-.014.048v13.852c0 .014.004.03.014.048.011.017.03.037.057.052l12.833 6.95a.202.202 0 00.192 0l12.833-6.95a.147.147 0 00.057-.052.091.091 0 00.014-.048V9.074a.092.092 0 00-.014-.048.148.148 0 00-.057-.052l-12.833-6.95A.202.202 0 0016 2z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M8.117 4.157a1 1 0 011.352-.414l14.15 7.514a1 1 0 01.53.883v7.302a1 1 0 11-2 0v-6.7L8.531 5.508a1 1 0 01-.414-1.352z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M1.28 8.031a1 1 0 011.354-.408l13.5 7.24 13.225-7.235a1 1 0 11.96 1.755l-13.7 7.494a1 1 0 01-.954.004L1.69 9.385a1 1 0 01-.409-1.354z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M16.147 15a1 1 0 01.99 1.01l-.136 15a1 1 0 11-2-.02l.137-15a1 1 0 011.009-.99z" clip-rule="evenodd"></path></svg><span>SHIPPING OFFERED</span>
+</div> </div></div>
+<div class="user-ad-row-new-design__location">Melbourne CBD, VIC<div>&lt; 2 km</div>
+</div>
+<p class="user-ad-row-new-design__age">37 minutes ago</p>
+<button id="" type="button" class="Button__button--2NsdC Button__buttonBasic--3CSBx undefined Button__buttonBase--3YR6h Button-main__button--3RLVh undefined user-ad-row-new-design__watchlist-heart-wrapper watchlist-heart" role=""><span class="" aria-hidden="true"><span class="icon-heart heart"></span></span></button>
+</div></a><a href="/s-ad/melbourne-cbd/washing-machines-dryers/free-delivery-micrac-7-kg-washing-machine/1322009063" id="user-ad-1322009063" class="user-ad-row-new-design link link--base-color-inherit link--hover-color-none link--no-underline" aria-label="FREE DELIVERY Micrac 7.kg Washing Machine.
+        Price: $270 .
+        Location: Melbourne City, Melbourne CBD. Ad listed 38 minutes ago." aria-describedby="user-ad-desc-MAIN-1322009063"><div class="user-ad-image__wrapper"><div class="user-ad-image__main-image-wrapper"><img class="user-ad-image__thumbnail image image--is-hidden" src="" alt="FREE DELIVERY Micrac 7.kg Washing Machine"></div></div>
+<div class="user-ad-row-new-design__main-content">
+<p class="user-ad-row-new-design__title"><span class="user-ad-row-new-design__title-span">FREE DELIVERY Micrac 7.kg Washing Machine</span></p>
+<p class="user-ad-row-new-design__salary-detail"></p>
+<div id="user-ad-desc-MAIN-1322009063" class="user-ad-row-new-design__description user-ad-row-new-design__description--regular"><p class="user-ad-row-new-design__description-text">Micrac 7.kg Washing Machine
+Dimensions
+595 x 410 x 845mm
+10 Programs
+Delay Timer 3/6/12Hr
+Adjustable Leveling Legs
+Moisture Sensing
+Reversible Funciton
+working condition
+Also selling washing machine. and fridge microwave</p></div>
+</div>
+<div class="user-ad-row-new-design__right-content">
+<div><div class="user-ad-price-new-design user-ad-row-new-design__price">
+<span class="user-ad-price-new-design__price">$270</span><div class="user-ad-price__shipping-pickup">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 32 32" width="1em" height="1em" class="user-ad-price__shipping-pickup-icon"><path fill="currentColor" fill-rule="evenodd" d="M14.952.265a2.202 2.202 0 012.096 0l12.834 6.95c.333.181.615.446.813.773.199.327.305.702.305 1.086v13.852c0 .384-.106.76-.305 1.086-.198.327-.48.592-.813.772l-12.834 6.951a2.202 2.202 0 01-2.096 0l-12.834-6.95a2.148 2.148 0 01-.813-.773A2.092 2.092 0 011 22.926V9.074c0-.384.106-.76.305-1.086.198-.327.48-.592.813-.772l.477.88-.477-.88L14.952.265zM16 2a.202.202 0 00-.096.024L3.071 8.974a.148.148 0 00-.057.052.092.092 0 00-.014.048v13.852c0 .014.004.03.014.048.011.017.03.037.057.052l12.833 6.95a.202.202 0 00.192 0l12.833-6.95a.147.147 0 00.057-.052.091.091 0 00.014-.048V9.074a.092.092 0 00-.014-.048.148.148 0 00-.057-.052l-12.833-6.95A.202.202 0 0016 2z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M8.117 4.157a1 1 0 011.352-.414l14.15 7.514a1 1 0 01.53.883v7.302a1 1 0 11-2 0v-6.7L8.531 5.508a1 1 0 01-.414-1.352z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M1.28 8.031a1 1 0 011.354-.408l13.5 7.24 13.225-7.235a1 1 0 11.96 1.755l-13.7 7.494a1 1 0 01-.954.004L1.69 9.385a1 1 0 01-.409-1.354z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M16.147 15a1 1 0 01.99 1.01l-.136 15a1 1 0 11-2-.02l.137-15a1 1 0 011.009-.99z" clip-rule="evenodd"></path></svg><span>SHIPPING OFFERED</span>
+</div> </div></div>
+<div class="user-ad-row-new-design__location">Melbourne CBD, VIC<div>&lt; 2 km</div>
+</div>
+<p class="user-ad-row-new-design__age">38 minutes ago</p>
+<button id="" type="button" class="Button__button--2NsdC Button__buttonBasic--3CSBx undefined Button__buttonBase--3YR6h Button-main__button--3RLVh undefined user-ad-row-new-design__watchlist-heart-wrapper watchlist-heart" role=""><span class="" aria-hidden="true"><span class="icon-heart heart"></span></span></button>
+</div></a><a href="/s-ad/melbourne-cbd/fridges-freezers/free-delivery-stainless-steel-water-dispenser-lg-564l-fridge-freeze/1322009038" id="user-ad-1322009038" class="user-ad-row-new-design link link--base-color-inherit link--hover-color-none link--no-underline" aria-label="Free delivery Stainless Steel Water dispenser LG 564L Fridge / Freeze.
+        Price: $350 .
+        Location: Melbourne City, Melbourne CBD. Ad listed 40 minutes ago." aria-describedby="user-ad-desc-MAIN-1322009038"><div class="user-ad-image__wrapper"><div class="user-ad-image__main-image-wrapper"><img class="user-ad-image__thumbnail image image--is-hidden" src="" alt="Free delivery Stainless Steel Water dispenser LG 564L Fridge / Freeze"></div></div>
+<div class="user-ad-row-new-design__main-content">
+<p class="user-ad-row-new-design__title"><span class="user-ad-row-new-design__title-span">Free delivery Stainless Steel Water dispenser LG 564L Fridge / Freeze</span></p>
+<p class="user-ad-row-new-design__salary-detail"></p>
+<div id="user-ad-desc-MAIN-1322009038" class="user-ad-row-new-design__description user-ad-row-new-design__description--regular"><p class="user-ad-row-new-design__description-text">Total Volume
+564 L
+Other Features
+Fridge Type
+Top Mount Fridge
+Features
+Moist Balance crisper
+BioShield Door seals
+Water dispenser (Manual)
+Door alarm
+Deodoriser
+Door baskets Vegetable box
+Height (mm)
+1794 mm
+Width (mm)
+860 mm
+Depth (mm)
+733 mm Working condition Also have Fridge. Washing machine Dryer, Microwave available at my ad. . Free delivery option available depend on suburb</p></div>
+</div>
+<div class="user-ad-row-new-design__right-content">
+<div><div class="user-ad-price-new-design user-ad-row-new-design__price">
+<span class="user-ad-price-new-design__price">$350</span><div class="user-ad-price__shipping-pickup">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 32 32" width="1em" height="1em" class="user-ad-price__shipping-pickup-icon"><path fill="currentColor" fill-rule="evenodd" d="M14.952.265a2.202 2.202 0 012.096 0l12.834 6.95c.333.181.615.446.813.773.199.327.305.702.305 1.086v13.852c0 .384-.106.76-.305 1.086-.198.327-.48.592-.813.772l-12.834 6.951a2.202 2.202 0 01-2.096 0l-12.834-6.95a2.148 2.148 0 01-.813-.773A2.092 2.092 0 011 22.926V9.074c0-.384.106-.76.305-1.086.198-.327.48-.592.813-.772l.477.88-.477-.88L14.952.265zM16 2a.202.202 0 00-.096.024L3.071 8.974a.148.148 0 00-.057.052.092.092 0 00-.014.048v13.852c0 .014.004.03.014.048.011.017.03.037.057.052l12.833 6.95a.202.202 0 00.192 0l12.833-6.95a.147.147 0 00.057-.052.091.091 0 00.014-.048V9.074a.092.092 0 00-.014-.048.148.148 0 00-.057-.052l-12.833-6.95A.202.202 0 0016 2z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M8.117 4.157a1 1 0 011.352-.414l14.15 7.514a1 1 0 01.53.883v7.302a1 1 0 11-2 0v-6.7L8.531 5.508a1 1 0 01-.414-1.352z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M1.28 8.031a1 1 0 011.354-.408l13.5 7.24 13.225-7.235a1 1 0 11.96 1.755l-13.7 7.494a1 1 0 01-.954.004L1.69 9.385a1 1 0 01-.409-1.354z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M16.147 15a1 1 0 01.99 1.01l-.136 15a1 1 0 11-2-.02l.137-15a1 1 0 011.009-.99z" clip-rule="evenodd"></path></svg><span>SHIPPING OFFERED</span>
+</div> </div></div>
+<div class="user-ad-row-new-design__location">Melbourne CBD, VIC<div>&lt; 2 km</div>
+</div>
+<p class="user-ad-row-new-design__age">40 minutes ago</p>
+<button id="" type="button" class="Button__button--2NsdC Button__buttonBasic--3CSBx undefined Button__buttonBase--3YR6h Button-main__button--3RLVh undefined user-ad-row-new-design__watchlist-heart-wrapper watchlist-heart" role=""><span class="" aria-hidden="true"><span class="icon-heart heart"></span></span></button>
+</div></a><div class="fuse-ads fuse-ads__fuse-srp-belly3-dweb fuse-ads__min-height-mweb" id="FUSE_SRP_BELLY3_DWEB" data-fuse="FUSE_SRP_BELLY3_DWEB" data-testid="FUSE_SRP_BELLY3_DWEB" data-fuse-code="fuse-slot-srp-4" data-fuse-zone-instance="zone-instance-srp-4" data-fuse-slot="fuse-slot-srp-4" data-fuse-processed-at="2134"><div id="fuse-slot-srp-4" class="fuse-slot" style="max-width: inherit; max-height: inherit;" data-google-query-id="CLX8ze6kqYQDFVGMrAIdK-IMww"><div id="google_ads_iframe_/30720440/gumtree.web/srp_3__container__" style="border: 0pt none; margin: auto; text-align: center;"><iframe id="google_ads_iframe_/30720440/gumtree.web/srp_3" name="google_ads_iframe_/30720440/gumtree.web/srp_3" title="3rd party ad content" width="970" height="250" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" aria-label="Advertisement" tabindex="0" style="border: 0px; vertical-align: bottom;" data-load-complete="true" data-google-container-id="7" data-integralas-id-1b98121c-7208-fb59-dd0a-9a8d74f75ce5=""></iframe></div></div></div>
+<a href="/s-ad/truganina/fridges-freezers/appliances-sale-fridges-washers-combos-tvs-dryers/1322008804" id="user-ad-1322008804" class="user-ad-row-new-design link link--base-color-inherit link--hover-color-none link--no-underline" aria-label="APPLIANCES SALE FRIDGES-WASHERS-COMBOS-TVS-DRYERS.
+        Price: $379 .
+        Location: Melton Area, Truganina. Ad listed 2 hours ago." aria-describedby="user-ad-desc-MAIN-1322008804"><div class="user-ad-image__wrapper"><div class="user-ad-image__main-image-wrapper"><img class="user-ad-image__thumbnail image image--is-hidden" src="" alt="APPLIANCES SALE FRIDGES-WASHERS-COMBOS-TVS-DRYERS"></div></div>
+<div class="user-ad-row-new-design__main-content">
+<p class="user-ad-row-new-design__title"><span class="user-ad-row-new-design__title-span">APPLIANCES SALE FRIDGES-WASHERS-COMBOS-TVS-DRYERS</span></p>
+<p class="user-ad-row-new-design__salary-detail"></p>
+<div id="user-ad-desc-MAIN-1322008804" class="user-ad-row-new-design__description user-ad-row-new-design__description--regular">
+<ul class="user-ad-attributes user-ad-row-new-design__attributes">
+<li class="user-ad-attributes__attribute user-ad-attributes__attribute--bullet user-ad-row-new-design__attribute">Other</li>
+<li class="user-ad-attributes__attribute user-ad-attributes__attribute--bullet user-ad-row-new-design__attribute">Other</li>
+<li class="user-ad-attributes__attribute user-ad-attributes__attribute--bullet user-ad-row-new-design__attribute">Other</li>
+</ul>
+<p class="user-ad-row-new-design__description-text">APPLIANCES SALE FRIDGES-WASHERS-COMBOS-TVS-DRYERS 12 MONTHS WARRANTY Go Get appliances
+Address:unit 2 479 Dohertys rd Truganina Open 7 days
+Mon-Fri:10:00am-5:00pm
+Sat-Sun 10:00am-5:00pm https://www.gogetappliances.com.au/ 
+➡️WASHING MACHINES :— We sell Factory 2nds/ Factory refurbished minor used washing machines 7Kg washer starts from $380 ✅Hisense 7.5Kg washer 2023:$369
+✅Bosch 7Kg Avantix $379
+✅Bosch 7.5Kg Avantix :$399
+✅Fisher paykel 7.5Kg :$399
+✅Fisher paykel 8.5KG :$449
+✅LG 7Kg Dire</p>
+</div>
+</div>
+<div class="user-ad-row-new-design__right-content">
+<div><div class="user-ad-price-new-design user-ad-row-new-design__price">
+<span class="user-ad-price-new-design__price">$379</span><div class="user-ad-price__shipping-pickup">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 32 32" width="1em" height="1em" class="user-ad-price__shipping-pickup-icon"><path fill="currentColor" fill-rule="evenodd" d="M14.952.265a2.202 2.202 0 012.096 0l12.834 6.95c.333.181.615.446.813.773.199.327.305.702.305 1.086v13.852c0 .384-.106.76-.305 1.086-.198.327-.48.592-.813.772l-12.834 6.951a2.202 2.202 0 01-2.096 0l-12.834-6.95a2.148 2.148 0 01-.813-.773A2.092 2.092 0 011 22.926V9.074c0-.384.106-.76.305-1.086.198-.327.48-.592.813-.772l.477.88-.477-.88L14.952.265zM16 2a.202.202 0 00-.096.024L3.071 8.974a.148.148 0 00-.057.052.092.092 0 00-.014.048v13.852c0 .014.004.03.014.048.011.017.03.037.057.052l12.833 6.95a.202.202 0 00.192 0l12.833-6.95a.147.147 0 00.057-.052.091.091 0 00.014-.048V9.074a.092.092 0 00-.014-.048.148.148 0 00-.057-.052l-12.833-6.95A.202.202 0 0016 2z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M8.117 4.157a1 1 0 011.352-.414l14.15 7.514a1 1 0 01.53.883v7.302a1 1 0 11-2 0v-6.7L8.531 5.508a1 1 0 01-.414-1.352z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M1.28 8.031a1 1 0 011.354-.408l13.5 7.24 13.225-7.235a1 1 0 11.96 1.755l-13.7 7.494a1 1 0 01-.954.004L1.69 9.385a1 1 0 01-.409-1.354z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M16.147 15a1 1 0 01.99 1.01l-.136 15a1 1 0 11-2-.02l.137-15a1 1 0 011.009-.99z" clip-rule="evenodd"></path></svg><span>SHIPPING OFFERED</span>
+</div> </div></div>
+<div class="user-ad-row-new-design__location">Truganina, VIC<div>&lt; 20 km</div>
+</div>
+<p class="user-ad-row-new-design__age">2 hours ago</p>
+<button id="" type="button" class="Button__button--2NsdC Button__buttonBasic--3CSBx undefined Button__buttonBase--3YR6h Button-main__button--3RLVh undefined user-ad-row-new-design__watchlist-heart-wrapper watchlist-heart" role=""><span class="" aria-hidden="true"><span class="icon-heart heart"></span></span></button>
+</div></a><a href="/s-ad/box-hill/fridges-freezers/-215-liter-lg-fridge/1322008282" id="user-ad-1322008282" class="user-ad-row-new-design link link--base-color-inherit link--hover-color-none link--no-underline" aria-label="! 215 liter lg fridge.
+        Price: $190 .
+        Location: Whitehorse Area, Box Hill. Ad listed 3 hours ago." aria-describedby="user-ad-desc-MAIN-1322008282"><div class="user-ad-image__wrapper"><div class="user-ad-image__main-image-wrapper"><img class="user-ad-image__thumbnail image image--is-hidden" src="" alt="! 215 liter lg fridge"></div></div>
+<div class="user-ad-row-new-design__main-content">
+<p class="user-ad-row-new-design__title"><span class="user-ad-row-new-design__title-span">! 215 liter lg fridge</span></p>
+<p class="user-ad-row-new-design__salary-detail"></p>
+<div id="user-ad-desc-MAIN-1322008282" class="user-ad-row-new-design__description user-ad-row-new-design__description--regular"><p class="user-ad-row-new-design__description-text">! 215 liter lg fridge
+it is in very good condition. 
+size is 54cm w x 61cm d x 141cm h 
+All items are tested and it is in fully working condiiton. We can also take your old unwanted washing machine and fridge Delivery can be organized for a fee depending on the distance. 
+it is in good used , our warranty is 1 month to change or repair, but we do not offer refund. you can refer pictures for looking. 
+Please see my other ads for fridges , washing machine , dining sutes, beds, dryer, sofa..</p></div>
+</div>
+<div class="user-ad-row-new-design__right-content">
+<div><div class="user-ad-price-new-design user-ad-row-new-design__price">
+<span class="user-ad-price-new-design__price">$190</span> </div></div>
+<div class="user-ad-row-new-design__location">Box Hill, VIC<div>&lt; 16 km</div>
+</div>
+<p class="user-ad-row-new-design__age">3 hours ago</p>
+<button id="" type="button" class="Button__button--2NsdC Button__buttonBasic--3CSBx undefined Button__buttonBase--3YR6h Button-main__button--3RLVh undefined user-ad-row-new-design__watchlist-heart-wrapper watchlist-heart" role=""><span class="" aria-hidden="true"><span class="icon-heart heart"></span></span></button>
+</div></a><a href="/s-ad/box-hill/fridges-freezers/-good-size-420-liter-stainless-steel-whirlpool-fridge/1322008281" id="user-ad-1322008281" class="user-ad-row-new-design link link--base-color-inherit link--hover-color-none link--no-underline" aria-label="! Good size 420 liter stainless steel Whirlpool fridge.
+        Price: $300 .
+        Location: Whitehorse Area, Box Hill. Ad listed 3 hours ago." aria-describedby="user-ad-desc-MAIN-1322008281"><div class="user-ad-image__wrapper"><div class="user-ad-image__main-image-wrapper"><img class="user-ad-image__thumbnail image image--is-hidden" src="" alt="! Good size 420 liter stainless steel Whirlpool fridge"></div></div>
+<div class="user-ad-row-new-design__main-content">
+<p class="user-ad-row-new-design__title"><span class="user-ad-row-new-design__title-span">! Good size 420 liter stainless steel Whirlpool fridge</span></p>
+<p class="user-ad-row-new-design__salary-detail"></p>
+<div id="user-ad-desc-MAIN-1322008281" class="user-ad-row-new-design__description user-ad-row-new-design__description--regular"><p class="user-ad-row-new-design__description-text">! Good size 420 liter stainless steel Whirlpool fridge
+it is in very good condition. 
+size is 70 cm w x 70cm d x 165cm h 
+All items are tested and it is in fully working condiiton. We can also take your old unwanted washing machine and fridge Delivery can be organized for a fee depending on the distance. 
+it is in good used , our warranty is 1 month to change or repair, but we do not offer refund. you can refer pictures for looking. 
+Please see my other ads for fridges , washing machine ,</p></div>
+</div>
+<div class="user-ad-row-new-design__right-content">
+<div><div class="user-ad-price-new-design user-ad-row-new-design__price">
+<span class="user-ad-price-new-design__price">$300</span> </div></div>
+<div class="user-ad-row-new-design__location">Box Hill, VIC<div>&lt; 16 km</div>
+</div>
+<p class="user-ad-row-new-design__age">3 hours ago</p>
+<button id="" type="button" class="Button__button--2NsdC Button__buttonBasic--3CSBx undefined Button__buttonBase--3YR6h Button-main__button--3RLVh undefined user-ad-row-new-design__watchlist-heart-wrapper watchlist-heart" role=""><span class="" aria-hidden="true"><span class="icon-heart heart"></span></span></button>
+</div></a><a href="/s-ad/box-hill/fridges-freezers/-slim-278-liter-fridge/1322008280" id="user-ad-1322008280" class="user-ad-row-new-design link link--base-color-inherit link--hover-color-none link--no-underline" aria-label="! slim 278 liter fridge.
+        Price: $200 .
+        Location: Whitehorse Area, Box Hill. Ad listed 3 hours ago." aria-describedby="user-ad-desc-MAIN-1322008280"><div class="user-ad-image__wrapper"><div class="user-ad-image__main-image-wrapper"><img class="user-ad-image__thumbnail image image--is-hidden" src="" alt="! slim 278 liter fridge"></div></div>
+<div class="user-ad-row-new-design__main-content">
+<p class="user-ad-row-new-design__title"><span class="user-ad-row-new-design__title-span">! slim 278 liter fridge</span></p>
+<p class="user-ad-row-new-design__salary-detail"></p>
+<div id="user-ad-desc-MAIN-1322008280" class="user-ad-row-new-design__description user-ad-row-new-design__description--regular"><p class="user-ad-row-new-design__description-text">! slim 278 liter fridge 
+size is 163cm h x 58cm w x 58cm d 
+it works good All items are tested and it is in fully working condiiton. We can also take your old unwanted washing machine. Delivery can be organized for a fee depending on the distance. 
+it is in good used , our warranty is 1 month to change or repair, but we do not offer refund. you can refer pictures for looking. 
+Please see my other ads for fridges , washing machine , dining sutes, beds, dryer, sofa...</p></div>
+</div>
+<div class="user-ad-row-new-design__right-content">
+<div><div class="user-ad-price-new-design user-ad-row-new-design__price">
+<span class="user-ad-price-new-design__price">$200</span> </div></div>
+<div class="user-ad-row-new-design__location">Box Hill, VIC<div>&lt; 16 km</div>
+</div>
+<p class="user-ad-row-new-design__age">3 hours ago</p>
+<button id="" type="button" class="Button__button--2NsdC Button__buttonBasic--3CSBx undefined Button__buttonBase--3YR6h Button-main__button--3RLVh undefined user-ad-row-new-design__watchlist-heart-wrapper watchlist-heart" role=""><span class="" aria-hidden="true"><span class="icon-heart heart"></span></span></button>
+</div></a><a href="/s-ad/box-hill/fridges-freezers/-good-working-371-liter-samsung-fridge/1322008279" id="user-ad-1322008279" class="user-ad-row-new-design link link--base-color-inherit link--hover-color-none link--no-underline" aria-label="! good working 371 liter samsung fridge.
+        Price: $250 .
+        Location: Whitehorse Area, Box Hill. Ad listed 3 hours ago." aria-describedby="user-ad-desc-MAIN-1322008279"><div class="user-ad-image__wrapper"><div class="user-ad-image__main-image-wrapper"><img class="user-ad-image__thumbnail image image--is-hidden" src="" alt="! good working 371 liter samsung fridge"></div></div>
+<div class="user-ad-row-new-design__main-content">
+<p class="user-ad-row-new-design__title"><span class="user-ad-row-new-design__title-span">! good working 371 liter samsung fridge</span></p>
+<p class="user-ad-row-new-design__salary-detail"></p>
+<div id="user-ad-desc-MAIN-1322008279" class="user-ad-row-new-design__description user-ad-row-new-design__description--regular"><p class="user-ad-row-new-design__description-text">! good working 371 liter samsung fridge
+size is 67 cm x 65cmd 168cm h it is in good working order All items are tested and it is in fully working condition. We can also take your old unwanted washing machine and fridge Delivery can be organized for a fee depending on the distance. 
+it is in good used , our warranty is 1 month to change or repair, but we do not offer refund. you can refer pictures for looking. 
+Please see my other ads for fridges , washing machine , dining sutes, beds, d</p></div>
+</div>
+<div class="user-ad-row-new-design__right-content">
+<div><div class="user-ad-price-new-design user-ad-row-new-design__price">
+<span class="user-ad-price-new-design__price">$250</span> </div></div>
+<div class="user-ad-row-new-design__location">Box Hill, VIC<div>&lt; 16 km</div>
+</div>
+<p class="user-ad-row-new-design__age">3 hours ago</p>
+<button id="" type="button" class="Button__button--2NsdC Button__buttonBasic--3CSBx undefined Button__buttonBase--3YR6h Button-main__button--3RLVh undefined user-ad-row-new-design__watchlist-heart-wrapper watchlist-heart" role=""><span class="" aria-hidden="true"><span class="icon-heart heart"></span></span></button>
+</div></a><div class="fuse-ads fuse-ads__fuse-srp-adsense-infeed fuse-ads__min-height-mweb" id="FUSE_SRP_ADSENSE_INFEED" data-fuse="FUSE_SRP_ADSENSE_INFEED" data-testid="FUSE_SRP_ADSENSE_INFEED" data-fuse-code="fuse-slot-srp-5" data-fuse-zone-instance="zone-instance-srp-5" data-fuse-slot="fuse-slot-srp-5" data-fuse-processed-at="2135"><div id="fuse-slot-srp-5" class="fuse-slot" style="max-width: inherit; max-height: inherit;"></div></div>
+<a href="/s-ad/box-hill/fridges-freezers/-good-size-420-litter-kelvinator-fridge/1322008273" id="user-ad-1322008273" class="user-ad-row-new-design link link--base-color-inherit link--hover-color-none link--no-underline" aria-label="! good size 420 litter kelvinator fridge.
+        Price: $230 .
+        Location: Whitehorse Area, Box Hill. Ad listed 3 hours ago." aria-describedby="user-ad-desc-MAIN-1322008273"><div class="user-ad-image__wrapper"><div class="user-ad-image__main-image-wrapper"><img class="user-ad-image__thumbnail image image--is-hidden" src="" alt="! good size 420 litter kelvinator fridge"></div></div>
+<div class="user-ad-row-new-design__main-content">
+<p class="user-ad-row-new-design__title"><span class="user-ad-row-new-design__title-span">! good size 420 litter kelvinator fridge</span></p>
+<p class="user-ad-row-new-design__salary-detail"></p>
+<div id="user-ad-desc-MAIN-1322008273" class="user-ad-row-new-design__description user-ad-row-new-design__description--regular"><p class="user-ad-row-new-design__description-text">! good size 420 litter kelvinator fridge
+they are in good working order. same as pictures. size is 164cm h x 70cm w x 61cm d delivery fee is extra depend on distance All items are working good, so we do not offer refund, but we offer 1 month warranty to change another. we are selling other items, fridge, bed, sofa, washing machine, dining table...</p></div>
+</div>
+<div class="user-ad-row-new-design__right-content">
+<div><div class="user-ad-price-new-design user-ad-row-new-design__price">
+<span class="user-ad-price-new-design__price">$230</span> </div></div>
+<div class="user-ad-row-new-design__location">Box Hill, VIC<div>&lt; 16 km</div>
+</div>
+<p class="user-ad-row-new-design__age">3 hours ago</p>
+<button id="" type="button" class="Button__button--2NsdC Button__buttonBasic--3CSBx undefined Button__buttonBase--3YR6h Button-main__button--3RLVh undefined user-ad-row-new-design__watchlist-heart-wrapper watchlist-heart" role=""><span class="" aria-hidden="true"><span class="icon-heart heart"></span></span></button>
+</div></a><a href="/s-ad/box-hill/fridges-freezers/-esatto-210-liter-fridge/1322008272" id="user-ad-1322008272" class="user-ad-row-new-design link link--base-color-inherit link--hover-color-none link--no-underline" aria-label="! esatto 210 liter fridge.
+        Price: $180 .
+        Location: Whitehorse Area, Box Hill. Ad listed 3 hours ago." aria-describedby="user-ad-desc-MAIN-1322008272"><div class="user-ad-image__wrapper"><div class="user-ad-image__main-image-wrapper"><img class="user-ad-image__thumbnail image image--is-hidden" src="" alt="! esatto 210 liter fridge"></div></div>
+<div class="user-ad-row-new-design__main-content">
+<p class="user-ad-row-new-design__title"><span class="user-ad-row-new-design__title-span">! esatto 210 liter fridge</span></p>
+<p class="user-ad-row-new-design__salary-detail"></p>
+<div id="user-ad-desc-MAIN-1322008272" class="user-ad-row-new-design__description user-ad-row-new-design__description--regular"><p class="user-ad-row-new-design__description-text">! esatto 210 liter fridge
+size is 58cm wx 58cm d x 154cm h
+it works good All items are tested and it is in fully working condiiton. We can also take your old unwanted washing machine and fridge Delivery can be organized for a fee depending on the distance. 
+it is in good used , our warranty is 1 month to change or repair, but we do not offer refund. you can refer pictures for looking. 
+Please see my other ads for fridges , washing machine , dining sutes, beds, dryer, sofa...</p></div>
+</div>
+<div class="user-ad-row-new-design__right-content">
+<div><div class="user-ad-price-new-design user-ad-row-new-design__price">
+<span class="user-ad-price-new-design__price">$180</span> </div></div>
+<div class="user-ad-row-new-design__location">Box Hill, VIC<div>&lt; 16 km</div>
+</div>
+<p class="user-ad-row-new-design__age">3 hours ago</p>
+<button id="" type="button" class="Button__button--2NsdC Button__buttonBasic--3CSBx undefined Button__buttonBase--3YR6h Button-main__button--3RLVh undefined user-ad-row-new-design__watchlist-heart-wrapper watchlist-heart" role=""><span class="" aria-hidden="true"><span class="icon-heart heart"></span></span></button>
+</div></a><a href="/s-ad/box-hill/fridges-freezers/-slim-4-5-star-270-liter-whirlpool-fridge/1322008271" id="user-ad-1322008271" class="user-ad-row-new-design link link--base-color-inherit link--hover-color-none link--no-underline" aria-label="! slim 4.5 star 270 liter whirlpool fridge.
+        Price: $180 .
+        Location: Whitehorse Area, Box Hill. Ad listed 3 hours ago." aria-describedby="user-ad-desc-MAIN-1322008271"><div class="user-ad-image__wrapper"><div class="user-ad-image__main-image-wrapper"><img class="user-ad-image__thumbnail image image--is-hidden" src="" alt="! slim 4.5 star 270 liter whirlpool fridge"></div></div>
+<div class="user-ad-row-new-design__main-content">
+<p class="user-ad-row-new-design__title"><span class="user-ad-row-new-design__title-span">! slim 4.5 star 270 liter whirlpool fridge</span></p>
+<p class="user-ad-row-new-design__salary-detail"></p>
+<div id="user-ad-desc-MAIN-1322008271" class="user-ad-row-new-design__description user-ad-row-new-design__description--regular"><p class="user-ad-row-new-design__description-text">! slim 4.5 star 270 liter whirlpool fridge
+size is 55cm w x 63cm d x 167cm h
+it is in good working order All items are tested and it is in fully working condition. We can also take your old unwanted washing machine and fridge Delivery can be organized for a fee depending on the distance. 
+it is in good used , our warranty is 1 month to change or repair, but we do not offer refund. you can refer pictures for looking. 
+Please see my other ads for fridges , washing machine , dining sutes, bed</p></div>
+</div>
+<div class="user-ad-row-new-design__right-content">
+<div><div class="user-ad-price-new-design user-ad-row-new-design__price">
+<span class="user-ad-price-new-design__price">$180</span> </div></div>
+<div class="user-ad-row-new-design__location">Box Hill, VIC<div>&lt; 16 km</div>
+</div>
+<p class="user-ad-row-new-design__age">3 hours ago</p>
+<button id="" type="button" class="Button__button--2NsdC Button__buttonBasic--3CSBx undefined Button__buttonBase--3YR6h Button-main__button--3RLVh undefined user-ad-row-new-design__watchlist-heart-wrapper watchlist-heart" role=""><span class="" aria-hidden="true"><span class="icon-heart heart"></span></span></button>
+</div></a><a href="/s-ad/box-hill/fridges-freezers/-520-liter-stainless-steel-kelvinator-fridge/1322008270" id="user-ad-1322008270" class="user-ad-row-new-design link link--base-color-inherit link--hover-color-none link--no-underline" aria-label="! 520 liter stainless steel kelvinator fridge.
+        Price: $300 .
+        Location: Whitehorse Area, Box Hill. Ad listed 3 hours ago." aria-describedby="user-ad-desc-MAIN-1322008270"><div class="user-ad-image__wrapper"><div class="user-ad-image__main-image-wrapper"><img class="user-ad-image__thumbnail image image--is-hidden" src="" alt="! 520 liter stainless steel kelvinator fridge"></div></div>
+<div class="user-ad-row-new-design__main-content">
+<p class="user-ad-row-new-design__title"><span class="user-ad-row-new-design__title-span">! 520 liter stainless steel kelvinator fridge</span></p>
+<p class="user-ad-row-new-design__salary-detail"></p>
+<div id="user-ad-desc-MAIN-1322008270" class="user-ad-row-new-design__description user-ad-row-new-design__description--regular"><p class="user-ad-row-new-design__description-text">! 520 liter stainless steel kelvinator fridge
+it is in very good condition. 
+size is 78cm w x 75cm d x 174cm h All items are tested and it is in fully working condiiton. We can also take your old unwanted washing machine. Delivery can be organized for a fee depending on the distance.</p></div>
+</div>
+<div class="user-ad-row-new-design__right-content">
+<div><div class="user-ad-price-new-design user-ad-row-new-design__price">
+<span class="user-ad-price-new-design__price">$300</span> </div></div>
+<div class="user-ad-row-new-design__location">Box Hill, VIC<div>&lt; 16 km</div>
+</div>
+<p class="user-ad-row-new-design__age">3 hours ago</p>
+<button id="" type="button" class="Button__button--2NsdC Button__buttonBasic--3CSBx undefined Button__buttonBase--3YR6h Button-main__button--3RLVh undefined user-ad-row-new-design__watchlist-heart-wrapper watchlist-heart" role=""><span class="" aria-hidden="true"><span class="icon-heart heart"></span></span></button>
+</div></a>
+</div>

@@ -1,0 +1,6 @@
+<div class="">
+    <%= form_tag(update_url_path, method: :post, remote: true, id: 'update-url-form') do %>
+        <%= text_field_tag :url, @url, id: 'url-input' %>
+        <%= submit_tag 'Update URL' %>
+    <% end %>
+</div>

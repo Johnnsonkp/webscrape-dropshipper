@@ -1,0 +1,6 @@
+<% if @scraped_data.present? %> 
+    <% @scraped_data.each do |data| %> 
+        <% @count = data[:title].length %>
+    <% end %>
+    <%= @count %>
+<% end %>

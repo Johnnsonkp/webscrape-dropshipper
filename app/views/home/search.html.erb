@@ -1,0 +1,24 @@
+<section class="w-[100%] border h-[185vh] overflow-y-hidden">
+    <div class="m-auto">   
+        <h1 class="text-6xl text-red-700">Home</h1>
+
+        <div class="flex justify-between h-[100vh]">
+            <%= render partial: 'shared/sidenav', class: "flex-[0.2] h-[200vh]", locals: {data: @scraped_data }%>
+            <div class="flex justify-start flex-wrap border-green-700 flex-[0.9] w-[100%]">
+                <% @scraped_data.each do |data| %>
+                    <a class="border border-blue-700 w-min-[242px] w-max-[381px] w-[200px] h-[300px] m-2 overflow-hidden        rounded-sm"
+                        target="_blank"
+                        href="<%= data[:link]%>"
+                    >
+                        <%# <img class="w-[100%] rounded-sm" src="<%= @default_img %>" /> %>
+                        <span class="text-[12px]"><strong><%= data[:price] %></strong></span><br>
+                        <p class="text-[12px] mb-0 pb-0"><%= data[:title] %></p> 
+                        <%# <strong>Description:</strong> <%= data[:description] %> 
+                        <span class="block relative text-ellipsis whitespace-nowrap overflow-hidden text-[10px] mt-2"><p><%= data[:location] %></p></span><br>
+                    </a>
+                <%end%>
+            </div>
+        
+        </div>
+    </div>
+</section>
