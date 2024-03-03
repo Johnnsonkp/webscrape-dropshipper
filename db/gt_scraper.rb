@@ -14,16 +14,12 @@ end
 
 # HTML Parser
 doc = Nokogiri::HTML(response.body)
-# locations
-listing_location_arr = doc.css('.user-ad-collection-new-design__wrapper--row a .user-ad-row-new-design__location')
-# Listing description 
-listing_description_arr = doc.css('.user-ad-collection-new-design__wrapper--row a .user-ad-row-new-design__description-text')
-# Listing price 
-listing_price_arr = doc.css('.user-ad-collection-new-design__wrapper--row a .user-ad-price-new-design__price')
-# listing picture // link
-listing_link_arr = doc.css('.user-ad-collection-new-design__wrapper--row a')
-# Listing Title
-listing_title_arr = doc.css('.user-ad-collection-new-design__wrapper--row a .user-ad-row-new-design__title-span')
+    listing_location_arr = doc.css('.user-ad-collection-new-design__wrapper--row a .user-ad-row-new-design__location')
+    listing_description_arr = doc.css('.user-ad-collection-new-design__wrapper--row a .user-ad-row-new-design__description-text')
+    listing_price_arr = doc.css('.user-ad-collection-new-design__wrapper--row a .user-ad-price-new-design__price')
+    # listing picture // link
+    listing_link_arr = doc.css('.user-ad-collection-new-design__wrapper--row a')
+    listing_title_arr = doc.css('.user-ad-collection-new-design__wrapper--row a .user-ad-row-new-design__title-span')
 
 class Listing
     attr_accessor :title, :description, :price, :location, :link

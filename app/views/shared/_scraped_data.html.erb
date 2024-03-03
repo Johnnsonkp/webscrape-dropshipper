@@ -1,17 +1,23 @@
 <div class="flex justify-start flex-wrap border-green-700 w-[100%]">
     <% if @scraped_data.present? %>
         <% @scraped_data.each do |data| %>
-            <a class="border border-grey-700 w-min-[242px] w-max-[381px] w-[200px] h-[300px] m-1 overflow-hidden rounded-sm shadow-md"
-            target="_blank"
-            href="<%= data[:link] %>"
-            >
-            <%= image_tag 'fridge-img.jpg', alt: 'fridge', class: "w-[100%] rounded-sm h-[200px]" %>
-            <span class="text-[12px]"><strong><%= data[:price] %></strong></span><br>
-            <p class="text-[12px] mb-0 pb-0"><%= data[:title].slice(0, 50) %></p>
-            <span class="block relative text-ellipsis whitespace-nowrap overflow-hidden text-[10px] mt-2">
-                <p><%= data[:location] %></p>
-            </span><br>
-            </a>
+            <% if data[:link_to_img_src].present? %>
+                <a class="border border-grey-700 w-min-[242px] w-max-[381px] w-[200px] h-[300px] m-1 overflow-hidden rounded-sm shadow-md"
+                target="_blank"
+                href="<%= data[:link] %>"
+                >
+                <% if data[:link_to_img_src].present? %>
+                    <%= image_tag "#{data[:link_to_img_src]}", alt: 'fridge', class: "w-[100%] rounded-sm h-[200px]" %>
+                <% else %>
+                    <%= image_tag 'fridge-img.jpg', alt: 'fridge', class: "w-[100%] rounded-sm h-[200px]" %>   
+                <% end %>
+                <span class="text-[12px]"><strong><%= data[:price] %></strong></span><br>
+                <p class="text-[12px] mb-0 pb-0"><%= data[:title].slice(0, 50) %></p>
+                <span class="block relative text-ellipsis whitespace-nowrap overflow-hidden text-[10px] mt-2">
+                    <p><%= data[:location] %></p>
+                </span><br>
+                </a>
+            <%end %>
         <% end %>
     <% end %>
 </div>

@@ -1,0 +1,73 @@
+// How to scrape img src links from dynamcally generated imgs to attach to the scarped listings 
+// 1. Open page during scrape + scroll down page
+// 2. Add a wait till or look for 'image-is--visible' tag
+// 3. Save the html page 
+// 4. Read and display contents of page 
+
+
+
+
+
+
+Src: https://gumtreeau-res.cloudinary.com/image/private/t_$_s-l400/gumtree/41aa7aa4-2795-4ca0-8a9e-f47d47c539ba.jpg
+link_to_img_src: [nil]
+
+Src: https://gumtreeau-res.cloudinary.com/image/private/t_$_s-l400/gumtree/7ef9628e-19e1-4ce2-9545-8a541d856ebe.jpg
+link_to_img_src: [nil, nil]
+
+Link: https://www.gumtree.com.au/s-ad/west-melbourne/cars-vans-utes/2010-nissan-patrol-dx-4x4-5-sp-manual-coil-c-chas/1320956857
+Src: https://gumtreeau-res.cloudinary.com/image/private/t_$_s-l400/gumtree/0f13019c-e14d-4512-ab20-95829dce9308.jpg
+link_to_img_src: [nil, nil, nil]
+
+Link: https://www.gumtree.com.au/s-ad/dandenong/cars-vans-utes/2018-ford-ranger-wildtrak-3-2-automatic-ute/1317970768
+Src: https://gumtreeau-res.cloudinary.com/image/private/t_$_s-l400/gumtree/c11654f9-c2c6-4462-b166-dd9c49b4eec4.jpg
+link_to_img_src: [nil, nil, nil, nil]
+
+Link: https://www.gumtree.com.au/s-ad/campbellfield/caravans/17-ft-full-off-road-ready-now/1319433491
+Src: https://gumtreeau-res.cloudinary.com/image/private/t_$_s-l400/move/fe0cadfd-13fa-4067-b801-ab0b9ea74329
+link_to_img_src: [nil, nil, nil, nil, nil]
+
+link: https://www.gumtree.com.au/s-ad/st-kilda/fridges-freezers/quality-used-whitegoods-and-furniture-delivered-with-warranty/1314085054
+Src: https://gumtreeau-res.cloudinary.com/image/private/t_$_s-l400/gumtree/f921164b-c9e1-4368-a4b7-1e00feaa3257.png
+link_to_img_src: [nil, nil, nil, nil, nil, nil]
+
+16:24:10 web.1  | URL initialize: https://www.gumtree.com.au/s-ad/williamstown-north/cars-vans-utes/2016-toyota-landcruiser-200-series-sahara-4x4-turbo-diesel-v8-/1320569328
+16:24:15 web.1  | Src:, https://gumtreeau-res.cloudinary.com/image/private/t_$_s-l400/move/11ce1cee-6833-4f98-898f-7f5db975eddelink_to_img_src: [nil, nil, nil, nil, nil, nil, nil]
+16:24:15 web.1  | URL initialize: https://www.gumtree.com.au/s-ad/brooklyn/cars-vans-utes/2010-toyota-landcruiser-uzj200r-09-upgrade-sahara-4x4-silver-metallic-5-speed-automatic-wagon/1317650105
+16:24:27 web.1  | Src:, https://gumtreeau-res.cloudinary.com/image/private/t_$_s-l400/move/f0beb735-e3e2-4f2a-aa16-d52566563044link_to_img_src: [nil, nil, nil, nil, nil, nil, nil, nil]
+16:24:27 web.1  | URL initialize: https://www.gumtree.com.au/s-ad/caroline-springs/cars-vans-utes/2014-toyota-hilux-n70/1321974331
+16:24:31 web.1  | Src:, https://gumtreeau-res.cloudinary.com/image/private/t_$_s-l400/gumtree/7433966b-f9ac-4885-a35c-424256136811.jpglink_to_img_src: [nil, nil, nil, nil, nil, nil, nil, nil, nil]
+16:24:31 web.1  | URL initialize: https://www.gumtree.com.au/s-ad/dallas/fridges-freezers/bar-fridge-mini-fridge/1322416210
+16:24:43 web.1  | Src:, https://gumtreeau-res.cloudinary.com/image/private/t_$_s-l400/gumtree/ad42d64e-dc8a-46f3-aca4-73fefa32433c.jpglink_to_img_src: [nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+16:24:43 web.1  | URL initialize: https://www.gumtree.com.au/s-ad/st-kilda/property-for-rent/location-location-location-/1322416144
+16:24:46 web.1  | Src:, https://gumtreeau-res.cloudinary.com/image/private/t_$_s-l400/gumtree/dd5350db-aee0-49e2-966b-575ac7df7bff.jpglink_to_img_src: [nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+16:24:46 web.1  | URL initialize: https://www.gumtree.com.au/s-ad/melbourne-cbd/cars-vans-utes/2021-toyota-landcruiser-79-series/1321271392
+16:24:52 web.1  | Src:, https://gumtreeau-res.cloudinary.com/image/private/t_$_s-l400/gumtree/a12fc168-bc25-4a35-93a1-1dfa59e6cc84.jpglink_to_img_src: [nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+16:24:52 web.1  | URL initialize: https://www.gumtree.com.au/s-ad/melbourne-cbd/fridges-freezers/hisense-205l-top-mount-fridge/1322415897
+16:24:54 web.1  | Src:, https://gumtreeau-res.cloudinary.com/image/private/t_$_s-l400/gumtree/48eae4e6-9439-40e9-bb2b-fa20cf66df30.jpglink_to_img_src: [nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+16:24:54 web.1  | URL initialize: https://www.gumtree.com.au/s-ad/balaclava/fridges-freezers/chiq-202lt-fridge-3years-warranty-/1322411990
+16:24:57 web.1  | Src:, https://gumtreeau-res.cloudinary.com/image/private/t_$_s-l400/gumtree/cc9c2430-ad7a-481d-8f04-69b25971ee03.jpglink_to_img_src: [nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+16:24:57 web.1  | URL initialize: https://www.gumtree.com.au/s-ad/melbourne-cbd/cars-vans-utes/2018-mercedes-benz-vito-119-lwb-van-surf-trip-conversion-/1321973298
+16:25:01 web.1  | Src:, https://gumtreeau-res.cloudinary.com/image/private/t_$_s-l400/gumtree/e20d4e56-41f4-4e68-985b-ac9126a5178e.jpglink_to_img_src: [nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+16:25:01 web.1  | URL initialize: https://www.gumtree.com.au/s-ad/east-melbourne/fridges-freezers/chiq-283l-black-bottom-mount-fridge-rrp-799-selling-for-200/1322414879
+16:25:05 web.1  | Src:, https://gumtreeau-res.cloudinary.com/image/private/t_$_s-l400/gumtree/89bb851d-0a01-49cf-a5f1-3d0fc8805f50.jpglink_to_img_src: [nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+16:25:05 web.1  | URL initialize: https://www.gumtree.com.au/s-ad/camberwell/cars-vans-utes/landcruiser-1996-hzj80r-gxl-non-turbo-/1321269592
+16:25:08 web.1  | Src:, https://gumtreeau-res.cloudinary.com/image/private/t_$_s-l400/gumtree/7881414b-6ff0-48c5-9a6c-a2c84989d8a9.jpglink_to_img_src: [nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+16:25:08 web.1  | URL initialize: https://www.gumtree.com.au/s-ad/bulleen/camper-trailers/goldstream-storm/1319941430
+16:25:12 web.1  | Src:, https://gumtreeau-res.cloudinary.com/image/private/t_$_s-l400/gumtree/b79f4f26-1366-411c-b43b-d0033b14256a.jpglink_to_img_src: [nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+16:25:12 web.1  | URL initialize: https://www.gumtree.com.au/s-ad/templestowe/caravans/retreat-mabel-caravan-2015-excellent-condition-lots-of-extras/1322413887
+16:25:15 web.1  | Src:, https://gumtreeau-res.cloudinary.com/image/private/t_$_s-l400/gumtree/9b80ddb6-4b5d-4e17-bf18-245260064242.jpglink_to_img_src: [nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+16:25:15 web.1  | URL initialize: https://www.gumtree.com.au/s-ad/point-cook/camper-trailers/jayco-1988-swan/1322413693
+16:25:25 web.1  | Src:, https://gumtreeau-res.cloudinary.com/image/private/t_$_s-l400/gumtree/a70aa837-19d3-49b0-bc40-f24e4a98af59.jpglink_to_img_src: [nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+16:25:25 web.1  | URL initialize: https://www.gumtree.com.au/s-ad/st-kilda/flatshare-houseshare/cozy-and-sunlight-filled-room-for-a-female/1322410695
+16:25:36 web.1  | Src:, https://gumtreeau-res.cloudinary.com/image/private/t_$_s-l400/gumtree/2ede5507-8c5e-4ac4-b3a0-10017455ab49.jpglink_to_img_src: [nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+16:25:36 web.1  | URL initialize: https://www.gumtree.com.au/s-ad/richmond/cars-vans-utes/2008-toyota-landcruiser-gxl-4x4-5-sp-manual-troopcarrier/1319394006
+16:25:40 web.1  | Src:, https://gumtreeau-res.cloudinary.com/image/private/t_$_s-l400/gumtree/8b2cd046-1a34-4f59-a270-5940c762b542.jpglink_to_img_src: [nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+16:25:40 web.1  | URL initialize: https://www.gumtree.com.au/s-ad/delahey/fridges-freezers/samsung-400l-fridge-freezer/1322412087
+16:25:45 web.1  | Src:, https://gumtreeau-res.cloudinary.com/image/private/t_$_s-l400/gumtree/43f2c8ba-1439-4097-b545-006190b3ba1b.jpglink_to_img_src: [nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+16:25:45 web.1  | URL initialize: https://www.gumtree.com.au/s-ad/caulfield-south/fridges-freezers/-kelvonator-fridge-freezer-good-condition-working-well/1322411902
+16:25:48 web.1  | Src:, https://gumtreeau-res.cloudinary.com/image/private/t_$_s-l400/gumtree/1bb482ec-c44d-48a1-aa6d-a8ace4bdb164.jpglink_to_img_src: [nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+16:25:48 web.1  | URL initialize: https://www.gumtree.com.au/s-ad/mount-waverley/miscellaneous-goods/cm25g-tropicalised-four-door-bar-fridge/1322411685
+16:25:53 web.1  | Src:, https://gumtreeau-res.cloudinary.com/image/private/t_$_s-l400/gumtree/7ed9ad78-589f-4d13-b544-a0248cfb36a0.jpglink_to_img_src: [nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+16:25:53 web.1  | URL initialize: https://www.gumtree.com.au/s-ad/thornbury/fridges-freezers/best-lil-bar-fridge-ever-/1322411668
+16:25:54 web.1  | Completed 500 Internal Server Error in 144417ms (ActiveRecord: 0.0ms | Allocations: 115827)

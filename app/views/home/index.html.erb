@@ -1,14 +1,22 @@
-<section class="w-[100%] border h-[185vh] overflow-y-hidden">
+<section class="w-[100%] border h-[100%] overflow-y-hidden">
     <div class="flex justify-between">   
-        <%= render partial: 'shared/sidenav', class: "flex-[0.2] h-[200vh]", locals: {data: @scraped_data, url: @url }%> 
+        <%= render partial: 'shared/sidenav', class: "flex-[0.2] h-[100%]", locals: {data: @scraped_data, url: @url }%> 
 
-        <div class="flex-row justify-between h-[100vh] flex-[0.98]">
-            <div class="text-left mt-3 mb-5 text-[14px]">
-                <p><span class="text-bold">Scraped Url:</span> <a class="text-blue-500 underline" target="_blank" href="<%= @url %>" ><%= @url %></a></p>
-                <p>
-                    <span class="text-bold">Listings:</span>
-                    <%= render partial: 'shared/listing_count', locals: { scraped_data: @scraped_data } %> 
-                </p>
+        <div class="flex-row justify-between h-[100%] flex-[0.98]">
+            <div class="text-left mt-3 mb-5 text-[14px] flex justify-between w-[98%]">
+                <div>
+                    <p><span class="text-bold">Scraped Url:</span> <a class="text-blue-500 underline" target="_blank" href="<%= @url %>" ><%= @url %></a></p>
+                    <p>
+                        <span class="text-bold">Listings:</span>
+                        <%= render partial: 'shared/listing_count', locals: { scraped_data: @scraped_data } %> 
+                    </p>
+                </div>
+
+                <div class="flex align-top items-start">
+                    <%= render partial: 'shared/list_grid_button', class: '' %>
+                    <%= render partial: 'shared/grid_button', class: '' %>
+                    <%# <%= render partial: 'shared/dropdown_select', class: '' %> 
+                </div>
             </div>
             
             <%= render partial: 'shared/scraped_data', class: 'mx-auto', locals: { scraped_data: @scraped_data } %>

@@ -29,9 +29,14 @@ gem "jbuilder"
 # webscraper ges
 gem 'watir'
 gem 'pry'
-
 gem 'webdrivers', '= 5.3.0'
+gem 'nokogiri', '~> 1.11', '>= 1.11.7'
+
+# webscraper gems
+# gem 'watir', '~> 6.19', '>= 6.19.1'
+# gem 'webdrivers', '~> 4.6'
 # gem 'nokogiri', '~> 1.11', '>= 1.11.7'
+
 
 # Use Redis adapter to run Action Cable in production
 gem "redis", ">= 4.0.1"

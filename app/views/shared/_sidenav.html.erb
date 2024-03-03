@@ -1,21 +1,34 @@
 <div class="w-[320px] h-[200vh] bg-slate-200 p-2 shadow-md">
     <div class="flex-row w-[100%] mt-4">
         <%# <div class="border rounded-lg flex flex-nowrap"> %>
-        <div class="w-[100%] mb-3">
-            <%= form_tag(update_url_path, method: :post, remote: true, class: 'flex, w-[100%]', id: 'update-url-form') do %>
-                <%= text_field_tag :url, @url, id: 'url-input', placeholder: 'Enter url', class: ' w-[73%] rounded-lg text-[10px]' %>
-                <%= submit_tag 'Scrape URL', class: 'w-[25%] m-[auto] text-[10px] py-2 px-1 rounded-md bg-[#3B82F6] text-center cursor-pointer text-white' %>
+        <div class="w-[100%] mb-3 border-hidden">
+            <%= form_tag(update_url_path, method: :post, remote: true, class: 'flex, w-[100%] border-hidden', id: 'update-url-form') do %>
+                <%= text_field_tag :url, @url, id: 'url-input', placeholder: 'Enter url', class: ' w-[73%] rounded-lg text-[10px] border-gray-100 py-1' %>
+                <%= submit_tag 'Scrape URL', class: 'w-[25%] m-[auto] text-[10px] py-2 px-1 rounded-lg bg-[#3B82F6] text-center cursor-pointer text-white' %>
             <% end %>
         </div>
-        <hr>
+        <div class="border border-#e5e7eb-100 border-white"></div>
         <% data.each do |data| %>
-            <div class="text-left my-2 flex items-center">
-                <i class="fa-solid fa-border fa-lg fa-tag rounded-lg bg-[#3B82F6] text-#fff" style="--fa-border-radius: 1em; --fa-border-color: #3B82F6; --fa-border-padding: 0.3rem;
+            <div class="text-left my-2 flex items-center hover:bg-slate-400 rounded-md">
+                <i class="fa-solid fa-border fa-lg fa-tag rounded-lg bg-[#3B82F6] text-#fff" style="--fa-border-radius: 1em; --fa-border-color: #3B82F6; --fa-border-padding: 0.2rem;
                 --fa-primary-color: #fff;"></i>
-                 <a class="text-[11px] p-2 flex justify-between w-[100%]" href="<%= data[:link]%>" target="_blank">
+                 <a class="text-[10px] p-2 flex justify-between w-[100%] font-semibold" href="<%= data[:link]%>" target="_blank">
                     <%= data[:title].slice(0, 35) %> - <%= data[:price] %>
                 </a> 
             </div>
+            <hr class="w-[100%] border-gray-100">
         <% end %>
     </div>
+
+    <script>
+        function resetTextFieldOnLoad(){
+            document.addEventListener('DOMContentLoaded', () => {
+                if(document.getElementById('url-input')){
+                   const searchField = document.getElementById('url-input')
+                   searchField.value = "Enter url to be scraped"
+                }
+            });
+        }
+        resetTextFieldOnLoad()
+    </script>
 </div>
