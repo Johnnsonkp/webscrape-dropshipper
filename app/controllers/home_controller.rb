@@ -69,11 +69,53 @@ class HomeController < ApplicationController
     end
     # include Capybara::DSL
 
+    def scrape_url_to_file(url_link) 
+        url = url_link || "https://www.gumtree.com.au/s-men-s-shoes/melbourne-city/jordan/k0c18573l3001571"
+        # ScrapedContentObj = Struct.new(:title, :description, :price, :location, :url, :img_src) 
+        # PokemonProduct = Struct.new(:url, :image, :name, :price)
+        scraped_content = []
+
+        # configure Selenium
+        options = Selenium::WebDriver::Chrome::Options.new 
+        options.add_argument("--headless") 
+        driver = Selenium::WebDriver.for :chrome, options: options 
+
+        driver.navigate.to url
+        
+        html_content_dynamic_img = driver.find_elements(:css, '.image--is-visible') 
+        html_content_wrapper = driver.find_elements(:css, '.user-ad-collection-new-design__wrapper--row a') 
+        # href_link:
+        # in_href_page, tag to retrieve image src: .vip-ad-image__main-image--is-visible
+
+        if html_content_dynamic_img.present?
+            href_page_img_src = []
+            html_content_wrapper.each do |element|
+                options = Selenium::WebDriver::Chrome::Options.new 
+                options.add_argument("--headless") 
+                driver = Selenium::WebDriver.for :chrome, options: options
+
+                link_to_single_img_page = element.attribute("href")
+                
+                if link_to_single_img_page
+                    driver.navigate.to link_to_single_img_page
+                    # img_src = driver.find_element(:css, '.vip-ad-image__main-image--is-visible')
+        
+                    puts "//////////////////////////////////////////////////////////////////////////////////////////"
+                    puts link_to_single_img_page.length
+                    # puts link_to_single_img_page
+                    puts "//////////////////////////////////////////////////////////////////////////////////////////"
+                end
+            end 
+        end 
+        driver.quit
+    end
+
     def perform_scraping_logic(url) 
 
         if url
 
             # scrape_url_convert_to_txt_file(url)
+            scrape_url_to_file(url)
 
             # file_path = '/docContent.txt'
             # localStorage_data = localStorage.getItem("store_website_html");

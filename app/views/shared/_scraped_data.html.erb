@@ -7,7 +7,7 @@
                 href="<%= data[:link] %>"
                 >
                 <% if data[:link_to_img_src].present? %>
-                    <%= image_tag "#{data[:link_to_img_src]}", alt: 'fridge', class: "w-[100%] rounded-sm h-[200px]" %>
+                    <%= image_tag "#{data[:link_to_img_src]}", alt: 'fridge', class: "w-[100%] rounded-sm h-[200px] object-fill" %>
                 <% else %>
                     <%= image_tag 'fridge-img.jpg', alt: 'fridge', class: "w-[100%] rounded-sm h-[200px]" %>   
                 <% end %>
