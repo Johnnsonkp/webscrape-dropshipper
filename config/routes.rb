@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   
   # resources :home do
   #   post :update_url, on: :collection
-  # end
+  # end hhhhh
 
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
