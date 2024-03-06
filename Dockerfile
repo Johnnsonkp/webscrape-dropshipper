@@ -28,7 +28,7 @@ RUN bundle install && \
     bundle exec bootsnap precompile --gemfile
 
 # Copy application code
-COPY . .
+COPY . . 
 
 # ARG RAILS_MASTER_KEY
 # ENV RAILS_MASTER_KEY=$RAILS_MASTER_KEY
