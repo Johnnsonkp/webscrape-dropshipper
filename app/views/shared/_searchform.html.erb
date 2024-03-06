@@ -1,9 +1,9 @@
-<section>
-    <div class="">
-        <%= form_tag(update_url_path, method: :post, remote: true, id: 'update-url-form') do %>
-            <%# <%= text_field_tag :url @url, id: 'url-input', placeholder: 'Enter gumtree url' %> 
-            <%= text_field_tag , id: 'url-input', placeholder: 'Enter gumtree url' %>
-            <%= submit_tag 'Update URL' %>
-        <% end %>
-    </div>
-</section>
+ <div class="">
+    <%= form_tag(update_url_path, method: :post, remote: true, class: 'flex, border-hidden', id: 'update-url-form') do %>
+        <%= text_field_tag :url, id: 'url-input', placeholder: 'Enter url', class: 'rounded-lg text-[10px] border-gray-100 py-1' %>
+        <%= submit_tag 'Scrape URL', class: ' m-[auto] text-[10px] py-2 px-1 rounded-sm bg-[#3B82F6] text-center cursor-pointer text-white' %>
+    <% end %>
+</div>
+
+
+

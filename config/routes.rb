@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
-  root 'home#index'
+  # root 'home#index'
+  root 'home#search'
   post 'update_url', to: 'home#update_url' 
   # get '/search', to: 'home#search'
   

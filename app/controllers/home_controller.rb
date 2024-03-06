@@ -5,16 +5,17 @@ require 'nokogiri'
 require 'watir'
 require 'net/http'
 require 'timeout'
+require 'net/http'
 
 class HomeController < ApplicationController
-    before_action :set_url, only: [:index, :search, :update_url]
-    before_action -> { perform_scraping_logic(@url) }, only: [ :index, :search]
+    before_action :initialise_driver
+    # before_action :set_url, only: [:index, :update_url]
+    # before_action -> { perform_scraping_logic(@url) }, only: [ :index, :update_url]
 
     include Capybara::DSL
 
     def index
         @scraped_data = perform_scraping_logic(@url)
-        # puts "Index:  #{@scraped_data}"
 
         respond_to do |format|
             format.html
@@ -23,19 +24,66 @@ class HomeController < ApplicationController
     end
 
     def search
-        puts "search: #{@url}"
-        @scraped_data = perform_scraping_logic(@url)
+                
     end
 
+
     def update_url
-        @url = params[:url] || "https://www.gumtree.com.au/s-melbourne-city/fridge/k0l3001571r20"
-        @scraped_data = perform_scraping_logic(@url)
+        url = params[:url]
+        if validate_url_params(url)
+            handle_tcp_timeout_error(url)
+            @url = params[:url] 
+            @scraped_data = perform_scraping_logic(@url)
+        else 
+            puts "bad requesting. Redirecting..."
+            redirect_to '/', alert: "Error! please enter a valid Gumtree URL."
+        end
     end
 
     private
 
     def set_url
         @url = "https://www.gumtree.com.au/s-melbourne-city/fridge/k0l3001571r20"
+    end
+
+    def handle_tcp_timeout_error(url)
+        begin
+            # Your Net::HTTP communication code here
+            uri = URI(url)
+            response = Net::HTTP.get_response(uri)
+            # ...
+      
+          rescue Net::ReadTimeout
+            # Handle Net::ReadTimeout error
+            # flash.now[:alert] = 'The request timed out. Please try again later.'
+            redirect_to '/', alert: "The request timed out. Please try again later."
+      
+          rescue EOFError, IOError, SocketError => e
+            # Handle Socket errors or other I/O-related errors
+            # flash.now[:alert] = "Socket or I/O error: #{e.message}"
+            redirect_to '/', alert: "Socket or I/O error: #{e.message}"
+      
+          rescue StandardError => e
+            # Handle other standard errors
+            # flash.now[:alert] = "An unexpected error occurred: #{e.message}"
+            redirect_to '/', alert: "An unexpected error occurred: #{e.message}"
+      
+        end
+    end
+
+    def initialise_driver
+        options = Selenium::WebDriver::Chrome::Options.new
+        options.add_argument("--headless")
+        @driver = Selenium::WebDriver.for :chrome, options: options
+    end
+
+    def validate_url_params(entered_url)
+        valid_patterns = /\A(?:https:\/\/www\.gumtree\.com\.au\/s|gumtree\.com\.au\/s)/
+        if entered_url.match?(valid_patterns)
+            return true
+        else  
+            return false 
+        end
     end
 
     def get_src_from_saved_txt_file(file)
@@ -45,197 +93,75 @@ class HomeController < ApplicationController
         print "#{images[0]['src']}"
     end
 
-    def scrape_url_convert_to_txt_file(url_lnk)
-        url = url_lnk || "https://www.gumtree.com.au/s-men-s-shoes/melbourne-city/jordan/k0c18573l3001571"
-        puts "URL initialize: #{url}"
+    # def scrape_url_convert_to_txt_file(url_lnk)
+    #     url = url_lnk || "https://www.gumtree.com.au/s-men-s-shoes/melbourne-city/jordan/k0c18573l3001571"
+    #     puts "URL initialize: #{url}"
         
-        # Configure Capybara to use Selenium with a headless browser
-        Capybara.register_driver :selenium do |app|
-          Capybara::Selenium::Driver.new(app, browser: :chrome)
-        end
+    #     # Configure Capybara to use Selenium with a headless browser
+    #     Capybara.register_driver :selenium do |app|
+    #       Capybara::Selenium::Driver.new(app, browser: :chrome)
+    #     end
     
-        Capybara.default_driver = :selenium
-        visit url
-        execute_script("window.scrollTo(0, document.body.scrollHeight);")
-        has_css?('.image--is-visible', wait: 20)
+    #     Capybara.default_driver = :selenium
+    #     visit url
+    #     execute_script("window.scrollTo(0, document.body.scrollHeight);")
+    #     has_css?('.image--is-visible', wait: 20)
     
-        # Get the page source after the element has been dynamically rendered
-        page_source = page.body
-        File.open("docContent2.txt", "w") { |f| f.write "#{page_source}" }
-        # localStorage.setItem("store_website_html", JSON.parse(pageSource));
+    #     # Get the page source after the element has been dynamically rendered
+    #     page_source = page.body
+    #     File.open("docContent2.txt", "w") { |f| f.write "#{page_source}" }
 
-        Capybara.reset_sessions!
-        Capybara.use_default_driver
-    end
-    # include Capybara::DSL
+    #     # return page_source
+
+    #     Capybara.reset_sessions!
+    #     Capybara.use_default_driver
+    # end
 
     def scrape_url_to_file(url_link) 
-        url = url_link || "https://www.gumtree.com.au/s-men-s-shoes/melbourne-city/jordan/k0c18573l3001571"
-        # ScrapedContentObj = Struct.new(:title, :description, :price, :location, :url, :img_src) 
-        # PokemonProduct = Struct.new(:url, :image, :name, :price)
-        scraped_content = []
-
-        # configure Selenium
-        options = Selenium::WebDriver::Chrome::Options.new 
-        options.add_argument("--headless") 
-        driver = Selenium::WebDriver.for :chrome, options: options 
-
-        driver.navigate.to url
+        url = url_link
+        @driver.navigate.to url
         
-        html_content_dynamic_img = driver.find_elements(:css, '.image--is-visible') 
-        html_content_wrapper = driver.find_elements(:css, '.user-ad-collection-new-design__wrapper--row a') 
-        # href_link:
-        # in_href_page, tag to retrieve image src: .vip-ad-image__main-image--is-visible
+        html_content_wrapper = @driver.find_elements(:css, '.user-ad-collection-new-design__wrapper--row a') 
+        scraped_selenuim = html_content_wrapper
 
-        if html_content_dynamic_img.present?
-            href_page_img_src = []
-            html_content_wrapper.each do |element|
-                options = Selenium::WebDriver::Chrome::Options.new 
-                options.add_argument("--headless") 
-                driver = Selenium::WebDriver.for :chrome, options: options
+        process_scrape(scraped_selenuim)
+    end
 
-                link_to_single_img_page = element.attribute("href")
-                
-                if link_to_single_img_page
-                    driver.navigate.to link_to_single_img_page
-                    # img_src = driver.find_element(:css, '.vip-ad-image__main-image--is-visible')
+    def process_scrape(content)
+        @title = []
+        @description = []
+        @price = []
+        @location = []
+        @link = []
+        @link_src = []
         
-                    puts "//////////////////////////////////////////////////////////////////////////////////////////"
-                    puts link_to_single_img_page.length
-                    # puts link_to_single_img_page
-                    puts "//////////////////////////////////////////////////////////////////////////////////////////"
-                end
-            end 
-        end 
-        driver.quit
+        content.each do |element|
+            @title << element.find_element(:css, ".user-ad-row-new-design__title-span").text
+            @description << element.find_element(:css, ".user-ad-row-new-design__description-text").text
+            @price << element.find_element(:css, ".user-ad-price-new-design__price").text
+            @location << element.find_element(:css, ".user-ad-row-new-design__location").text
+            @link << element.attribute("href")
+            # @link_src << @dynamic_img
+        end
     end
 
     def perform_scraping_logic(url) 
-
         if url
-
-            # scrape_url_convert_to_txt_file(url)
             scrape_url_to_file(url)
-
-            # file_path = '/docContent.txt'
-            # localStorage_data = localStorage.getItem("store_website_html");
-
-            text_content = File.read("docContent.txt")
-            # content = '/db/output.html'
-            
-            # response = Net::HTTP.get_response(URI(url))
-            # if response.code != "200"
-            #     puts "Error: #{response.code}"
-            #     exit
-            # end
-            # HTML Parser
-            # doc = Nokogiri::HTML(response.body)
-            doc = Nokogiri::HTML(text_content)
-            doc = doc.css('#react-root')
-
-            title = []
-            description = []
-            price = []
-            location = []
-            link = []
-            link_to_img_src = []
-            link_to_img_src_arr = []
-            listings_array = []
-            first_link_to_img_src = []
-            
-            # locations
-            listing_location_arr = doc.css('.user-ad-collection-new-design__wrapper--row a .user-ad-row-new-design__location')
-            # Listing description 
-            listing_description_arr = doc.css('.user-ad-collection-new-design__wrapper--row a .user-ad-row-new-design__description-text')
-            # Listing price 
-            listing_price_arr = doc.css('.user-ad-collection-new-design__wrapper--row a .user-ad-price-new-design__price')
-            # listing picture // link
-            listing_link_arr = doc.css('.user-ad-collection-new-design__wrapper--row a')
-            # Listing Title
-            listing_title_arr = doc.css('.user-ad-collection-new-design__wrapper--row a .user-ad-row-new-design__title-span')
-
-            link_to_img_src = doc.css('.user-ad-collection-new-design__wrapper--row a .image--is-visible')
-            # link_to_img_src = []
-
-            # listing_link_arr.each do |node|
-
-            #     if(node.css('img')[0] && node.css('img')[0]['src'])
-            #         img_tag_test = node.css('img')[0]['src']
-
-            #         link_to_img_src.push(img_tag_test)
-            #     end
-
-            #     puts "link_to_img_src, #{link_to_img_src}"
-            # end
-
-
-            # link_to_img_src = doc.css('.user-ad-collection-new-design__wrapper--row a img.user-ad-image__thumbnail')
-
-            # item_container = doc.css('.user-ad-collection-new-design__wrapper--row a')
-
-
-            listing_title_arr.each do |node| 
-                title.push(node.content)
-            end
-            listing_description_arr.each do |node| 
-                description.push(node.content)
-            end
-            listing_price_arr.each do |node| 
-                price.push(node.content)
-            end
-            listing_location_arr.each do |node| 
-                location.push(node.content)
-            end
-            listing_link_arr.each do |node| 
-                href_attri = node['href']
-                link.push("https://www.gumtree.com.au" + href_attri)
-            end
-
-            # puts "link_to_img_src.length: #{link_to_img_src.length}"
-
-            link_to_img_src.each do |node| 
-                # img_tag_test = node.css('img')[0] && node.css('img')[0]['src'] || node.css('img')[1] && node.css('img')[1]['src']
-
-                link_to_img_src_arr.push(node['src'])
-
-                # print "link_to_img_src: #{node['src']} " + '/n'
-            end
-
-            link_to_img_src
-
-            # for i in 0..title.length - 1 
-            #     listings_array << [title[i], description[i], price[i], location[i], link[i], link_to_img_src_arr[i]]  
-            # end
-
-            for i in 0..title.length - 1 
-                listings_array << [title[i], description[i], price[i], location[i], link[i], link_to_img_src[0]]  
-            end
-
-            new_listings_array = title.map.with_index do |t, i|
+            @driver.quit
+            puts " @driver.quit:"
+            new_listings_array = @title.map.with_index do |t, i|
                 {
-                title: title[i],
-                description: description[i],
-                price: price[i],
-                location: location[i],
-                link: link[i],
-                link_to_img_src: link_to_img_src_arr[i]
+                title: @title[i],
+                description: @description[i],
+                price: @price[i],
+                location: @location[i],
+                link: @link[i],
+                # link_to_img_src: @link_src[i]
                 }
             end
 
-            # new_listings_array = title.map.with_index do |t, i|
-            #     {
-            #     title: title[i],
-            #     description: description[i],
-            #     price: price[i],
-            #     location: location[i],
-            #     link: link[i],
-            #     link_to_img_src: link_to_img_src[i]
-            #     }
-            # end
-
-            # puts "ink_to_img_src_arr.length: #{lnew_listings_array[:link_to_img_src]}"
-            # puts "ink_to_img_src_arr.length: #{link_to_img_src_arr.length}"
-            # puts "title.length: #{title.length}"
+            puts " Scrape finished [DONE]"
             return new_listings_array
         end
     end
