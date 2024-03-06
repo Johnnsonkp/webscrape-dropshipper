@@ -31,7 +31,6 @@ class HomeController < ApplicationController
     def update_url
         url = params[:url]
         if validate_url_params(url)
-            handle_tcp_timeout_error(url)
             @url = params[:url] 
             @scraped_data = perform_scraping_logic(@url)
         else 
@@ -46,30 +45,6 @@ class HomeController < ApplicationController
         @url = "https://www.gumtree.com.au/s-melbourne-city/fridge/k0l3001571r20"
     end
 
-    def handle_tcp_timeout_error(url)
-        begin
-            # Your Net::HTTP communication code here
-            uri = URI(url)
-            response = Net::HTTP.get_response(uri)
-            # ...
-      
-          rescue Net::ReadTimeout
-            # Handle Net::ReadTimeout error
-            # flash.now[:alert] = 'The request timed out. Please try again later.'
-            redirect_to '/', alert: "The request timed out. Please try again later."
-      
-          rescue EOFError, IOError, SocketError => e
-            # Handle Socket errors or other I/O-related errors
-            # flash.now[:alert] = "Socket or I/O error: #{e.message}"
-            redirect_to '/', alert: "Socket or I/O error: #{e.message}"
-      
-          rescue StandardError => e
-            # Handle other standard errors
-            # flash.now[:alert] = "An unexpected error occurred: #{e.message}"
-            redirect_to '/', alert: "An unexpected error occurred: #{e.message}"
-      
-        end
-    end
 
     def initialise_driver
         options = Selenium::WebDriver::Chrome::Options.new
@@ -118,13 +93,20 @@ class HomeController < ApplicationController
     # end
 
     def scrape_url_to_file(url_link) 
-        url = url_link
-        @driver.navigate.to url
-        
-        html_content_wrapper = @driver.find_elements(:css, '.user-ad-collection-new-design__wrapper--row a') 
-        scraped_selenuim = html_content_wrapper
+        begin 
+            url = url_link
+            @driver.navigate.to url
+            
+            html_content_wrapper = @driver.find_elements(:css, '.user-ad-collection-new-design__wrapper--row a') 
+            scraped_selenuim = html_content_wrapper
 
-        process_scrape(scraped_selenuim)
+            process_scrape(scraped_selenuim)
+        
+        rescue Net::ReadTimeout 
+            redirect_to '/', alert: "The request timed out. Please try again later."
+        rescue StandardError => e  
+            redirect_to '/', alert: "The StandardError. #{e.message}"
+        end 
     end
 
     def process_scrape(content)
