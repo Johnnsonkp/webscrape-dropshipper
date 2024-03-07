@@ -27,7 +27,7 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
-# webscraper ges
+# webscraper gems
 gem 'watir'
 gem 'pry'
 gem 'webdrivers', '= 5.3.0'
