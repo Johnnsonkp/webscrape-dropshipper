@@ -9,7 +9,7 @@
         <%# <h1 class="text-6xl text-red-700">Home</h1> %>
 
         <div class="flex justify-center items-center w-[100%] h-[100%]">
-            <%= render partial: 'shared/searchform', class: 'mx-auto w-[40%] border border-red-400' %>
+            <%= render partial: 'shared/searchform', class: 'mx-auto w-[40%] border border-red-400', locals: { url: @url } %>
         </div>
     </div>
 </section>

@@ -24,12 +24,13 @@ class HomeController < ApplicationController
     end
 
     def search
-                
+        @url = @url || "Enter URL to be scraped"
     end
 
 
     def update_url
         url = params[:url]
+        puts "update_url params: #{url}"
         if validate_url_params(url)
             @url = params[:url] 
             @scraped_data = perform_scraping_logic(@url)
@@ -54,9 +55,12 @@ class HomeController < ApplicationController
 
     def validate_url_params(entered_url)
         valid_patterns = /\A(?:https:\/\/www\.gumtree\.com\.au\/s|gumtree\.com\.au\/s)/
+
         if entered_url.match?(valid_patterns)
+            puts "url pattern valid: "
             return true
         else  
+            puts "url pattern is invalid "
             return false 
         end
     end
@@ -117,7 +121,9 @@ class HomeController < ApplicationController
         @link = []
         @link_src = []
         
-        content.each do |element|
+        content.each_with_index do |element, index|
+            break if index >= 5
+
             @title << element.find_element(:css, ".user-ad-row-new-design__title-span").text
             @description << element.find_element(:css, ".user-ad-row-new-design__description-text").text
             @price << element.find_element(:css, ".user-ad-price-new-design__price").text
@@ -125,6 +131,14 @@ class HomeController < ApplicationController
             @link << element.attribute("href")
             # @link_src << @dynamic_img
         end
+
+        @link.each do |inner_link|
+            @driver.navigate.to inner_link
+            
+            img_src = @driver.find_element(:css, '.vip-ad-image__main-image--is-visible') 
+            img_sources = img_src.attribute("src") || ""
+            puts "img_sources: #{img_sources}"
+        end 
     end
 
     def perform_scraping_logic(url) 
