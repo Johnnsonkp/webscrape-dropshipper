@@ -1,0 +1,2 @@
+class GumtreeScrape < ApplicationRecord
+end

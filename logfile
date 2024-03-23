@@ -1,0 +1,7 @@
+2024-03-17 09:39:21.189 AEDT [6530] LOG:  starting PostgreSQL 14.11 (Homebrew) on x86_64-apple-darwin23.2.0, compiled by Apple clang version 15.0.0 (clang-1500.1.0.2.5), 64-bit
+2024-03-17 09:39:21.192 AEDT [6530] LOG:  listening on IPv6 address "::1", port 5432
+2024-03-17 09:39:21.192 AEDT [6530] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-03-17 09:39:21.193 AEDT [6530] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-03-17 09:39:21.199 AEDT [6531] LOG:  database system was shut down at 2024-03-17 09:38:26 AEDT
+2024-03-17 09:39:21.203 AEDT [6530] LOG:  database system is ready to accept connections
+2024-03-17 09:39:56.351 AEDT [6568] FATAL:  database "fb_scraper_development" does not exist

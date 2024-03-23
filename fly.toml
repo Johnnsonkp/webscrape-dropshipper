@@ -1,16 +1,18 @@
-# fly.toml app configuration file generated for fb-scraper on 2024-03-07T22:50:10+11:00
+# fly.toml app configuration file generated for fb-scraper-old-paper-2255 on 2024-03-11T04:07:51+11:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'fb-scraper'
+app = 'fb-scraper-old-paper-2255'
 primary_region = 'syd'
 console_command = '/rails/bin/rails console'
 
 [build]
+  dockerfile = "Dockerfile"
 
 [deploy]
   release_command = './bin/rails db:prepare'
+
 
 [http_service]
   internal_port = 3000
@@ -43,3 +45,4 @@ console_command = '/rails/bin/rails console'
 [[statics]]
   guest_path = '/rails/public'
   url_prefix = '/'
+

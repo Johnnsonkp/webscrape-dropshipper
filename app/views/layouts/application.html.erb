@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Gumtree Scraper</title>
+    <title>Web Scraper Ecommerce</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -9,16 +9,14 @@
     <%= stylesheet_link_tag "application.tailwind.css", "inter-font", "data-turbo-track": "reload" %> 
     <%= stylesheet_link_tag "application", "inter-font", "data-turbo-track": "reload" %>
     <script src="https://kit.fontawesome.com/12f7de259f.js" crossorigin="anonymous"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.turbo.min.js"></script>
     <%# <%= stylesheet_link_tag "application.css", "data-turbo-track": "reload" %> 
     <%= javascript_importmap_tags %>
     <%= hotwire_livereload_tags if Rails.env.development? %>
   </head>
 
   <body>
-    <%# <main class=""> %>
       <%= render partial: 'shared/nav'%>
       <%= yield %>
-    <%# </main> %>
   </body>
 </html>

@@ -14,7 +14,7 @@
                             <i class="fa-solid fa-border fa-lg fa-tag rounded-lg bg-[#3B82F6] text-#fff" style="--fa-border-radius: 1em; --fa-border-color: #3B82F6; --fa-border-padding: 0.2rem;
                             --fa-primary-color: #fff;"></i>
                             <a class="text-[10px] p-1 flex justify-between w-[100%] font-semibold" href="<%= data[:link]%>" target="_blank">
-                                <%= data[:title].slice(0, 35) %> - <%= data[:price] %>
+                                <%= data[:url].slice(0, 50) %> 
                             </a> 
                         </div>
                         <hr class="w-[100%] border-gray-100">
@@ -22,7 +22,7 @@
                 <% end %>
             </div>
     </div>
-</div>
+</div> 
 
  <script>
     function resetTextFieldOnLoad(){

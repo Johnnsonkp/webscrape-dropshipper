@@ -1,20 +1,96 @@
-<div class="flex justify-start flex-wrap border-green-700 w-[100%]">
-    <% if @scraped_data.present? %>
-        <% @scraped_data.each do |data| %>
+<div class="flex justify-start flex-wrap border-green-700 w-[100%] mt-0 mb-8">
+
+    <button id="useSelectedInput" class="absolute top-[12%] right-[15%] inline-flex items-center p-2 w-20 h-20 justify-center text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 ">Post To Facebook</button>
+
+    <% if scraped_data.present? %>
+        <% scraped_data.each_with_index do |data, index| %>
+            <% puts "@data[@title]: #{data[:title]}"%>
             
-            <a class="border border-grey-700 w-min-[242px] w-max-[381px] w-[200px] h-[300px] m-1 overflow-hidden rounded-sm shadow-md"
-            target="_blank"
-            href="<%= data[:link] %>"
-            >
-            
-            <%= image_tag 'fridge-img.jpg', alt: 'fridge', class: "w-[100%] rounded-sm h-[200px]" %>   
-            <span class="text-[12px]"><strong><%= data[:price] %></strong></span><br>
-            <p class="text-[12px] mb-0 pb-0"><%= data[:title].slice(0, 50) %></p>
-            <span class="block relative text-ellipsis whitespace-nowrap overflow-hidden text-[10px] mt-2">
-                <p><%= data[:location] %></p>
-            </span><br>
-            </a>
+            <div class="mb-5 relative border border-grey-700 w-min-[242px] w-max-[381px] w-[200px] h-[320px] m-1 overflow-hidden rounded-sm shadow-md">
+                <input type="checkbox" class="absolute top-2 right-2" id="input">
+                <a
+                    target="_blank"
+                   <%# href=" `/gumtree_scrapes/#{data[:id]}` || data[:link_src]/edit" %>
+                   href="<%= data[:link_src] %>"
+                >
+                    <% if data[:link_src] %>
+                        <img id="img_src_id" src="<%= data[:link_src] %>"  class="w-[100%] rounded-sm h-[200px]"/>
+                    <% else %>
+                        <%= image_tag "fridge-img.jpg", alt: 'fridge-img.jpg', class: "w-[100%] rounded-sm h-[200px]" %> 
+                    <%end %>
+                    <span class="text-[12px]" id="price_id"><strong><%= data[:price] %></strong></span><br>
+                    <p class="text-[12px] mb-0 pb-0" id="title_id"><%= data[:title].slice(0, 30) %></p>
+                    <p class="text-[11px] mb-0 mt-1 pb-2" id="description_id"><%= data[:description].slice(0, 50) %></p>
+                    <div class="relative text-ellipsis whitespace-nowrap overflow-hidden text-[10px] mt-2 flex justify-between">
+                        <p id="location_id"><%= data[:location] %> </p> 
+                        <button><a class="text-[10px] text-white bg-blue-700" target="_blank" id="link_id" href="<%= data[:link] %>">Gumtree Post</a></button>
+                    </div><br>
+                </a>
+            </div>
         <%end %>
-    
     <% end %>
 </div>
+
+<script>
+    clicked_input = []
+    function selected_input(){
+        const input_array = document.querySelectorAll('#input')
+
+        input_array.forEach(element => {
+            element.addEventListener('click', () => {
+                const id = document.getElementById('data_id')
+                const title = document.getElementById('title_id')
+                const price = document.getElementById('price_id')
+                const description = document.getElementById('description_id')
+                const location = document.getElementById('location_id')
+                const img_src = document.getElementById('img_src_id')
+                const link = document.getElementById('link_id')
+                
+                clicked_input.push({
+                    'title': title.outerText,
+                    'price': price.outerText,
+                    'description': description.outerText,
+                    'location': location.outerText,
+                    "img": img_src.currentSrc,
+                    "link": link.href,
+                })
+            });
+
+        });
+    }
+    function handle_selected_input(){
+        const selectedInputBtn = document.getElementById('useSelectedInput')
+
+        selectedInputBtn.addEventListener('click', () => {
+            use_clicked_input()
+        })
+    }
+
+    function use_clicked_input() {
+        const jsonString = JSON.stringify(clicked_input);
+        const formattedJsonString = jsonString.replace(/,(?=\s*"[^"]+":)/g, ',\n');
+        const lines = formattedJsonString.split('\n');
+
+        // Open a new window with the JSON content
+        const windowName = 'popupWindow';
+        const windowFeatures = 'width=400,height=300,scrollbars=yes';
+
+        const newWindow = window.open(" ", windowName, windowFeatures);
+
+        newWindow.focus();
+
+        newWindow.resizeTo(500, 400);
+        newWindow.document.write('<pre style="font-family: monospace; font-size: 12px; padding: 10px;">');
+
+        lines.forEach(line => {
+            newWindow.document.write(line + '\n');
+        });
+        newWindow.document.write('</pre>');
+    }
+
+    handle_selected_input()   
+    selected_input()
+</script>
+
+            
+

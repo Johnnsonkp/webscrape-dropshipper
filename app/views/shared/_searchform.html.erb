@@ -1,6 +1,27 @@
-<%# <div class="border border-blue-400 m-auto p-4 max-w-screen-lg"> %>
-  <%= form_tag(update_url_path, method: :post, remote: true, class: 'flex', id: 'update-url-form') do %>
-    <%= text_field_tag :url, @url, placeholder: 'Enter URL', class: 'w-[450px] p-3 rounded-l-md border-r-0 focus:outline-none focus:ring focus:border-blue-300 border-box' %>
-    <%= submit_tag 'Scrape URL', class: 'bg-blue-500 text-white py-2 px-4 rounded-r-md cursor-pointer hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300' %>
-  <% end %>
-<%# </div> %>
+<div>
+    <%= form_tag(update_url_path, method: :post, remote: true, class: 'flex', id: 'update-url-form') do %>
+        <%= text_field_tag :url, @url.strip, id: "url-input-text", placeholder: 'Enter URL', class: 'w-[550px] p-3 rounded-l-md border-r-0 focus:outline-none focus:ring focus:border-blue-300 border-box text-1xl' %>
+        <%= submit_tag 'Scrape URL', class: 'bg-blue-500 text-white py-2 px-4 rounded-r-md cursor-pointer hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300' %>
+    <% end %>
+</div>
+
+ <script>
+    function resetTextFieldOnLoad(){
+        document.addEventListener('DOMContentLoaded', () => {
+            if(document.getElementById('url-input-text')){
+                const searchField = document.getElementById('url-input-text')
+                searchField.value = "Enter url to be scraped"
+            }
+        });
+    }
+    function emptyTextField(){
+        const searchField = document.getElementById('url-input-text')
+        searchField.addEventListener('click', () => {
+            if(searchField.value == "Enter url to be scraped"){
+                searchField.value = " "
+            }
+        })
+    }
+    emptyTextField()
+    resetTextFieldOnLoad()
+</script>

@@ -1,62 +1,43 @@
-require 'capybara'
-require 'capybara/dsl'
 require 'selenium-webdriver'
 require 'nokogiri'
 require 'watir'
 require 'net/http'
 require 'timeout'
-require 'net/http'
+require 'open-uri'
+require 'parallel'
+
 
 class HomeController < ApplicationController
-    before_action :initialise_driver
-    # before_action :set_url, only: [:index, :update_url]
-    # before_action -> { perform_scraping_logic(@url) }, only: [ :index, :update_url]
-
-    include Capybara::DSL
-
     def index
-        @scraped_data = perform_scraping_logic(@url)
-
-        respond_to do |format|
-            format.html
-            format.json { render json: { scraped_data: @scraped_data } }
-        end
+        @gumtree_scrapes = GumtreeScrape.all
     end
 
     def search
-        @url = @url || "Enter URL to be scraped"
+        @url = @url || "Enter URL to be scraped"       
     end
 
-
     def update_url
-        url = params[:url]
-        puts "update_url params: #{url}"
+        url = params[:url].strip
         if validate_url_params(url)
-            @url = params[:url] 
-            @scraped_data = perform_scraping_logic(@url)
+            @url = url
+            puts "scrape_url_to_file: #{url}"
+            html_content = fetch_html_content(@url)
+            @scraped_data = process_scrape(html_content)
         else 
             puts "bad requesting. Redirecting..."
-            redirect_to '/', alert: "Error! please enter a valid Gumtree URL."
+            redirect_to '/', alert: "Error! please enter a valid Gumtree URL."; return
         end
     end
 
     private
 
-    def set_url
-        @url = "https://www.gumtree.com.au/s-melbourne-city/fridge/k0l3001571r20"
-    end
-
-
-    def initialise_driver
-        options = Selenium::WebDriver::Chrome::Options.new
-        options.add_argument("--headless")
-        @driver = Selenium::WebDriver.for :chrome, options: options
+    def listings_to_doc_format(listing)
+        
     end
 
     def validate_url_params(entered_url)
         valid_patterns = /\A(?:https:\/\/www\.gumtree\.com\.au\/s|gumtree\.com\.au\/s)/
-
-        if entered_url.match?(valid_patterns)
+        if entered_url && entered_url.match?(valid_patterns)
             puts "url pattern valid: "
             return true
         else  
@@ -65,100 +46,68 @@ class HomeController < ApplicationController
         end
     end
 
-    def get_src_from_saved_txt_file(file)
-        html_content = File.read(file)
+    def fetch_html_content(url)
+        URI.open(url).read
+      rescue StandardError => e
+        puts "Error fetching HTML content: #{e.message}"
+        nil
+    end
+
+
+    def process_scrape(html_content)
+        return unless html_content
+        
         doc = Nokogiri::HTML(html_content)
-        images = doc.css('img')
-        print "#{images[0]['src']}"
-    end
-
-    # def scrape_url_convert_to_txt_file(url_lnk)
-    #     url = url_lnk || "https://www.gumtree.com.au/s-men-s-shoes/melbourne-city/jordan/k0c18573l3001571"
-    #     puts "URL initialize: #{url}"
+        puts "Processing scrape..."
+      
+        listings = []
+        threads = []
         
-    #     # Configure Capybara to use Selenium with a headless browser
-    #     Capybara.register_driver :selenium do |app|
-    #       Capybara::Selenium::Driver.new(app, browser: :chrome)
-    #     end
-    
-    #     Capybara.default_driver = :selenium
-    #     visit url
-    #     execute_script("window.scrollTo(0, document.body.scrollHeight);")
-    #     has_css?('.image--is-visible', wait: 20)
-    
-    #     # Get the page source after the element has been dynamically rendered
-    #     page_source = page.body
-    #     File.open("docContent2.txt", "w") { |f| f.write "#{page_source}" }
-
-    #     # return page_source
-
-    #     Capybara.reset_sessions!
-    #     Capybara.use_default_driver
-    # end
-
-    def scrape_url_to_file(url_link) 
-        begin 
-            url = url_link
-            @driver.navigate.to url
-            
-            html_content_wrapper = @driver.find_elements(:css, '.user-ad-collection-new-design__wrapper--row a') 
-            scraped_selenuim = html_content_wrapper
-
-            process_scrape(scraped_selenuim)
-        
-        rescue Net::ReadTimeout 
-            redirect_to '/', alert: "The request timed out. Please try again later."
-        rescue StandardError => e  
-            redirect_to '/', alert: "The StandardError. #{e.message}"
-        end 
-    end
-
-    def process_scrape(content)
-        @title = []
-        @description = []
-        @price = []
-        @location = []
-        @link = []
-        @link_src = []
-        
-        content.each_with_index do |element, index|
-            break if index >= 5
-
-            @title << element.find_element(:css, ".user-ad-row-new-design__title-span").text
-            @description << element.find_element(:css, ".user-ad-row-new-design__description-text").text
-            @price << element.find_element(:css, ".user-ad-price-new-design__price").text
-            @location << element.find_element(:css, ".user-ad-row-new-design__location").text
-            @link << element.attribute("href")
-            # @link_src << @dynamic_img
-        end
-
-        @link.each do |inner_link|
-            @driver.navigate.to inner_link
-            
-            img_src = @driver.find_element(:css, '.vip-ad-image__main-image--is-visible') 
-            img_sources = img_src.attribute("src") || ""
-            puts "img_sources: #{img_sources}"
-        end 
-    end
-
-    def perform_scraping_logic(url) 
-        if url
-            scrape_url_to_file(url)
-            @driver.quit
-            puts " @driver.quit:"
-            new_listings_array = @title.map.with_index do |t, i|
-                {
-                title: @title[i],
-                description: @description[i],
-                price: @price[i],
-                location: @location[i],
-                link: @link[i],
-                # link_to_img_src: @link_src[i]
-                }
+        doc.css('.user-ad-collection-new-design__wrapper--row a').first(5).each do |element|
+          threads << Thread.new do
+            begin
+              title = element.at_css('.user-ad-row-new-design__title-span').text
+              description = element.at_css('.user-ad-row-new-design__description-text').text
+              price = element.at_css('.user-ad-price-new-design__price').text
+              location = element.at_css('.user-ad-row-new-design__location').text
+              link = "https://www.gumtree.com.au#{element['href']}"
+              
+              src_options = Selenium::WebDriver::Chrome::Options.new
+              src_options.add_argument("--headless")
+              src_options.add_argument("--disable-extensions")
+              src_options.add_argument('--disable-application-cache')
+              src_options.add_argument('--disable-gpu')
+              src_options.add_argument("--no-sandbox")
+              src_options.add_argument("--disable-setuid-sandbox")
+              src_options.add_argument("--disable-dev-shm-usage")
+              
+              src_drive_init = Selenium::WebDriver.for :chrome, options: src_options
+              src_drive_init.navigate.to link
+              
+              sleep 5 # Set delay to give time to locate css selector
+              img_src = src_drive_init.find_element(:css, '.vip-ad-image__main-image--is-visible')
+              img_src_attribute = img_src.attribute("src")
+              
+              listings << {
+                title: title,
+                description: description,
+                price: price,
+                location: location,
+                link: link,
+                link_src: img_src_attribute
+              }
+            rescue StandardError => e
+              puts "Error processing listing: #{e.message}"
+            ensure
+              src_drive_init.quit if src_drive_init
             end
-
-            puts " Scrape finished [DONE]"
-            return new_listings_array
+          end
         end
+      
+        threads.each(&:join)
+        puts "Listings size: #{listings.size}"
+        listings
     end
+
+      
 end

@@ -1,0 +1,2 @@
+module GumtreeScrapesHelper
+end

@@ -33,18 +33,14 @@ gem 'pry'
 gem 'webdrivers', '= 5.3.0'
 gem 'nokogiri', '~> 1.11', '>= 1.11.7'
 
-# webscraper gems
-# gem 'watir', '~> 6.19', '>= 6.19.1'
-# gem 'webdrivers', '~> 4.6'
-# gem 'nokogiri', '~> 1.11', '>= 1.11.7'
-
-
 # Use Redis adapter to run Action Cable in production
 gem "redis", ">= 4.0.1"
 
 gem 'jquery-rails'
 
 gem 'dotenv-rails'
+
+gem 'parallel'
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
@@ -91,3 +87,5 @@ end
 gem "tailwindcss-rails", "~> 2.3"
 
 gem "dockerfile-rails", ">= 1.6", :group => :development
+
+gem "async", "~> 2.9"

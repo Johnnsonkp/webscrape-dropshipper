@@ -1,13 +1,16 @@
 Rails.application.routes.draw do
+  resources :gumtree_scrapes
 
-  # root 'home#index'
   root 'home#search'
+  get '/index', to: 'home#index'
+  get "home_index", to: 'home#index'
   post 'update_url', to: 'home#update_url' 
+  # get 'update_url', to: 'home#update_url' 
   # get '/search', to: 'home#search'
   
   # resources :home do
   #   post :update_url, on: :collection
-  # end hhhhh
+  # end 
 
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
