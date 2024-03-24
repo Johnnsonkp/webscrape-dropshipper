@@ -1,10 +1,12 @@
 <div class="flex justify-start flex-wrap border-green-700 w-[100%] mt-0 mb-8">
-
-    <button id="useSelectedInput" class="absolute top-[12%] right-[15%] inline-flex items-center p-2 w-20 h-20 justify-center text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 ">Post To Facebook</button>
-
     <% if scraped_data.present? %>
         <% scraped_data.each_with_index do |data, index| %>
             <% puts "@data[@title]: #{data[:title]}"%>
+
+            <div class="hidden">
+                <p id="contentWebsite"><%= data[:website] %></p>
+                <p id="contentUrl"><%= data[:url] %></p>
+            </div>
             
             <div class="mb-5 relative border border-grey-700 w-min-[242px] w-max-[381px] w-[200px] h-[320px] m-1 overflow-hidden rounded-sm shadow-md">
                 <input type="checkbox" class="absolute top-2 right-2" id="input">
@@ -27,12 +29,52 @@
                     </div><br>
                 </a>
             </div>
+
+
         <%end %>
     <% end %>
 </div>
 
+
 <script>
     clicked_input = []
+    // function saveItem() {
+    //     const saveBtn = document.querySelector('#save-items');
+
+    //     saveBtn.addEventListener('click', () => {
+    //         console.log('clicked')
+    //         const clickedInput = clicked_input;
+    //         console.log('clickedInput', clickedInput)
+
+    //         const myHash = {
+    //             url: clickedInput.url,
+    //             title: clickedInput.title,
+    //             description: clickedInput.description,
+    //             link: clickedInput.link,
+    //             link_src: clickedInput.img_src,
+    //             price: clickedInput.price,
+    //             location: clickedInput.location,
+    //             website: clickedInput.website
+    //         };
+
+    //         fetch('/gumtree_scrapes', {
+    //             method: 'POST',
+    //             headers: {
+    //             'Content-Type': 'application/json'
+    //         },
+    //             body: JSON.stringify(myHash)
+    //         })
+    //         .then(response => response.json())
+    //         .then(data => {
+    //             console.log(data.message);
+    //             console.log("data", data)
+    //         })
+    //         .catch(error => {
+    //             console.error('Error:', error);
+    //         });
+    //     });
+    // }
+
     function selected_input(){
         const input_array = document.querySelectorAll('#input')
 
@@ -45,6 +87,9 @@
                 const location = document.getElementById('location_id')
                 const img_src = document.getElementById('img_src_id')
                 const link = document.getElementById('link_id')
+
+                const website = document.getElementById('contentWebsite')
+                const url = document.getElementById('contentUrl')
                 
                 clicked_input.push({
                     'title': title.outerText,
@@ -53,11 +98,22 @@
                     'location': location.outerText,
                     "img": img_src.currentSrc,
                     "link": link.href,
+                    'website': website.outerText,
+                    'url': url.outerText
                 })
             });
-
         });
+        // saveItem()
     }
+    function handle_price_increase(){
+        const selectedInputBtn = document.getElementById('useSelectedInput')
+
+        clicked_input.forEach(() => {
+
+        })
+    }
+
+
     function handle_selected_input(){
         const selectedInputBtn = document.getElementById('useSelectedInput')
 
@@ -65,6 +121,7 @@
             use_clicked_input()
         })
     }
+
 
     function use_clicked_input() {
         const jsonString = JSON.stringify(clicked_input);

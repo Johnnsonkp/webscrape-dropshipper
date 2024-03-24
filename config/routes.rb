@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get '/index', to: 'home#index'
   get "home_index", to: 'home#index'
   post 'update_url', to: 'home#update_url' 
+  post 'price_increase', to: 'home#update_url'
   # get 'update_url', to: 'home#update_url' 
   # get '/search', to: 'home#search'
   

@@ -7,3 +7,4 @@ import "jquery_ujs";
 // import "flowbite-datepicker";
 // import "flowbite/dist/datepicker.turbo.js";
 // import "flowbite/dist/datepicker.turbo";
+

@@ -8,31 +8,47 @@ require 'parallel'
 
 
 class HomeController < ApplicationController
+  before_action :set_url_and_quantity, only: %i[ search ]
     def index
         @gumtree_scrapes = GumtreeScrape.all
     end
 
     def search
-        @url = @url || "Enter URL to be scraped"       
+        
     end
 
     def update_url
-        url = params[:url].strip
-        if validate_url_params(url)
-            @url = url
-            puts "scrape_url_to_file: #{url}"
+        if validate_url_params(params[:url].strip)
+            @url = params[:url].strip
+            quantity = params[:quantity].to_i
+          
             html_content = fetch_html_content(@url)
-            @scraped_data = process_scrape(html_content)
+            @scraped_data = process_scrape(html_content, quantity)
+
+
+            @scraped_data.each do |listing_params|
+              GumtreeScrape.create(listing_params)
+            end
         else 
             puts "bad requesting. Redirecting..."
             redirect_to '/', alert: "Error! please enter a valid Gumtree URL."; return
         end
     end
 
+    def price_increase
+      if @scraped_data.present?
+        @scraped_data.each do |item|
+          item.price = BigDecimal(item.price) * (1 + 0.40)
+          puts "item.price, #{item.price}"
+        end 
+      end
+    end 
+
     private
 
-    def listings_to_doc_format(listing)
-        
+    def set_url_and_quantity
+      @url = @url || "Enter URL to be scraped"  
+      @quantity = @quantity || '1'
     end
 
     def validate_url_params(entered_url)
@@ -54,7 +70,7 @@ class HomeController < ApplicationController
     end
 
 
-    def process_scrape(html_content)
+    def process_scrape(html_content, quantity)
         return unless html_content
         
         doc = Nokogiri::HTML(html_content)
@@ -62,8 +78,9 @@ class HomeController < ApplicationController
       
         listings = []
         threads = []
+        mutex = Mutex.new  # Create a mutex lock
         
-        doc.css('.user-ad-collection-new-design__wrapper--row a').first(5).each do |element|
+        doc.css('.user-ad-collection-new-design__wrapper--row a').first(quantity).each do |element|
           threads << Thread.new do
             begin
               title = element.at_css('.user-ad-row-new-design__title-span').text
@@ -80,7 +97,8 @@ class HomeController < ApplicationController
               src_options.add_argument("--no-sandbox")
               src_options.add_argument("--disable-setuid-sandbox")
               src_options.add_argument("--disable-dev-shm-usage")
-              
+
+            mutex.synchronize do  # Lock the mutex before executing code block
               src_drive_init = Selenium::WebDriver.for :chrome, options: src_options
               src_drive_init.navigate.to link
               
@@ -94,13 +112,15 @@ class HomeController < ApplicationController
                 price: price,
                 location: location,
                 link: link,
-                link_src: img_src_attribute
+                link_src: img_src_attribute,
+                url: @url,
+                website: 'Gumtree.com'
               }
-            rescue StandardError => e
-              puts "Error processing listing: #{e.message}"
-            ensure
               src_drive_init.quit if src_drive_init
             end
+          rescue StandardError => e
+            puts "Error processing listing: #{e.message}"
+          end
           end
         end
       
@@ -108,6 +128,4 @@ class HomeController < ApplicationController
         puts "Listings size: #{listings.size}"
         listings
     end
-
-      
 end

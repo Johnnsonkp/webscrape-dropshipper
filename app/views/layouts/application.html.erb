@@ -13,10 +13,29 @@
     <%# <%= stylesheet_link_tag "application.css", "data-turbo-track": "reload" %> 
     <%= javascript_importmap_tags %>
     <%= hotwire_livereload_tags if Rails.env.development? %>
+
+    <!-- Include Turbolinks Progress Bar -->
+    <%= javascript_include_tag 'https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.2.0/turbolinks.js' %>
+    <%= stylesheet_link_tag 'https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.2.0/turbolinks.css' %>
+
   </head>
 
   <body>
       <%= render partial: 'shared/nav'%>
       <%= yield %>
+
+
+    <script>
+
+      document.addEventListener('turbolinks:load', function() {
+        setTimeout(function() {
+          var html = document.querySelector('html');
+          html.style.display = 'none';
+          html.offsetHeight; // Trigger a reflow, flushing the CSS changes
+          html.style.display = '';
+        }, 0);
+      });
+
+    </script>
   </body>
 </html>

@@ -1,7 +1,9 @@
 <div>
-    <%= form_tag(update_url_path, method: :post, remote: true, class: 'flex', id: 'update-url-form') do %>
-        <%= text_field_tag :url, @url.strip, id: "url-input-text", placeholder: 'Enter URL', class: 'w-[550px] p-3 rounded-l-md border-r-0 focus:outline-none focus:ring focus:border-blue-300 border-box text-1xl' %>
-        <%= submit_tag 'Scrape URL', class: 'bg-blue-500 text-white py-2 px-4 rounded-r-md cursor-pointer hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300' %>
+    <%= form_tag(update_url_path, method: :post, remote: true, class: 'flex', id: 'update-url-form', 'data-turbolinks-action' => 'replace', onsubmit: 'launchLoadingScreen(event)') do %>
+        <%= text_field_tag :url, @url.strip, id: "url-input-text", class: 'w-[550px] p-3 rounded-l-md border-r-1 focus:outline-none focus:ring focus:border-blue-300 border-box text-1xl' %>
+        <%= label_tag "quantity", "No. of items:" %>
+        <%= number_field_tag :quantity, @quantity, class: "w-13", min: 1, max: 10 %>
+        <%= submit_tag 'Scrape URL', class: 'bg-blue-500 text-white py-2 px-1 rounded-r-md cursor-pointer hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300' %>
     <% end %>
 </div>
 
@@ -22,6 +24,20 @@
             }
         })
     }
+    function launchLoadingScreen(){
+        
+        const loadingScreen = document.querySelectorAll('.loading')
+        
+        console.log("loading")
+        console.log("loading", loadingScreen)
+
+        loadingScreen.forEach(element => {
+                console.log("show loading")
+                element.classList.remove('hidden')
+        });
+
+    }
+
     emptyTextField()
     resetTextFieldOnLoad()
 </script>
