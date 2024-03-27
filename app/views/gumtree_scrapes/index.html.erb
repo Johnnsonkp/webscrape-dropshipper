@@ -1,17 +1,13 @@
 <section class="w-[100%] border h-[100%] overflow-y-hidden">
-    <% if notice.present? %>
-      <p class="py-2 px-3 bg-green-50 mb-5 text-green-500 font-medium rounded-lg inline-block" id="notice"><%= notice %></p>
-    <% end %>
     
     <div class="flex justify-between">   
-        <%= render partial: 'shared/url_sidenav', class: "flex-[0.2] h-[100%]", locals: {data: @gumtree_scrapes, url: @url } %>
+        <%= render partial: 'shared/sidenav', class: "flex-[0.2] h-[100%]", locals: {data: @gumtree_scrapes, url: @url } %>
 
         <div class="flex-row justify-between h-[100%] flex-[0.98]">
             <div class="text-left mt-3 mb-5 text-[14px] flex justify-between w-[95%]">
                 <div>
-                    <p><span class="text-bold text-[13px]">Scraped Url:</span> <a class="text-blue-500 underline text-[13px]" target="_blank" href="<%= @url %>" ><%= @gumtree_scrapes[0]['link'] %></a></p>
                     <p>
-                        <span class="text-bold text-[13px]">Listings: <%= @gumtree_scrapes.count %></span>
+                        <span class="text-bold text-[15px]">Listings: <%= @gumtree_scrapes.count %></span>
                         <%= render partial: 'shared/listing_count', locals: { scraped_data: @gumtree_scrapes }  %>
                     </p>
                 </div>
@@ -25,21 +21,3 @@
         </div>
     </div>
 </section> 
-
-
-
-<%# Previouse code %>
-<!-- <div class="w-full">
-  <% if notice.present? %>
-    <p class="py-2 px-3 bg-green-50 mb-5 text-green-500 font-medium rounded-lg inline-block" id="notice"><%= notice %></p>
-  <% end %>
-
-  <div class="flex justify-between items-center">
-    <h1 class="font-bold text-4xl">Gumtree scrapes</h1>
-    <%= link_to "New gumtree scrape", new_gumtree_scrape_path, class: "rounded-lg py-3 px-5 bg-blue-600 text-white block font-medium" %>
-  </div>
-
-  <div id="gumtree_scrapes" class="min-w-full">
-    <%= render @gumtree_scrapes %>
-  </div>
-</div> -->

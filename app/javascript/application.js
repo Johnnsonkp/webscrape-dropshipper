@@ -3,8 +3,6 @@ import "@hotwired/turbo-rails";
 import "controllers";
 import "jquery";
 import "jquery_ujs";
-// import "flowbite";
-// import "flowbite-datepicker";
-// import "flowbite/dist/datepicker.turbo.js";
-// import "flowbite/dist/datepicker.turbo";
-
+import "flowbite";
+import "flowbite-datepicker";
+import "flowbite/dist/datepicker.turbo.js";

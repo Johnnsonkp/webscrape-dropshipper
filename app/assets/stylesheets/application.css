@@ -58,4 +58,9 @@ html.turbolinks-progress-bar::before {
       transform: rotate(360deg);
     }
   }
+  .activeLink{
+    color: #007bff !important;
+    border-bottom-width: 2px;
+    border-color: #2563eb !important;
+  }
   

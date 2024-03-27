@@ -3,7 +3,9 @@ class GumtreeScrapesController < ApplicationController
 
   # GET /gumtree_scrapes or /gumtree_scrapes.json
   def index
-    @gumtree_scrapes = GumtreeScrape.all
+    # @gumtree_scrapes = GumtreeScrape.all
+    @gumtree_scrapes = GumtreeScrape.order(created_at: :desc)
+
   end
 
   # GET /gumtree_scrapes/1 or /gumtree_scrapes/1.json
@@ -52,7 +54,7 @@ class GumtreeScrapesController < ApplicationController
     @gumtree_scrape.destroy!
 
     respond_to do |format|
-      format.html { redirect_to gumtree_scrapes_url, notice: "Gumtree scrape was successfully destroyed." }
+      format.html { redirect_to gumtree_scrapes_url, notice: "Gumtree scrape was successfully destroyed.", color: "bg-red-500" }
       format.json { head :no_content }
     end
   end
@@ -65,6 +67,7 @@ class GumtreeScrapesController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def gumtree_scrape_params
+      # params.require(:gumtree_scrape).permit(:url, :title, :description, :link, :link_src, :price, :location, :website)
       params.require(:gumtree_scrape).permit(:url, :title, :description, :link, :link_src, :price, :location, :website)
     end
 end

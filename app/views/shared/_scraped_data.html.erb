@@ -1,28 +1,29 @@
 <div class="flex justify-start flex-wrap border-green-700 w-[100%] mt-0 mb-8">
     <% if scraped_data.present? %>
         <% scraped_data.each_with_index do |data, index| %>
-            <% puts "@data[@title]: #{data[:title]}"%>
-
             <div class="hidden">
                 <p id="contentWebsite"><%= data[:website] %></p>
                 <p id="contentUrl"><%= data[:url] %></p>
             </div>
             
             <div class="mb-5 relative border border-grey-700 w-min-[242px] w-max-[381px] w-[200px] h-[320px] m-1 overflow-hidden rounded-sm shadow-md">
-                <input type="checkbox" class="absolute top-2 right-2" id="input">
+                <span style="font-size: 1.1em; color: Tomato; background-color: #fff; cursor: pointer;">
+                       <%= button_to "", gumtree_scrape_path(data), method: :delete, class: "mt-2 rounded-lg py-1 px-1 bg-gray-100 font-medium fa-regular fa-trash-can  absolute top-1 left-2" %>
+                </span>
+                <input type="checkbox" class="absolute top-4 right-2" id="input">
                 <a
                     target="_blank"
-                   <%# href=" `/gumtree_scrapes/#{data[:id]}` || data[:link_src]/edit" %>
-                   href="<%= data[:link_src] %>"
+                   href="/gumtree_scrapes/<%= data[:id]%>/edit"
+                   <%# href="data[:link_src] " %>
                 >
-                    <% if data[:link_src] %>
+                    <% if data[:link_src] != "" %>
                         <img id="img_src_id" src="<%= data[:link_src] %>"  class="w-[100%] rounded-sm h-[200px]"/>
                     <% else %>
                         <%= image_tag "fridge-img.jpg", alt: 'fridge-img.jpg', class: "w-[100%] rounded-sm h-[200px]" %> 
                     <%end %>
                     <span class="text-[12px]" id="price_id"><strong><%= data[:price] %></strong></span><br>
-                    <p class="text-[12px] mb-0 pb-0" id="title_id"><%= data[:title].slice(0, 30) %></p>
-                    <p class="text-[11px] mb-0 mt-1 pb-2" id="description_id"><%= data[:description].slice(0, 50) %></p>
+                    <p class="text-[11px] mb-0 pb-0" id="title_id"><%= data[:title].slice(0, 28) %></p>
+                    <p class="text-[10px] mb-0 mt-1 pb-2" id="description_id"><%= data[:description].slice(0, 50) %></p>
                     <div class="relative text-ellipsis whitespace-nowrap overflow-hidden text-[10px] mt-2 flex justify-between">
                         <p id="location_id"><%= data[:location] %> </p> 
                         <button><a class="text-[10px] text-white bg-blue-700" target="_blank" id="link_id" href="<%= data[:link] %>">Gumtree Post</a></button>
@@ -36,45 +37,9 @@
 </div>
 
 
+
 <script>
     clicked_input = []
-    // function saveItem() {
-    //     const saveBtn = document.querySelector('#save-items');
-
-    //     saveBtn.addEventListener('click', () => {
-    //         console.log('clicked')
-    //         const clickedInput = clicked_input;
-    //         console.log('clickedInput', clickedInput)
-
-    //         const myHash = {
-    //             url: clickedInput.url,
-    //             title: clickedInput.title,
-    //             description: clickedInput.description,
-    //             link: clickedInput.link,
-    //             link_src: clickedInput.img_src,
-    //             price: clickedInput.price,
-    //             location: clickedInput.location,
-    //             website: clickedInput.website
-    //         };
-
-    //         fetch('/gumtree_scrapes', {
-    //             method: 'POST',
-    //             headers: {
-    //             'Content-Type': 'application/json'
-    //         },
-    //             body: JSON.stringify(myHash)
-    //         })
-    //         .then(response => response.json())
-    //         .then(data => {
-    //             console.log(data.message);
-    //             console.log("data", data)
-    //         })
-    //         .catch(error => {
-    //             console.error('Error:', error);
-    //         });
-    //     });
-    // }
-
     function selected_input(){
         const input_array = document.querySelectorAll('#input')
 
@@ -136,7 +101,7 @@
 
         newWindow.focus();
 
-        newWindow.resizeTo(500, 400);
+        newWindow.resizeTo(900, 700);
         newWindow.document.write('<pre style="font-family: monospace; font-size: 12px; padding: 10px;">');
 
         lines.forEach(line => {

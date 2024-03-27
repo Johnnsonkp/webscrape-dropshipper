@@ -1,27 +1,42 @@
 
-<%# <section class="bg-white dark:bg-gray-900"> %>
 <section class="bg-white">
-    <% flash.each do |type, msg| %>
-        <div class="text-center bg-red-400 text-white">
-            <%= msg %>
-        </div>
-    <% end %>
     <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
         <h1 class="mb-4 text-3xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-5xl px-10">Creating E-Commerce Opportunities with Seamless Web Scraping</h1>
         <p class="mb-5 text-lg font-normal text-gray-500 lg:text-lg sm:px-16 lg:px-40 dark:text-gray-400">Scrape Gumtree Items -> Apply Price Markup -> Publish on Facebook Marketplace.</p>
 
 
-        <div class="flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 py-5 rounded-lg relative">
+        <div class="flex space-y-4 sm:flex-row sm:justify-center sm:space-y-0 py-5 rounded-lg relative">
 
             <div class="overlay loading hidden"></div>
             <div class="spinner loading hidden">
                 <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 cursor-pointer" alt="Flowbite Logo" />
             </div>
-            <p class="loading-text loading hidden">Loading...</p>
+            <p class="loading-text loading hidden">Processing scrape...</p>
 
 
-            <div class="flex border border-light-400 w-[65%] flex-col items-center justify-center m-[auto] py-5 pb-10 rounded-md">
-                <ul class="flex flex-wrap -mb-px text-sm font-medium text-center text-gray-500 dark:text-gray-400 m-[auto] w-[83%]">
+            <div class="flex-[0.5] max-w-md p-3 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 text-left">
+                <svg class="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M18 5h-.7c.229-.467.349-.98.351-1.5a3.5 3.5 0 0 0-3.5-3.5c-1.717 0-3.215 1.2-4.331 2.481C8.4.842 6.949 0 5.5 0A3.5 3.5 0 0 0 2 3.5c.003.52.123 1.033.351 1.5H2a2 2 0 0 0-2 2v3a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V7a2 2 0 0 0-2-2ZM8.058 5H5.5a1.5 1.5 0 0 1 0-3c.9 0 2 .754 3.092 2.122-.219.337-.392.635-.534.878Zm6.1 0h-3.742c.933-1.368 2.371-3 3.739-3a1.5 1.5 0 0 1 0 3h.003ZM11 13H9v7h2v-7Zm-4 0H2v5a2 2 0 0 0 2 2h3v-7Zm6 0v7h3a2 2 0 0 0 2-2v-5h-5Z"/>
+                </svg>
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">How it works?</h5>
+                </a>
+                <ul class="mb-3 font-normal text-gray-500 dark:text-gray-400 text-[14px] list-decimal list-inside">
+                    <li class="p-1">Go to <a href="">gumtree.com.au</a>. Search for your desired item, e.g., "Jordan shoes" in "Melbourne City".</li>
+                    <li class="p-1">Once you've reached the search results page with the listings you want, copy the URL ensuring the URL resembles this format: "https://www.gumtree.com.au/s- ....."</li>
+                    <li class="p-1">Paste the copied URL into the search field, adjust the amount of items to be scraped then hit the scrape URL button</li>
+                </ul>
+                <a href="#" class="inline-flex font-medium items-center text-blue-600 hover:underline">
+                    See our guideline
+                    <svg class="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778"/>
+                    </svg>
+                </a>
+            </div>
+
+
+            <div class="flex-[0.6] flex border border-light-400 w-[65%] flex-col items-center justify-center m-[auto] py-5 pb-10 rounded-md border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <ul class="flex flex-wrap -mb-px text-sm font-medium text-center text-gray-500 dark:text-gray-400 m-[auto] w-[83%] ">
                     <li class="me-2">
                         <a href="#" aria-current="page" class="flex p-4 text-blue-600 bg-gray-100 rounded-t-lg active">
                             <svg class="w-4 h-4 me-2 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 18">
@@ -35,16 +50,8 @@
                     </li>
                 </ul>
                 
-                <div class="flex-row justify-center items-center w-[85%] h-[100%] mt-[10px] m-[auto]">
-                    <ul class="hidden text-sm font-medium text-center text-gray-500 rounded-lg shadow sm:flex mb-1">
-                        <li class="w-sm focus-within:z-10">
-                            <a href="#" class="inline-block w-full px-2 py-1 text-gray-900 bg-gray-100 border-r border-gray-200 rounded-s-lg focus:ring-4 focus:ring-blue-300 active focus:outline-none text-[12px]" aria-current="page">Scrape Multiple Items</a>
-                        </li>
-                        <li class="w-sm focus-within:z-10">
-                            <a href="#" class="inline-block w-full px-2 py-1 bg-white border-r border-gray-200 hover:text-gray-700 hover:bg-gray-50 focus:ring-4 focus:ring-blue-300 focus:outline-none dark:hover:text-white text-[12px]">Scrape Single Item</a>
-                        </li>
-                    </ul>
-                     <%= render partial: 'shared/searchform', class: 'mx-auto w-[40%] border border-red-400', locals: { url: @url } %>
+                <div class="flex-row justify-center items-center mt-[5px] m-[auto] w-[85%] border">
+                     <%= render partial: 'shared/searchform', locals: { url: @url } %>
                 </div> 
             </div>
 

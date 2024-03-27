@@ -42,6 +42,8 @@ gem 'dotenv-rails'
 
 gem 'parallel'
 
+gem 'thread'
+
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 

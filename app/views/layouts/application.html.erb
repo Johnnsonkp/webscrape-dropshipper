@@ -9,33 +9,39 @@
     <%= stylesheet_link_tag "application.tailwind.css", "inter-font", "data-turbo-track": "reload" %> 
     <%= stylesheet_link_tag "application", "inter-font", "data-turbo-track": "reload" %>
     <script src="https://kit.fontawesome.com/12f7de259f.js" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.turbo.min.js"></script>
-    <%# <%= stylesheet_link_tag "application.css", "data-turbo-track": "reload" %> 
+
+    <%= stylesheet_link_tag "application.css", "data-turbo-track": "reload" %> 
     <%= javascript_importmap_tags %>
-    <%= hotwire_livereload_tags if Rails.env.development? %>
+    <!-- <%= hotwire_livereload_tags if Rails.env.development? %> -->
 
     <!-- Include Turbolinks Progress Bar -->
     <%= javascript_include_tag 'https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.2.0/turbolinks.js' %>
     <%= stylesheet_link_tag 'https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.2.0/turbolinks.css' %>
 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+
   </head>
 
   <body>
+      <% flash.each do |type, msg| %>
+        <%if type == "notice"%>
+          <div class="bg-green-50 mb-5 text-center text-green-500">
+              <%= msg %>
+          </div>
+        <% else %>
+          <div class="text-center bg-red-400 text-white mb-5">
+              <%= msg %>
+          </div>
+        <% end %>
+      <% end %>
+
       <%= render partial: 'shared/nav'%>
       <%= yield %>
 
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.turbo.min.js"></script>
 
-    <script>
-
-      document.addEventListener('turbolinks:load', function() {
-        setTimeout(function() {
-          var html = document.querySelector('html');
-          html.style.display = 'none';
-          html.offsetHeight; // Trigger a reflow, flushing the CSS changes
-          html.style.display = '';
-        }, 0);
-      });
-
-    </script>
   </body>
 </html>
