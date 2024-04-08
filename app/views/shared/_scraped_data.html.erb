@@ -6,30 +6,36 @@
                 <p id="contentUrl"><%= data[:url] %></p>
             </div>
             
-            <div class="mb-5 relative border border-grey-700 w-min-[242px] w-max-[381px] w-[200px] h-[320px] m-1 overflow-hidden rounded-sm shadow-md">
-                <span style="font-size: 1.1em; color: Tomato; background-color: #fff; cursor: pointer;">
-                       <%= button_to "", gumtree_scrape_path(data), method: :delete, class: "mt-2 rounded-lg py-1 px-1 bg-gray-100 font-medium fa-regular fa-trash-can  absolute top-1 left-2" %>
-                </span>
-                <input type="checkbox" class="absolute top-4 right-2" id="input">
-                <a
-                    target="_blank"
-                   href="/gumtree_scrapes/<%= data[:id]%>/edit"
-                   <%# href="data[:link_src] " %>
-                >
-                    <% if data[:link_src] != "" %>
-                        <img id="img_src_id" src="<%= data[:link_src] %>"  class="w-[100%] rounded-sm h-[200px]"/>
-                    <% else %>
-                        <%= image_tag "fridge-img.jpg", alt: 'fridge-img.jpg', class: "w-[100%] rounded-sm h-[200px]" %> 
-                    <%end %>
-                    <span class="text-[12px]" id="price_id"><strong><%= data[:price] %></strong></span><br>
-                    <p class="text-[11px] mb-0 pb-0" id="title_id"><%= data[:title].slice(0, 28) %></p>
-                    <p class="text-[10px] mb-0 mt-1 pb-2" id="description_id"><%= data[:description].slice(0, 50) %></p>
-                    <div class="relative text-ellipsis whitespace-nowrap overflow-hidden text-[10px] mt-2 flex justify-between">
-                        <p id="location_id"><%= data[:location] %> </p> 
-                        <button><a class="text-[10px] text-white bg-blue-700" target="_blank" id="link_id" href="<%= data[:link] %>">Gumtree Post</a></button>
-                    </div><br>
-                </a>
+            <div class="<%= Time.now - data.created_at <= 60 && 'rounded-md p-1 !bg-green-100' %>">
+                
+                <div class="mb-5 relative border border-grey-700 w-min-[242px] w-max-[381px] w-[200px] h-[320px] m-1 overflow-hidden rounded-sm shadow-md">
+                    <span style="font-size: 1.1em; color: Tomato; background-color: #fff; cursor: pointer;">
+                        
+                        <%= button_to "", gumtree_scrape_path(data), method: :delete, class: "mt-2 rounded-lg py-1 px-1 bg-gray-100 font-medium fa-regular fa-trash-can  absolute top-1 left-2" %>
+                    </span>
+                    <input type="checkbox" class="absolute top-4 right-2" id="input">
+                    <a
+                        target="_blank"
+                         <%# href="/gumtree_scrapes/= data[:id]/edit"    %>
+                        href="<%= data[:link] %>"
+                    <%# href="data[:link_src] " %>
+                    >
+                        <% if data[:link_src] != "" %>
+                            <img id="img_src_id" src="<%= data[:link_src] %>"  class="w-[100%] rounded-sm h-[200px]"/>
+                        <% else %>
+                            <%= image_tag "fridge-img.jpg", alt: 'fridge-img.jpg', class: "w-[100%] rounded-sm h-[200px]" %> 
+                        <%end %>
+                        <span class="text-[12px]" id="price_id"><strong><%= data[:price] %></strong></span><br>
+                        <p class="text-[11px] mb-0 pb-0" id="title_id"><%= data[:title].slice(0, 28) %></p>
+                        <p class="text-[10px] mb-0 mt-1 pb-2" id="description_id"><%= data[:description].slice(0, 50) %></p>
+                        <div class="relative text-ellipsis whitespace-nowrap overflow-hidden text-[10px] mt-2 flex justify-between">
+                            <p id="location_id" class="text-[8px]"><%= data[:location] %> </p> 
+                            <button><a class="text-[10px] text-white bg-blue-700" target="_blank" id="link_id" href="<%= data[:link] %>">Gumtree Post</a></button>
+                        </div><br>
+                    </a>
+                </div>
             </div>
+            
 
 
         <%end %>

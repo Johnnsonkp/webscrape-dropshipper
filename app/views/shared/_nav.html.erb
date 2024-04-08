@@ -1,9 +1,9 @@
 <%# <nav class="bg-white border-gray-20 border h-15"> %>
-<nav class="bg-white border-gray-20 h-15">
+<nav class="bg-white border border-gray-20 h-15">
     <div class="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto p-0 px-2">
         <div  class="flex items-center space-x-3 rtl:space-x-reverse">
             <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 cursor-pointer" alt="Flowbite Logo" />
-            <%= link_to "Eccomerce Scraper", root_path, class:"font-bold text-[15px]", method: :get %>
+            <%= link_to "Ecom Arbitrage", root_path, class:"font-bold text-[15px]", method: :get %>
         </div> 
         <div class="flex items-center md:order-2 space-x-1 md:space-x-2 rtl:space-x-reverse">            
             
@@ -34,7 +34,7 @@
                 
                 <li class="me-2">
                     <%# <a href="/" class="homeURL text-[14px] inline-flex items-center justify-center p-4  border-b-2 rounded-t-lg active dark:text-blue-500 dark:border-blue-500 group" aria-current="page"> %>
-                    <a href="/" class="homeURL text-[14px] inline-flex items-center justify-center pb-2 p-4  border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group">
+                    <a href="/" class="homeURL text-[14px] inline-flex items-center justify-center pb-2 p-4  border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 group">
                         <svg class="w-4 h-4 me-2 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 18">
                             <i class="fa-solid fa-square-plus mr-2"></i>
                         </svg>
@@ -42,17 +42,17 @@
                     </a>
                 </li>
                 <li class="me-2">
-                    <a href="/gumtree_scrapes" class="scraperItemsURL text-[14px] inline-flex items-center justify-center pb-2 p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group">
+                    <a href="/gumtree_scrapes" class="scraperItemsURL text-[14px] inline-flex items-center justify-center pb-2 p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 group">
                         <svg class="w-4 h-4 me-2 text-gray-400 group-hover:text-gray-500 dark:text-gray-500 dark:group-hover:text-gray-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                             <i class="fa-solid fa-folder-open mr-2"></i>
                         </svg>Scraped Items
                     </a>
                 </li>
                 <li class="me-2">
-                    <a href="#" class="text-[14px] inline-flex items-center justify-center pb-2 p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group">
+                    <a href="/gumtree_scrapes/sold" class="soldItemsURL text-[14px] inline-flex items-center justify-center pb-2 p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 group">
                         <svg class="w-4 h-4 me-2 text-gray-400 group-hover:text-gray-500 dark:text-gray-500 dark:group-hover:text-gray-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                             <i class="fa-solid fa-newspaper mr-2"></i>
-                        </svg>Docs
+                        </svg>Sold Items
                     </a>
                 </li>
             </ul>
@@ -69,8 +69,8 @@
     if( window.location.pathname == "/" ){
         document.querySelector('.homeURL').classList.add('activeLink')
     }
-    if( window.location.pathname == "/docs" ){
-        document.querySelector('.homeURL').classList.add('activeLink')
+    if( window.location.pathname == "/gumtree_scrapes/sold" ){
+        document.querySelector('.soldItemsURL').classList.add('activeLink')
     }
         
 </script>

@@ -31,7 +31,7 @@ class HomeController < ApplicationController
             @scraped_data.each do |listing_params|
               GumtreeScrape.create(listing_params)
             end
-            redirect_to '/gumtree_scrapes', notice: "Listing Scraped."
+            redirect_to '/gumtree_scrapes', notice: "Listing successfully scraped."
         else 
             puts "bad requesting. Redirecting..."
             redirect_to '/', alert: "Error! please enter a valid Gumtree URL."; return
@@ -116,15 +116,16 @@ class HomeController < ApplicationController
       
       doc = Nokogiri::HTML(html_content)
       listings = []
+      newLinkArr = []
       # @listings = []
       mutex = Mutex.new 
       thread_pool = Thread.pool(quantity) # Adjust the pool size based on your system's capability
 
-      # doc.css('.user-ad-collection-new-design__wrapper--row a').first(quantity).each do |element|
       links = doc.css('.user-ad-collection-new-design__wrapper--row a').to_a.shuffle
-        quantity.times do |i|
-          element = links[i]
-
+      newLinks = links.select { |link| !link['class']&.include?('user-ad-row-new-design--highlight') }
+      puts "newLink created #{newLinks}"
+      quantity.times do |i|
+        element = newLinks[i]
         thread_pool.process(element) do |element|
           begin
             title = element.at_css('.user-ad-row-new-design__title-span').text
@@ -135,6 +136,8 @@ class HomeController < ApplicationController
             puts "title, #{title}"
             
             mutex.synchronize do 
+              puts "In Mutex, #{link}"
+
               options = Selenium::WebDriver::Chrome::Options.new
               options.add_argument("--headless")
               options.add_argument("--disable-gpu")
@@ -142,7 +145,7 @@ class HomeController < ApplicationController
               options.add_argument("--disable-dev-shm-usage")
               
               driver = Selenium::WebDriver.for :chrome, options: options
-              driver.manage.timeouts.page_load = 20 # Set page load timeout to 30 seconds
+              driver.manage.timeouts.page_load = 60 # Set page load timeout to 30 seconds
               driver.navigate.to link
               puts "Driver navigating to link...., #{link}"
               # Implement retry mechanism
@@ -151,7 +154,6 @@ class HomeController < ApplicationController
                 # sleep 5 # Consider replacing this with a wait condition for the element to be present
                 wait = Selenium::WebDriver::Wait.new(timeout: 10) # Adjust timeout as needed
                 wait.until { driver.find_element(:css, '.vip-ad-image__main-image--is-visible') }
-
                 img_src = driver.find_element(:css, '.vip-ad-image__main-image--is-visible')
                 img_src_attribute = img_src.attribute("src")
 
@@ -203,69 +205,3 @@ class HomeController < ApplicationController
     end
 end
 
-
-
-
-
-
-
-
-
-# def process_scrape(html_content, quantity)
-#         return unless html_content
-#         doc = Nokogiri::HTML(html_content)
-#         puts "Processing scrape..."
-      
-#         listings = []
-#         threads = []
-#         mutex = Mutex.new  # Create a mutex lock
-        
-#           doc.css('.user-ad-collection-new-design__wrapper--row a').first(quantity).each do |element|
-#             threads << Thread.new do
-#               begin
-
-#                 title = element.at_css('.user-ad-row-new-design__title-span').text
-#                 description = element.at_css('.user-ad-row-new-design__description-text').text
-#                 price = element.at_css('.user-ad-price-new-design__price').text
-#                 location = element.at_css('.user-ad-row-new-design__location').text
-#                 link = "https://www.gumtree.com.au#{element['href']}"
-
-#                 src_options = Selenium::WebDriver::Chrome::Options.new
-#                 src_options.add_argument("--headless")
-#                 src_options.add_argument("--disable-extensions")
-#                 src_options.add_argument('--disable-application-cache')
-#                 src_options.add_argument('--disable-gpu')
-#                 src_options.add_argument("--no-sandbox")
-#                 src_options.add_argument("--disable-setuid-sandbox")
-#                 src_options.add_argument("--disable-dev-shm-usage")
-
-#               mutex.synchronize do  # Lock the mutex before executing code block
-#                 src_drive_init = Selenium::WebDriver.for :chrome, options: src_options
-#                 src_drive_init.navigate.to link
-                
-#                 sleep 5 # Set delay to give time to locate css selector
-#                 img_src = src_drive_init.find_element(:css, '.vip-ad-image__main-image--is-visible')
-#                 img_src_attribute = img_src.attribute("src")
-                
-#                 listings << {
-#                   title: title,
-#                   description: description,
-#                   price: price,
-#                   location: location,
-#                   link: link,
-#                   link_src: img_src_attribute,
-#                   url: @url,
-#                   website: 'Gumtree.com'
-#                 }
-#                 src_drive_init.quit if src_drive_init
-#               end
-#             rescue StandardError => e
-#               puts "Error processing listing: #{e.message}"
-#             end
-#             end
-#           end
-
-#         threads.each(&:join)
-#         puts "Listings size: #{listings.size}"
-#         listings
-#     end

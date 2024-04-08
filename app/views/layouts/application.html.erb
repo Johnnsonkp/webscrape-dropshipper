@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Web Scraper Ecommerce</title>
+    <title>Ecom Arbitrage</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -18,19 +18,22 @@
     <%= javascript_include_tag 'https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.2.0/turbolinks.js' %>
     <%= stylesheet_link_tag 'https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.2.0/turbolinks.css' %>
 
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
 
   </head>
 
   <body>
+      <div class="text-center bg-red-400 text-white p-1">
+        <p>:<span class="font-bold">🚧 Development Notice 🚧</span>: Project Still in Development Mode</p>
+      </div>
+
       <% flash.each do |type, msg| %>
-        <%if type == "notice"%>
-          <div class="bg-green-50 mb-5 text-center text-green-500">
+        <% if type == "notice"%>
+          <div class="bg-green-50 mb-2 text-center text-green-500">
               <%= msg %>
           </div>
         <% else %>
-          <div class="text-center bg-red-400 text-white mb-5">
+          <div class="text-center bg-red-400 text-white mb-2">
               <%= msg %>
           </div>
         <% end %>
@@ -42,6 +45,5 @@
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.turbo.min.js"></script>
-
   </body>
 </html>

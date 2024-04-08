@@ -1,4 +1,4 @@
-<div class="w-[300px] bg-slate-200 p-2 shadow-md flex-grow-1">
+<div class="w-[300px] bg-slate-200 p-2 shadow-md flex-grow-1 bg-[#F9F9FB]">
     <div class="flex-row w-[100%] mt-4 h-[100vh] flex-grow-1">
         <div class="w-[100%] mb-3 border-hidden">
             <%= form_tag(update_url_path, method: :post, remote: true, class: 'flex, w-[100%] border-hidden', id: 'update-url-form') do %>
@@ -10,14 +10,15 @@
             <div>
                 <%if data.present? %>
                     <% data.each do |data| %>
-                        <div class="text-left my-2 flex items-center hover:bg-slate-400 rounded-md">
+                        <div class="text-left my-2 flex items-center hover:bg-slate-300 rounded-md p-1">
                             <i class="fa-solid fa-border fa-lg fa-tag rounded-lg bg-[#3B82F6] text-#fff" style="--fa-border-radius: 1em; --fa-border-color: #3B82F6; --fa-border-padding: 0.2rem;
                             --fa-primary-color: #fff;"></i>
-                            <a class="text-[10px] p-1 flex justify-between w-[100%] font-semibold" href="<%= data[:link]%>" target="_blank">
-                                <%= data[:title].slice(0, 35) %> - <%= data[:price] %>
+                            <a class="text-[10px] p-1 flex justify-between w-[100%] font-normal font-weight-[200] ml-2" href="<%= data[:link]%>" target="_blank">
+                                <%= data[:title].slice(0, 30) %>
                             </a> 
+                            <span class="p-1 text-[10px] float-right"> <%= data[:price] %></span>
                         </div>
-                        <hr class="w-[100%] border-gray-100">
+                        <%# <hr class="w-[100%] border-gray-100"> %>
                     <% end %>
                 <% end %>
             </div>

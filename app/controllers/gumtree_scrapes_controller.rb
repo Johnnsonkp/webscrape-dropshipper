@@ -1,11 +1,16 @@
 class GumtreeScrapesController < ApplicationController
-  before_action :set_gumtree_scrape, only: %i[ show edit update destroy ]
+  before_action :set_gumtree_scrape, only: %i[ show edit update destroy]
 
   # GET /gumtree_scrapes or /gumtree_scrapes.json
   def index
     # @gumtree_scrapes = GumtreeScrape.all
     @gumtree_scrapes = GumtreeScrape.order(created_at: :desc)
 
+  end
+
+  # GET /gumtree_scrapes/sold
+  def sold
+    @gumtree_scrapes = GumtreeScrape.order(created_at: :desc)
   end
 
   # GET /gumtree_scrapes/1 or /gumtree_scrapes/1.json
@@ -27,7 +32,7 @@ class GumtreeScrapesController < ApplicationController
 
     respond_to do |format|
       if @gumtree_scrape.save
-        format.html { redirect_to gumtree_scrape_url(@gumtree_scrape), notice: "Gumtree scrape was successfully created." }
+        format.html { redirect_to gumtree_scrape_url(@gumtree_scrape), notice: "Listing was successfully created." }
         format.json { render :show, status: :created, location: @gumtree_scrape }
       else
         format.html { render :new, status: :unprocessable_entity }
@@ -40,7 +45,7 @@ class GumtreeScrapesController < ApplicationController
   def update
     respond_to do |format|
       if @gumtree_scrape.update(gumtree_scrape_params)
-        format.html { redirect_to gumtree_scrape_url(@gumtree_scrape), notice: "Gumtree scrape was successfully updated." }
+        format.html { redirect_to gumtree_scrape_url(@gumtree_scrape), notice: "Listing was successfully updated." }
         format.json { render :show, status: :ok, location: @gumtree_scrape }
       else
         format.html { render :edit, status: :unprocessable_entity }
@@ -54,7 +59,7 @@ class GumtreeScrapesController < ApplicationController
     @gumtree_scrape.destroy!
 
     respond_to do |format|
-      format.html { redirect_to gumtree_scrapes_url, notice: "Gumtree scrape was successfully destroyed.", color: "bg-red-500" }
+      format.html { redirect_to gumtree_scrapes_url, notice: "Listing was successfully destroyed.", color: "bg-red-500" }
       format.json { head :no_content }
     end
   end
