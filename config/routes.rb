@@ -15,8 +15,10 @@ Rails.application.routes.draw do
 
   root 'home#search'
   get '/index', to: 'home#index'
+  get '/stores', to: 'home#stores'
   get "home_index", to: 'home#index'
   post 'update_url', to: 'home#update_url' 
+  get '/updates', to: 'home#updates' 
   post 'price_increase', to: 'home#update_url'
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html

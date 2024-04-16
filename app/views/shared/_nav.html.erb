@@ -1,5 +1,5 @@
 <%# <nav class="bg-white border-gray-20 border h-15"> %>
-<nav class="bg-white border border-gray-20 h-15">
+<nav class="bg-white border border-gray-20 h-15 pt-2">
     <div class="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto p-0 px-2">
         <div  class="flex items-center space-x-3 rtl:space-x-reverse">
             <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 cursor-pointer" alt="Flowbite Logo" />
@@ -13,6 +13,10 @@
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
                 </svg>
             </button>
+
+            <div class="w-20 h-[34px] flex justify-center items-center cursor-pointer rounded-lg border border-gray-200">
+                <a href="/updates" class='p-1 text-[11px]'>Updates</a>
+            </div>
 
             <div class="w-20 h-[34px] flex justify-center items-center cursor-pointer rounded-lg border border-gray-200">
                 <span class="sr-only">Open user menu</span>
@@ -55,6 +59,13 @@
                         </svg>Sold Items
                     </a>
                 </li>
+                <li class="me-2">
+                    <a href="/stores" class="storesPage text-[14px] inline-flex items-center justify-center pb-2 p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 group">
+                        <svg class="w-4 h-4 me-2 text-gray-400 group-hover:text-gray-500 dark:text-gray-500 dark:group-hover:text-gray-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                            <i class="fa-solid fa-newspaper mr-2"></i>
+                        </svg>Stores
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
@@ -71,6 +82,9 @@
     }
     if( window.location.pathname == "/gumtree_scrapes/sold" ){
         document.querySelector('.soldItemsURL').classList.add('activeLink')
+    }
+    if( window.location.pathname == "/stores" ){
+        document.querySelector('.storesPage').classList.add('activeLink')
     }
         
 </script>

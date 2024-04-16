@@ -38,6 +38,10 @@ class HomeController < ApplicationController
         end
     end
 
+    def updates
+        
+    end
+
     def price_increase
       if @scraped_data.present?
         @scraped_data.each do |item|
@@ -45,6 +49,10 @@ class HomeController < ApplicationController
           puts "item.price, #{item.price}"
         end 
       end
+    end 
+
+    def stores
+      
     end 
 
     private
