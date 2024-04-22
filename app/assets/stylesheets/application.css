@@ -33,10 +33,11 @@ html.turbolinks-progress-bar::before {
 }
 .loading-text{
     position: absolute;
-    top: 30%;
-    left: 47%;
+    top: 5%;
+    left: 45%;
     z-index: 2000;
     color: #fff;
+    font-size: 14px;
 }
   
 .spinner {
@@ -48,7 +49,7 @@ html.turbolinks-progress-bar::before {
     border-left-color: #007bff; /* Change color as needed */
     animation: spin 1s linear infinite;
     position: absolute;
-    top: 10%;
+    top: -10%;
     left: 48%;
     z-index: 2000;
   }

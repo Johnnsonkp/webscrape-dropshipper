@@ -23,21 +23,29 @@
   </head>
 
   <body>
-      <div class="text-center bg-red-400 text-white p-1">
-        <p>:<span class="font-bold">🚧 Development Notice 🚧</span>: Project Still in Development</p>
-      </div>
+      
+      <% if flash[:notice].present? %>
+          <div class="bg-green-50 text-center text-green-500">
+                <%= flash[:notice] %>
+          </div>
+      <%end%>
 
-      <% flash.each do |type, msg| %>
-        <% if type == "notice"%>
-          <div class="bg-green-50 mb-2 text-center text-green-500">
-              <%= msg %>
+      <% if flash[:alert].present? %>
+          <div class="text-center bg-red-400 text-white">
+            <%= flash[:notice] %>
           </div>
-        <% else %>
-          <div class="text-center bg-red-400 text-white mb-2">
-              <%= msg %>
+      <%end%>
+      <% if !flash[:alert].present? && !flash[:notice].present? %>
+          <div class="text-center bg-red-400 text-white p-1">
+            <p>:<span class="font-bold">🚧 Development Notice 🚧</span>: Project Still in Development</p>
           </div>
-        <% end %>
-      <% end %>
+
+      <%end%>
+
+
+
+      
+       
 
       <%= render partial: 'shared/nav'%>
       <%= yield %>

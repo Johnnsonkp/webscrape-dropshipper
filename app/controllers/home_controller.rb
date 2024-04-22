@@ -26,7 +26,7 @@ class HomeController < ApplicationController
             html_content = fetch_html_content(@url)
             @scraped_data = process_scrape(html_content, quantity)
 
-            puts "@scraped_data:, #{ @scraped_data}"
+            # puts "@scraped_data:, #{ @scraped_data}"
 
             @scraped_data.each do |listing_params|
               GumtreeScrape.create(listing_params)
@@ -131,7 +131,7 @@ class HomeController < ApplicationController
 
       links = doc.css('.user-ad-collection-new-design__wrapper--row a').to_a.shuffle
       newLinks = links.select { |link| !link['class']&.include?('user-ad-row-new-design--highlight') }
-      puts "newLink created #{newLinks}"
+      # puts "newLink created #{newLinks}"
       quantity.times do |i|
         element = newLinks[i]
         thread_pool.process(element) do |element|
@@ -161,9 +161,15 @@ class HomeController < ApplicationController
               begin
                 # sleep 5 # Consider replacing this with a wait condition for the element to be present
                 wait = Selenium::WebDriver::Wait.new(timeout: 10) # Adjust timeout as needed
-                wait.until { driver.find_element(:css, '.vip-ad-image__main-image--is-visible') }
-                img_src = driver.find_element(:css, '.vip-ad-image__main-image--is-visible')
-                img_src_attribute = img_src.attribute("src")
+                # wait.until { driver.find_element(:css, '.vip-ad-image__main-image--is-visible') }
+                # img_src = driver.find_element(:css, '.vip-ad-image__main-image--is-visible')
+                # img_src_attribute = img_src.attribute("src")
+
+                wait.until { driver.find_element(:css, '.vip-ad-image__main-image-background') }
+                img_src = driver.find_element(:css, '.vip-ad-image__main-image-background')
+                img_src_attribute = img_src['style']
+
+                img_src_attribute = img_src_attribute.match(/url\((['"])?(.*?)\1\)/)[2]
 
                 puts "begin img_src_attribute: #{img_src_attribute}"
 

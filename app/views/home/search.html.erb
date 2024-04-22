@@ -10,7 +10,8 @@
 
             <div class="overlay loading hidden"></div>
             <div class="spinner loading hidden">
-                <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 cursor-pointer" alt="Flowbite Logo" />
+                <%# <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 cursor-pointer" alt="Flowbite Logo" /> %>
+                <%# <i class="fas fa-sync fa-spin"></i> %>
             </div>
             <p class="loading-text loading hidden">Processing scrape...</p>
 
@@ -20,7 +21,7 @@
                     <h5 class="text-[1.7xl] font-semibold tracking-tight text-gray-900 mb-3">How it works</h5>
                 </a>
                 <div class="flow-root max-w-3xl mx-auto mt-2 sm:mt-2 lg:mt-6">
-                    <div class="-my-3 divide-y divide-gray-200 ">
+                    <div class="-my-3 divide-y divide-gray-200">
                         <div class="flex flex-col gap-2 py-3 sm:gap-2 sm:flex-row sm:items-start">
                             <p class="w-4 text-sm font-bold text-gray-700 sm:text-right shrink-0">
                                 1.
@@ -48,13 +49,12 @@
 
                         <div class="flex gap-2 py-2 pb-4 sm:gap-2 sm:flex-col sm:items-center">
                             <p class="w-[100%] text-sm font-normal text-[#434343]">
-                                or simple copy & paste this url:
+                                or copy & paste this url:
                             </p>
-                            <h3 class="text-sm font-semibold text-gray-500  border border-gray-200 flex rounded-md">
+                            <h3 class="text-sm font-semibold text-gray-500  border border-gray-200 flex rounded-md bg-[#fff]">
                                 <a href="#" class="text-[12px] hover:underline text-blue-500 px-2" >https://www.gumtree.com.au/s-men-s-shoes/melbourne-city/jordan/k0c18573l3001571</a>
                                 <div class="border border-gray-200  rounded-md  cursor-pointer text-center align-middle justify-center pt-1 px-2">
-                                
-                                    <svg onclick="copyLink(this); return false;" class="w-6 h-6 text-gray-800 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                    <svg onclick="copyLink(this); return false;" class="w-7 h-7 text-blue-800 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none" viewBox="0 0 24 24">
                                         <path stroke="currentColor" stroke-linejoin="round" stroke-width="2" d="M9 8v3a1 1 0 0 1-1 1H5m11 4h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-7a1 1 0 0 0-1 1v1m4 3v10a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-7.13a1 1 0 0 1 .24-.65L7.7 8.35A1 1 0 0 1 8.46 8H13a1 1 0 0 1 1 1Z"/>
                                     </svg>
                                 </div>
@@ -62,11 +62,8 @@
                         </div>
                     </div>
             </div>
-                    
-
             </div>
 
-<%# border border-blue-400 rounded-md bg-blue-400 p-[5px] %>
             <div class="flex-[0.7] flex border border-light-400 w-[65%] flex-col items-center justify-center m-[auto] py-5 pb-10 border-gray-200 rounded-lg shadow ml-2 bg-[#F9FAFB]">
                 <ul class="flex flex-wrap -mb-px text-sm font-medium text-center text-gray-500 m-[auto] w-[83%] ">
                     <li class="me-2 ">
@@ -85,7 +82,7 @@
                     </li>
                 </ul>
                 
-                <div class="flex-row justify-center items-center mt-[4px] m-[auto] w-[85%] border border-blue-500 p-5 rounded-md bg-blue-500">
+                <div class="flex-row justify-center items-center mt-[4px] m-[auto] w-[85%] border p-5 rounded-md bg-blue-500">
                      <%= render partial: 'shared/searchform', locals: { url: @url } %>
                 </div> 
             </div>

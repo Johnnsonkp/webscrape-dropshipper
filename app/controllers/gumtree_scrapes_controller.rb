@@ -45,7 +45,8 @@ class GumtreeScrapesController < ApplicationController
   def update
     respond_to do |format|
       if @gumtree_scrape.update(gumtree_scrape_params)
-        format.html { redirect_to gumtree_scrape_url(@gumtree_scrape), notice: "Listing was successfully updated." }
+        # format.html { redirect_to gumtree_scrape_url(@gumtree_scrape), notice: "Listing was successfully updated." }
+        format.html { redirect_to gumtree_scrape_path, notice: "Listing was successfully updated." }
         format.json { render :show, status: :ok, location: @gumtree_scrape }
       else
         format.html { render :edit, status: :unprocessable_entity }
