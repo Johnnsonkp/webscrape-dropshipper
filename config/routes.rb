@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'hello_world', to: 'hello_world#index'
   # resources :gumtree_scrapes
   # resources :gumtree_scrapes do 
   #   get 'gumtree_scrapes/sold', to: 'gumtree_scrapes#sold'

@@ -9,6 +9,7 @@ gem "rails", "~> 7.1.3"
 #react on rails
 gem "shakapacker", "7.0.1"     # Use the latest and the exact version
 gem "react_on_rails", "13.3.1" # Use the latest and the exact version
+gem "webpacker"
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"

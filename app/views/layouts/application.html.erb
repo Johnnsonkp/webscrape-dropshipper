@@ -11,15 +11,19 @@
     <script src="https://kit.fontawesome.com/12f7de259f.js" crossorigin="anonymous"></script>
 
     <%= stylesheet_link_tag "application.css", "data-turbo-track": "reload" %> 
-    <%= javascript_importmap_tags %>
+    <%# javascript_pack_tag 'hello-world-bundle' %>
+    <%# javascript_importmap_tags %>
     <!-- <%= hotwire_livereload_tags if Rails.env.development? %> -->
 
     <!-- Include Turbolinks Progress Bar -->
     <%= javascript_include_tag 'https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.2.0/turbolinks.js' %>
     <%= stylesheet_link_tag 'https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.2.0/turbolinks.css' %>
 
+
+     
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
-    <%= javascript_pack_tag "application" %>
+    <%# javascript_pack_tag "application" %>
 
   </head>
 
