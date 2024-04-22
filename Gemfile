@@ -6,6 +6,10 @@ ruby "3.1.2"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.3"
 
+#react on rails
+gem "shakapacker", "7.0.1"     # Use the latest and the exact version
+gem "react_on_rails", "13.3.1" # Use the latest and the exact version
+
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
